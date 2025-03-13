@@ -1,22 +1,23 @@
 @charset "UTF-8";
+
 /* CSS Document */
+
 
 /*-----------achtergrondkleur wit-------*/
 
 body {
-	background: #fff;
+    background: #F7F7F7;
 }
 
 .navbar-default {
-    background: #fff;
+    background: #F7F7F7;
 }
 
 footer {
-    border-top: 1px solid rgb(245, 245, 245);
-	background-color: rgb(245, 245, 245);
+    border-top: 1px solid #eeeeee;
+    background-color: #eeeeee;
 }
 
 footer hr {
-  border-color: rgb(245, 245, 245);
-
+    border-color: #eeeeee;
 }

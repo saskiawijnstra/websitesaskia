@@ -1,3 +1,11 @@
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+.inter-mijnlettertype {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 @font-face {
     font-family: 'Graphikregular';
     font-style: normal;
@@ -16,7 +24,7 @@
 /*-----------------------------*/
 
 body {
-    font-family: Graphikregular, Verdana, sans-serif;
+    font-family: "Inter", Graphikregular, Verdana, sans-serif;
     font-style: normal;
     overflow-x: hidden;
     transition: background-color 1s ease;
@@ -64,11 +72,11 @@ h4 {
 }
 
 p {
-    color: #000;
+    color: #222222;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.2px;
-    font-weight: 400;
+    font-weight: 350;
 }
 
 strong {
@@ -76,7 +84,7 @@ strong {
 }
 
 .btn-success:focus {
-    background-color: #000;
+    background-color: #222;
     border-color: transparent;
 }
 
@@ -134,7 +142,7 @@ a:focus {
 }
 
 .section-title h3 {
-    color: #000;
+    color: #222;
     font-weight: 400;
     letter-spacing: 4px;
 }
@@ -155,7 +163,7 @@ a:focus {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    background: none repeat scroll 0 0 #ffffff;
+    background: none repeat scroll 0 0 #f7f7f7;
 }
 
 .sk-spinner-wordpress.sk-spinner {
@@ -170,7 +178,7 @@ a:focus {
 
 .sk-spinner-wordpress .sk-inner-circle {
     display: block;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     width: 16px;
     height: 16px;
     position: absolute;
@@ -222,12 +230,12 @@ a:focus {
 }
 
 .navbar-default .navbar-brand .fa {
-    color: #000;
+    color: #222;
     font-size: 42px;
 }
 
 .navbar-default .navbar-nav li a {
-    color: #111;
+    color: #222;
     font-size: 16px;
     letter-spacing: 1px;
     -webkit-transition: all 0.4s ease-in-out;
@@ -237,24 +245,25 @@ a:focus {
 }
 
 .navbar-default .navbar-nav>li a:hover {
-    color: #787878 !important;
+    color: #555 !important;
+    font-style: italic;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #787878;
+    color: #555;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-nav .active>a {
-    color: #111;
+    color: #555;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #111;
+    color: #555;
     background-color: transparent;
 }
 
@@ -329,7 +338,7 @@ a:focus {
 }
 
 #about ul li {
-    color: #000;
+    color: #222;
     font-size: 16px;
     font-weight: 400;
     padding-top: 2px;
@@ -357,7 +366,7 @@ a:focus {
 #portfolio .portfolio-thumb .portfolio-overlay {
     position: absolute;
     /*  background: #fff;*/
-    color: #ffffff;
+    color: #f7f7f7;
     top: 0;
     left: 0;
     right: 0;
@@ -450,13 +459,13 @@ a:focus {
     background: #222;
     border-radius: 100px;
     border: none;
-    color: #ffffff;
+    color: #f7f7f7;
     font-weight: 400;
     transition: all 0.4s ease-in-out;
 }
 
 #contact input[type="submit"]:hover {
-    background: #000;
+    background: #222;
 }
 
 
@@ -487,7 +496,7 @@ a:focus {
 }
 
 .blog-post-title a:hover {
-    color: #000;
+    color: #222;
 }
 
 .blog-post-format {
@@ -524,9 +533,9 @@ a:focus {
 }
 
 .blog-post-des .btn:hover {
-    background: #000;
+    background: #222;
     border-color: transparent;
-    color: #ffffff;
+    color: #f7f7f7;
 }
 
 .blog-author {
@@ -600,13 +609,13 @@ a:focus {
     background: #222;
     border-radius: 100px;
     border: none;
-    color: #ffffff;
+    color: #f7f7f7;
     font-weight: 400;
     transition: all 0.4s ease-in-out;
 }
 
 .blog-comment-form input[type="submit"]:hover {
-    background: #000;
+    background: #222;
     border-color: transparent;
 }
 
@@ -776,7 +785,7 @@ b {
 }
 
 .saskop {
-    color: #000;
+    color: #222;
 }
 
 #portfolio hr {
@@ -786,8 +795,8 @@ b {
 #portfolio hr {
     margin-top: 42px;
     margin-bottom: 42px;
-    color: #fff;
-    background-color: #fff;
+    color: #f7f7f7;
+    background-color: #f7f7f7;
 }
 
 .col-md-12 {
