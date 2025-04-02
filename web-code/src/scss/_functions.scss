@@ -1,0 +1,25 @@
+@use 'sass:meta';
+@use 'sass:math';
+
+@function calc-rem($value, $base: 16px) {
+  // removes unit if available
+  @if math.is-unitless($value) {
+    @return calc(($value / $base) * 1rem);
+  } @else if math.unit($value) == "px" {
+    @return calc((strip-unit($value) / strip-unit($base)) * 1rem);
+  } @else {
+    @warn "calc-rem() supports only px or unitless values.";
+    @return $value;
+  }
+}
+
+/// Remove the unit of a length
+/// @param {Number} $number - Number to remove unit from
+/// @return {Number} - Unitless number
+@function strip-unit($number) {
+  @if meta.type-of($number) == "number" and not math.is-unitless($number) {
+    @return math.div($number, ($number * 0 + 1));
+  }
+
+  @return $number;
+}
