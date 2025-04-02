@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import GridTest from './components/grid-test.vue'
+import headerBar from './components/header/header-bar.vue';
 </script>
 
 <template>
-
+<header-bar />
 <h1>Discover my <strong>Work</strong></h1>
 
 <h2><strong><i>Nulla esse incididunt</i></strong> sint minim deserunt</h2>
