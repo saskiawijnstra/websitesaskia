@@ -1,0 +1,82 @@
+
+// -----------------------------
+// Grid Setup
+// -----------------------------
+
+$grid-columns: 12;
+$gutter: 44.5px;
+$container-padding: 105px;
+$container-max-width: 1260px;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat($grid-columns, 1fr);
+  column-gap: $gutter;
+  padding-left: $container-padding;
+  padding-right: $container-padding;
+  max-width: $container-max-width;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+// Grid Utility Mixins
+@mixin col-span($n) {
+  grid-column: span #{$n};
+}
+
+@mixin col-start($n) {
+  grid-column-start: #{$n};
+}
+
+// Anzahl der Spalten im Grid
+$grid-columns: 12;
+
+// Mixin: col-span
+@mixin col-span($n) {
+  grid-column: span #{$n};
+}
+
+// Mixin: col-start
+@mixin col-start($n) {
+  grid-column-start: #{$n};
+}
+
+// Klassen für einfache Spans und Starts
+@for $i from 1 through $grid-columns {
+  .col-span-#{$i} {
+    @include col-span($i);
+  }
+
+  .col-start-#{$i} {
+    @include col-start($i);
+  }
+}
+
+// combi classes for column start and end (offset)
+@for $span from 1 through $grid-columns {
+  @for $start from 1 through ($grid-columns - $span + 1) {
+    .col-span-#{$span}-start-#{$start} {
+      background-color: red;;
+      grid-column: #{$start} / span #{$span};
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    padding-left: 16px;
+    padding-right: 16px;
+    column-gap: 0;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .grid-container {
+    grid-template-columns: repeat($grid-columns, 1fr);
+    padding-left: 48px;
+    padding-right: 48px;
+    column-gap: 32px;
+  }
+}

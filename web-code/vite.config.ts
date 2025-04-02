@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-import { dirname, join } from "path";
+import { dirname, join ,resolve} from "path";
 import { fileURLToPath } from "url";
 
 const currentDir = dirname(fileURLToPath(import.meta.url));
@@ -13,6 +13,13 @@ export default defineConfig({
         api: "modern",
       },
     },
+  },
+  resolve: {
+alias: {
+  "@": resolve(__dirname, "./src/"),
+}
+
+
   },
   plugins: [vue()],
 });

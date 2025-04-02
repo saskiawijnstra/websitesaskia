@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import GridTest from './components/grid-test.vue'
 </script>
 
 <template>
@@ -14,6 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
   Et Lorem aliquip mollit dolore nostrud proident adipisicing dolor nulla ullamco nulla esse sit magna. Consectetur duis laborum sint in enim. Nostrud est labore consequat ut fugiat aute laboris. Enim eu excepteur culpa deserunt ullamco ad commodo labore proident non aliquip ipsum. Cupidatat enim nisi dolor do pariatur ipsum. Non laboris veniam adipisicing sint sunt nisi fugiat irure sint duis. Id fugiat ex qui nostrud amet est reprehenderit fugiat.
 </p>
 
+<grid-test/>
 
 </template>
 
