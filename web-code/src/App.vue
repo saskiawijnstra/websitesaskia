@@ -5,6 +5,12 @@ import headerBar from './components/header/header-bar.vue';
 
 <template>
 <header-bar />
+
+<router-view v-slot="{ Component }">
+  <transition name="fade" mode="out-in">
+    <component :is="Component" />
+  </transition>
+</router-view>
 <h1>Discover my <strong>Work</strong></h1>
 
 <h2><strong><i>Nulla esse incididunt</i></strong> sint minim deserunt</h2>
@@ -19,17 +25,7 @@ import headerBar from './components/header/header-bar.vue';
 
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+<style lang="scss">
+
+
 </style>

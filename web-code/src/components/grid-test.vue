@@ -36,7 +36,6 @@
 </template>
 
 <style lang="scss" scoped>
-@use "@/scss/utils/_grid.scss";
 
 .grid-test {
   margin-top: 2rem;
