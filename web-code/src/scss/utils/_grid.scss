@@ -2,6 +2,8 @@
 // Grid Setup
 // -----------------------------
 
+@use "../_functions.scss";
+
 $grid-columns: 12;
 $gutter: 44.5px;
 $container-padding: 105px;
@@ -67,6 +69,7 @@ $grid-columns: 12;
 @media (max-width: 639px) {
   .grid-container {
     grid-template-columns: 1fr;
+    row-gap: 10px;
     padding-left: 16px;
     padding-right: 16px;
     column-gap: 0;
