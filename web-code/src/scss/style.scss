@@ -44,9 +44,9 @@
   --color-grijs-8: #d2d2d2;
   --color-grijs-9: #c7c7c7;
   --color-grijs-10: #bdbdbd;
-}
 
-@media (prefers-color-scheme: dark) {
+  --color-default-text: var(--color-niet-zwart);
+  --color-default-focus-border: var(--color-middle-grijs);
 }
 
 html,
@@ -59,7 +59,12 @@ body {
   &.color-scheme-dark {
     color: var(--color-niet-wit);
     background-color: var(--color-niet-zwart);
+    --color-default-text: var(--color-niet-wit);
   }
+}
+*:focus-visible {
+  outline: 1px solid var(--color-default-focus-border);
+  outline-offset: 2px;
 }
 
 h1 {

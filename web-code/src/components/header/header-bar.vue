@@ -19,6 +19,7 @@
 
       <div class="settings">
         <color-scheme-switch />
+        <locale-switch />
       </div>
     </div>
   </div>
@@ -27,6 +28,7 @@
 <script lang="ts" setup>
 import { useI18n } from "vue-i18n";
 import colorSchemeSwitch from "./color-scheme-switch.vue";
+import localeSwitch from "./locale-switch.vue";
 import LogoSvg from "@/assets/images/logo.svg?component";
 import { useUiStore } from "../../stores/uiStore";
 import { storeToRefs } from "pinia";
@@ -82,7 +84,7 @@ const { colorScheme } = storeToRefs(uiStore);
     .settings {
       display: flex;
       align-items: center;
-      gap: 30px;
+      gap: 40px;
 
       a {
         color: var(--color-niet-zwart);

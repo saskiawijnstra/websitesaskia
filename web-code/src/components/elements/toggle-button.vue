@@ -39,6 +39,15 @@ function onChange(event: Event) {
   align-items: center;
   cursor: pointer;
 
+  &:focus-visible {
+    border: 2px solid red;
+  }
+
+  &:has(input:focus-visible) {
+    outline: 1px solid var(--color-default-focus-border);
+    outline-offset: 2px;
+  }
+
   input[type="checkbox"] {
     position: absolute;
     opacity: 0;
@@ -48,11 +57,6 @@ function onChange(event: Event) {
 
   .custom-toggle {
     display: inline-block;
-
-    input:checked + & {
-      // background-color: #333;
-      // color: white;
-    }
   }
 }
 </style>

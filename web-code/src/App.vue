@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import GridTest from "./components/grid-test.vue";
-import headerBar from "./components/header/header-bar.vue";
-</script>
-
 <template>
   <header-bar />
 
@@ -15,6 +10,8 @@ import headerBar from "./components/header/header-bar.vue";
   <article class="grid-container">
     <div class="content col-span-6-start-4">
       <h1>Discover my <strong>Work</strong></h1>
+
+      {{ t("page-logo-alt") }}
 
       <h2>
         <strong><i>Nulla esse incididunt</i></strong> sint minim deserunt
@@ -36,5 +33,13 @@ import headerBar from "./components/header/header-bar.vue";
 
   <grid-test />
 </template>
+
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import GridTest from "./components/grid-test.vue";
+import headerBar from "./components/header/header-bar.vue";
+
+const { t } = useI18n();
+</script>
 
 <style lang="scss"></style>

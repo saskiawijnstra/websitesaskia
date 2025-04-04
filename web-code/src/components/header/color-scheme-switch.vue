@@ -2,17 +2,17 @@
   <toggle-button
     :modelValue="useDarkMode"
     @update:model-value="updateValue($event)"
-    accessibility-label="toggleDarkmode"
+    :accessibility-label="t('settings.toggle-dark-mode-accessibility-label')"
     class="color-scheme-switch"
   >
     <div class="content">
       <figure aria-labelledby="#color-scheme-label">
-        <transition name="fade" mode="out-in">
+        <transition name="rise" mode="out-in">
           <light-mode-icon v-if="useDarkMode" />
           <dark-mode-icon v-else />
         </transition>
       </figure>
-      <div id="#color-scheme-label">
+      <div id="#color-scheme-label" class="text">
         {{ t("settings.toggle-dark-mode", +useDarkMode - 1) }}
       </div>
     </div>
@@ -35,7 +35,6 @@ const uiStore = useUiStore();
 const { colorScheme } = storeToRefs(uiStore);
 
 const useDarkMode = ref(colorScheme.value === "dark");
-console.log("used", useDarkMode.value);
 
 function updateValue(event: boolean) {
   useDarkMode.value = event;
@@ -44,11 +43,26 @@ function updateValue(event: boolean) {
 </script>
 
 <style scoped lang="scss">
+.rise {
+  &-enter-active,
+  &-leave-active {
+    transition: transform 0.2s ease;
+  }
+  &-enter-from,
+  &-leave-to {
+    transform: translateY(100%);
+  }
+}
+
+.text {
+  min-width: 64px;
+}
 .color-scheme-switch {
   display: inline-flex;
   align-items: center;
   cursor: pointer;
 
+  overflow: hidden;
   .content {
     display: flex;
     align-items: center;
