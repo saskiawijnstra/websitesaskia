@@ -103,6 +103,16 @@ const { colorScheme } = storeToRefs(uiStore);
         }
       }
     }
+
+    .settings,
+    h1 {
+      flex-grow: 1;
+      flex-basis: 0;
+    }
+
+    .settings {
+      justify-content: flex-end;
+    }
   }
 }
 </style>
