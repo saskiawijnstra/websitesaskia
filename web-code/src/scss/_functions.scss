@@ -23,3 +23,20 @@
 
   @return $number;
 }
+
+@mixin text-outline($color: #000, $size: 1px) {
+  text-shadow:
+    -#{$size} -#{$size} 0 $color,
+    0 -#{$size} 0 $color,
+    #{$size} -#{$size} 0 $color,
+    #{$size} 0 0 $color,
+    #{$size} #{$size} 0 $color,
+    0 #{$size} 0 $color,
+    -#{$size} #{$size} 0 $color,
+    -#{$size} 0 0 $color;
+}
+
+@mixin no-select {
+  -webkit-touch-callout: none;
+  user-select: none;
+}

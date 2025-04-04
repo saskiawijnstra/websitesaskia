@@ -41,10 +41,13 @@ const { colorScheme } = storeToRefs(uiStore);
 
 <style lang="scss" scoped>
 .header-bar {
+  @include mixins.no-select();
+
   overflow: hidden;
   min-height: calc-rem(153px);
   align-items: center;
   justify-content: center;
+
   // background-color: var(--color-niet-wit);
   &.header-style-dark {
     // background-color: var(--color-niet-zwart);

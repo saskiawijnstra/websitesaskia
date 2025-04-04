@@ -1,0 +1,56 @@
+@mixin text-outline($color: #000, $size: 1px) {
+  text-shadow:
+    -#{$size} -#{$size} 0 $color,
+    0 -#{$size} 0 $color,
+    #{$size} -#{$size} 0 $color,
+    #{$size} 0 0 $color,
+    #{$size} #{$size} 0 $color,
+    0 #{$size} 0 $color,
+    -#{$size} #{$size} 0 $color,
+    -#{$size} 0 0 $color;
+}
+
+@mixin no-select {
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+@mixin set-selection-colors($foreground-color, $background-color) {
+  ::selection {
+    /* WebKit/Blink Browsers */
+    background: $background-color;
+    color: $foreground-color;
+  }
+}
+
+// this changes the scrollbars on most modern browsers... firefox might ignore the scrollbar width
+
+@mixin scrollbars(
+  $size,
+  $foreground-color,
+  $background-color: color.mix($foreground-color, white, 50%)
+) {
+  // for firefox
+  scrollbar-width: thin; // Firefox does not support custom scrollbar widths
+  scrollbar-width: $size;
+  scrollbar-color: $foreground-color $background-color;
+
+  // For Google Chrome
+  &::-webkit-scrollbar {
+    width: $size;
+    height: $size;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+    border-radius: math.div($size, 2);
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+}
+
+@mixin default-scrollbars() {
+  @include scrollbars(2px, var(--color-grey-background), var(--color-white));
+}

@@ -1,5 +1,6 @@
 @use "./transitions.scss";
 @use "@/scss/utils/_grid.scss";
+// @use "@/scss/utils/_mixins.scss" as mixins;
 
 @font-face {
   font-family: "Inter";
@@ -46,7 +47,8 @@
   --color-grijs-10: #bdbdbd;
 
   --color-default-text: var(--color-niet-zwart);
-  --color-default-focus-border: var(--color-middle-grijs);
+  --color-default-background: var(--color-niet-wit)
+    --color-default-focus-border: var(--color-middle-grijs);
 }
 
 html,
@@ -56,9 +58,15 @@ body {
   padding: 0;
   margin: 0;
 
+  @include mixins.set-selection-colors(
+    var(--color-default-background),
+    var(--color-middle-grijs)
+  );
+
   &.color-scheme-dark {
     color: var(--color-niet-wit);
     background-color: var(--color-niet-zwart);
+    --color-default-background: var(--color-niet-zwart);
     --color-default-text: var(--color-niet-wit);
   }
 }

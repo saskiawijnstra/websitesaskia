@@ -10,7 +10,10 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@use "${join(currentDir, "./src/scss/_functions.scss")}" as *;`,
+        additionalData: `
+        @use "${join(currentDir, "./src/scss/_functions.scss")}" as *;
+        @use "${join(currentDir, "./src/scss/utils/_mixins.scss")}" as mixins;
+        `,
         api: "modern",
       },
     },
