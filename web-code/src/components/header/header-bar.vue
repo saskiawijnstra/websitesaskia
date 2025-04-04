@@ -4,13 +4,17 @@
       <h1>
         <!-- <img :alt="t('page-logo-alt')" :src="logoUrl" /> -->
         <figure :aria-label="t('page-logo-alt')">
-          <logo-svg class="logo-graphic"/>
+          <logo-svg class="logo-graphic" />
         </figure>
-      </h1> 
+      </h1>
 
       <nav>
-        <router-link to="/work">{{ t('navigation.link-labels.work') }}</router-link>
-        <router-link to="/about">{{ t('navigation.link-labels.about') }}</router-link>
+        <router-link to="/work">{{
+          t("navigation.link-labels.work")
+        }}</router-link>
+        <router-link to="/about">{{
+          t("navigation.link-labels.about")
+        }}</router-link>
       </nav>
     </div>
   </div>
@@ -20,16 +24,14 @@
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 
-import LogoSvg from '@/assets/images/logo.svg?component';
+import LogoSvg from "@/assets/images/logo.svg?component";
 import { useUiStore } from "../../stores/uiStore";
 import { storeToRefs } from "pinia";
 
 const { t } = useI18n();
 
 const uiStore = useUiStore();
-const {colorScheme} = storeToRefs(uiStore)
-
-
+const { colorScheme } = storeToRefs(uiStore);
 </script>
 
 <style lang="scss" scoped>

@@ -30,13 +30,12 @@
   </div>
 
   <div class="grid-container grid-test">
-    <div class="col-span-4-start-3  grid-block"></div>
+    <div class="col-span-4-start-3 grid-block"></div>
     <div class="col-span-4 grid-block"></div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-
 .grid-test {
   margin-top: 2rem;
   .grid-block {

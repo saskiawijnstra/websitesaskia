@@ -1,6 +1,5 @@
-@use './transitions.scss';
+@use "./transitions.scss";
 @use "@/scss/utils/_grid.scss";
-
 
 @font-face {
   font-family: "Inter";
@@ -23,7 +22,9 @@
   color-scheme: light dark;
   color: var(--color-niet-zwart);
   background-color: var(--color-niet-wit);
-  transition: color 0.3s linear, background-color 0.3s linear;
+  transition:
+    color 0.3s linear,
+    background-color 0.3s linear;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -52,7 +53,8 @@
   }
 }
 
-html, body {
+html,
+body {
   width: 100%;
   min-height: 100%;
   padding: 0;
@@ -60,7 +62,7 @@ html, body {
 }
 
 h1 {
-  font-size: calc-rem(36px,16);
+  font-size: calc-rem(36px, 16);
   font-weight: normal;
   font-style: normal;
 }

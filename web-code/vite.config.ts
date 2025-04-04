@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-import { dirname, join ,resolve} from "path";
+import { dirname, join, resolve } from "path";
 import { fileURLToPath } from "url";
-import svgLoader from 'vite-svg-loader'
+import svgLoader from "vite-svg-loader";
 
 const currentDir = dirname(fileURLToPath(import.meta.url));
 // https://vite.dev/config/
@@ -16,11 +16,9 @@ export default defineConfig({
     },
   },
   resolve: {
-alias: {
-  "@": resolve(__dirname, "./src/"),
-}
-
-
+    alias: {
+      "@": resolve(__dirname, "./src/"),
+    },
   },
   plugins: [vue(), svgLoader()],
 });
