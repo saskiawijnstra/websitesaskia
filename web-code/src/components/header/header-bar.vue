@@ -6,8 +6,8 @@
       </h1>
 
       <nav>
-        <router-link to="/work">Work</router-link>
-        <router-link to="/about">About</router-link>
+        <router-link to="/work">{{ t('navigation.link-labels.work') }}</router-link>
+        <router-link to="/about">{{ t('navigation.link-labels.about') }}</router-link>
       </nav>
     </div>
   </div>

@@ -2,8 +2,8 @@ import { createApp } from 'vue'
 import './scss/style.scss'
 import App from './App.vue'
 import { createI18n } from 'vue-i18n'
-import localeDataEn from './localization/en.json';
-import localeDataNl from './localization/nl.json'
+import localeDataEn from './localization/en/en.json';
+import localeDataNl from './localization/nl/nl.json'
 import { router } from './router/router';
 
 
