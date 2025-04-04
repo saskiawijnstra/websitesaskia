@@ -1,21 +1,31 @@
 import { defineStore } from "pinia";
-import { ref } from "vue";
+import { nextTick, ref } from "vue";
 
 export const useUiStore = defineStore("ui", () => {
   const prefersDarkModeQuery = window.matchMedia(
     "(prefers-color-scheme: dark)",
   );
 
-  const PREFERS_DARK_MODE_INIT_VALUE = prefersDarkModeQuery.matches; // initial setting
-  const colorScheme = ref<"dark" | "light">(
-    PREFERS_DARK_MODE_INIT_VALUE ? "dark" : "light",
-  );
+  const colorScheme = ref<"dark" | "light">("dark");
+
+  updateColorScheme(prefersDarkModeQuery.matches ? "dark" : "light"); // initial setting
 
   prefersDarkModeQuery.addEventListener("change", (e: MediaQueryListEvent) => {
-    colorScheme.value = e.matches ? "dark" : "light";
+    updateColorScheme(e.matches ? "dark" : "light"); // react to user agent changes
   });
+
+  async function updateColorScheme(mode: "light" | "dark") {
+    colorScheme.value = mode;
+    // reset
+    document.documentElement.classList.remove("color-scheme-light");
+    document.documentElement.classList.remove("color-scheme-dark");
+    // apply new value
+    await nextTick();
+    document.documentElement.classList.add(`color-scheme-${mode}`);
+  }
 
   return {
     colorScheme,
+    updateColorScheme,
   };
 });

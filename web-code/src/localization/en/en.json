@@ -5,5 +5,8 @@
       "work": "Work",
       "about": "About"
     }
+  },
+  "settings": {
+    "toggle-dark-mode": "Light on | Light off"
   }
 }

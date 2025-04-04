@@ -3,8 +3,8 @@
     <div class="content col-span-12">
       <h1>
         <!-- <img :alt="t('page-logo-alt')" :src="logoUrl" /> -->
-        <figure :aria-label="t('page-logo-alt')">
-          <logo-svg class="logo-graphic" />
+        <figure class="logo-graphic" :aria-label="t('page-logo-alt')">
+          <logo-svg />
         </figure>
       </h1>
 
@@ -16,14 +16,17 @@
           t("navigation.link-labels.about")
         }}</router-link>
       </nav>
+
+      <div class="settings">
+        <color-scheme-switch />
+      </div>
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { computed } from "vue";
 import { useI18n } from "vue-i18n";
-
+import colorSchemeSwitch from "./color-scheme-switch.vue";
 import LogoSvg from "@/assets/images/logo.svg?component";
 import { useUiStore } from "../../stores/uiStore";
 import { storeToRefs } from "pinia";
@@ -40,9 +43,9 @@ const { colorScheme } = storeToRefs(uiStore);
   min-height: calc-rem(153px);
   align-items: center;
   justify-content: center;
-  background-color: var(--color-niet-wit);
+  // background-color: var(--color-niet-wit);
   &.header-style-dark {
-    background-color: var(--color-niet-zwart);
+    // background-color: var(--color-niet-zwart);
     .content {
       h1 {
         .logo-graphic {
@@ -67,6 +70,7 @@ const { colorScheme } = storeToRefs(uiStore);
       padding: 0;
 
       .logo-graphic {
+        margin: 0;
         &::v-deep(path) {
           transition: fill 0.3s linear;
           fill: var(--color-niet-zwart);
@@ -74,7 +78,8 @@ const { colorScheme } = storeToRefs(uiStore);
       }
     }
 
-    nav {
+    nav,
+    .settings {
       display: flex;
       align-items: center;
       gap: 30px;

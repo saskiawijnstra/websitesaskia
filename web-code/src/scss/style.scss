@@ -47,10 +47,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    color: var(--color-niet-wit);
-    background-color: var(--color-niet-zwart);
-  }
 }
 
 html,
@@ -59,6 +55,11 @@ body {
   min-height: 100%;
   padding: 0;
   margin: 0;
+
+  &.color-scheme-dark {
+    color: var(--color-niet-wit);
+    background-color: var(--color-niet-zwart);
+  }
 }
 
 h1 {
