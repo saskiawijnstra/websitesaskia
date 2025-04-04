@@ -1,13 +1,15 @@
 # Stage 1: Build the Vue app
 FROM node:18 AS build
 
-WORKDIR /app/web-code/
+WORKDIR /app
 
-COPY package*.json ./
+COPY web-code/package*.json ./web-code/
+
+WORKDIR /app/web-code
 
 RUN npm install
 
-COPY . .
+COPY web-code/ .
 
 RUN npm run build
 
@@ -18,7 +20,7 @@ FROM nginx:alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Copy built app to Nginx HTML directory
-COPY --from=build /app/dist /usr/share/nginx/html
+COPY --from=build /app/web-code/dist /usr/share/nginx/html
 
 EXPOSE 80
 
