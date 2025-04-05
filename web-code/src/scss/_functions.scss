@@ -4,7 +4,7 @@
 @function calc-rem($value, $base: 16px) {
   // removes unit if available
   @if math.is-unitless($value) {
-    @return calc(($value / $base) * 1rem);
+    @return calc(($value / strip-unit($base)) * 1rem);
   } @else if math.unit($value) == "px" {
     @return calc((strip-unit($value) / strip-unit($base)) * 1rem);
   } @else {
