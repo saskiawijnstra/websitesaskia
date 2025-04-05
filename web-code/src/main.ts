@@ -2,7 +2,7 @@ import { createApp } from "vue";
 import "./scss/style.scss";
 import App from "./App.vue";
 import { createI18n } from "vue-i18n";
-import localeDataEn from "./localization/en/en.json";
+import localeDataEn from "./localization/en/en.jsonc";
 import localeDataNl from "./localization/nl/nl.json";
 import { router } from "./router/router";
 import { createPinia } from "pinia";

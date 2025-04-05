@@ -10,5 +10,11 @@
     "toggle-dark-mode-accessibility-label": "Toggle color scheme",
     "toggle-dark-mode": "Light on | Light off",
     "select-language-accessibility-label": "Select Language / Taal selecteren"
+  },
+  "footer": {
+    "contact": {
+      "mail": "info{'@'}saskiawijnstra.nl", // attention
+      "phone": "+316 34 43 84 33"
+    }
   }
 }

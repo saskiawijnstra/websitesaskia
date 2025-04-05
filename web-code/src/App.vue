@@ -32,12 +32,14 @@
   </article>
 
   <grid-test />
+  <footer-bar />
 </template>
 
 <script setup lang="ts">
 import { useI18n } from "vue-i18n";
 import GridTest from "./components/grid-test.vue";
 import headerBar from "./components/header/header-bar.vue";
+import footerBar from "./components/footer-bar.vue";
 
 const { t } = useI18n();
 </script>
