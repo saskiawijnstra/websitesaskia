@@ -8,7 +8,7 @@
   },
   "settings": {
     "toggle-dark-mode-accessibility-label": "Toggle color scheme",
-    "toggle-dark-mode": "Light on | Light off",
+    "toggle-dark-mode": "Light on | Light off", // Text before the |-Character is shown when darkmode is on. after is off.
     "select-language-accessibility-label": "Select Language / Taal selecteren",
   },
   "footer": {

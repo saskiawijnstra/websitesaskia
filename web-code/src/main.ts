@@ -4,6 +4,7 @@ import App from "./App.vue";
 import { createI18n } from "vue-i18n";
 //@ts-ignore
 import localeDataEn from "./localization/en/en.jsonc";
+//@ts-ignore
 import localeDataNl from "./localization/nl/nl.jsonc";
 import { router } from "./router/router";
 import { createPinia } from "pinia";
