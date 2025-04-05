@@ -2,8 +2,9 @@ import { createApp } from "vue";
 import "./scss/style.scss";
 import App from "./App.vue";
 import { createI18n } from "vue-i18n";
+//@ts-ignore
 import localeDataEn from "./localization/en/en.jsonc";
-import localeDataNl from "./localization/nl/nl.json";
+import localeDataNl from "./localization/nl/nl.jsonc";
 import { router } from "./router/router";
 import { createPinia } from "pinia";
 

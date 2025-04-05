@@ -3,18 +3,18 @@
   "navigation": {
     "link-labels": {
       "work": "Work",
-      "about": "About"
-    }
+      "about": "About",
+    },
   },
   "settings": {
     "toggle-dark-mode-accessibility-label": "Toggle color scheme",
     "toggle-dark-mode": "Light on | Light off",
-    "select-language-accessibility-label": "Select Language / Taal selecteren"
+    "select-language-accessibility-label": "Select Language / Taal selecteren",
   },
   "footer": {
     "contact": {
-      "mail": "info{'@'}saskiawijnstra.nl", // attention
-      "phone": "+316 34 43 84 33"
-    }
-  }
+      "mail": "info{'@'}saskiawijnstra.nl", // attention saskia: the @-Character needs to be wrapped like this {'@'}
+      "phone": "+316 34 43 84 33",
+    },
+  },
 }

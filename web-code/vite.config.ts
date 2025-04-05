@@ -4,6 +4,8 @@ import { dirname, join, resolve } from "path";
 import { fileURLToPath } from "url";
 import svgLoader from "vite-svg-loader";
 
+import { json5Plugin } from "vite-plugin-json5";
+
 const currentDir = dirname(fileURLToPath(import.meta.url));
 // https://vite.dev/config/
 export default defineConfig({
@@ -23,5 +25,5 @@ export default defineConfig({
       "@": resolve(__dirname, "./src/"),
     },
   },
-  plugins: [vue(), svgLoader()],
+  plugins: [vue(), svgLoader(), json5Plugin()],
 });
