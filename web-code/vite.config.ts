@@ -3,8 +3,7 @@ import vue from "@vitejs/plugin-vue";
 import { dirname, join, resolve } from "path";
 import { fileURLToPath } from "url";
 import svgLoader from "vite-svg-loader";
-
-import { json5Plugin } from "vite-plugin-json5";
+import ViteYaml from "@modyfi/vite-plugin-yaml";
 
 const currentDir = dirname(fileURLToPath(import.meta.url));
 // https://vite.dev/config/
@@ -25,5 +24,5 @@ export default defineConfig({
       "@": resolve(__dirname, "./src/"),
     },
   },
-  plugins: [vue(), svgLoader(), json5Plugin()],
+  plugins: [vue(), svgLoader(), ViteYaml()],
 });

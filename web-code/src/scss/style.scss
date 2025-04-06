@@ -93,8 +93,17 @@ h3 {
   font-style: italic;
 }
 
-p {
+p,
+a {
   font-size: calc-rem(16px);
   font-weight: normal;
   font-style: normal;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

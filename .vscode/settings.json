@@ -1,29 +1,29 @@
 {
   "i18n-ally.displayLanguage": "en",
   "i18n-ally.enabledFrameworks": ["vue"],
-  "i18n-ally.enabledParsers": ["json"],
-  "i18n-ally.localesPaths": [
-    "./web-code/src/localization"
-  ]
-  ,
-  "i18n-ally.keystyle": "nested",
-  "editor.codeActionsOnSave": ["source.fixAll.eslint", "source.fixAll.stylelint"],
+  "i18n-ally.enabledParsers": ["yaml"],
+  "i18n-ally.localesPaths": ["./web-code/src/localization"],
+  "i18n-ally.keystyle": "flat",
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint",
+    "source.fixAll.stylelint"
+  ],
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": false
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
   },
   "[vue]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
