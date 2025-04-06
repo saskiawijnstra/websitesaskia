@@ -37,6 +37,9 @@ const { t } = useI18n();
       color: var(--color-default-text);
       text-decoration: none;
       line-height: calc-rem(28px);
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
