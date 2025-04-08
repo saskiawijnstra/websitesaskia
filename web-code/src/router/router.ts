@@ -42,7 +42,7 @@ export const router = createRouter({
   history: createWebHistory(),
   routes,
   scrollBehavior(to, from, savedPosition): Promise<ScrollPosition> {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       let scrollInfo: Partial<{
         top: number;
         left: number;

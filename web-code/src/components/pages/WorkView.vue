@@ -86,10 +86,8 @@
 </template>
 
 <script setup lang="ts">
-import { useI18n } from "vue-i18n";
 import gridTest from "../grid-test.vue";
 import ProjectTeaser from "../elements/work/project-teaser.vue";
-const { t } = useI18n();
 </script>
 
 <style lang="scss" scoped>
