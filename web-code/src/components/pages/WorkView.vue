@@ -26,9 +26,25 @@
               to make you find the best sales on daily products.
             </template>
           </project-teaser>
-
           <project-teaser
-            project-id="whatsuper"
+            project-id="longcovidsurvival"
+            thumbnail-path="/images/projects/thumbnails/survivalgids-frozen.jpg"
+            thumbnail-alt-text="
+      Instagram post from @longcovid.survival.gids shown on a phone screen, 
+      alongside a carousel post illustrating brain pathways with Dutch text 
+      about forming new neural paths."
+          >
+            <template #title>
+              @longcovid.<strong>survival</strong>.gids
+            </template>
+            <template #description>
+              From surviving to feeling alive again. How I recovered from long
+              covid with the mind body approach. Building new neural pathways
+              with trust, self-compassion, courage and perseverance.
+            </template>
+          </project-teaser>
+          <project-teaser
+            project-id="hansboodt"
             thumbnail-path="/images/projects/thumbnails/hansboodt.jpg"
             thumbnail-alt-text="
         On the left side of the image, a mannequin wearing an elegant, 
@@ -46,24 +62,7 @@
             </template>
           </project-teaser>
           <project-teaser
-            project-id="whatsuper"
-            thumbnail-path="/images/projects/thumbnails/survivalgids-frozen.jpg"
-            thumbnail-alt-text="
-      Instagram post from @longcovid.survival.gids shown on a phone screen, 
-      alongside a carousel post illustrating brain pathways with Dutch text 
-      about forming new neural paths."
-          >
-            <template #title>
-              @longcovid.<strong>survival</strong>.gids
-            </template>
-            <template #description>
-              From surviving to feeling alive again. How I recovered from long
-              covid with the mind body approach. Building new neural pathways
-              with trust, self-compassion, courage and perseverance.
-            </template>
-          </project-teaser>
-          <project-teaser
-            project-id="whatsuper"
+            project-id="sprong"
             thumbnail-path="/images/projects/thumbnails/sprong.jpg"
             thumbnail-alt-text="
     Two mobile screens from a wellness app. The left screen greets 
