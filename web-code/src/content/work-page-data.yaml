@@ -1,0 +1,118 @@
+---
+# Hey Saskia. This Data-Structure is for rendering the various project-thumbnails on the landingpage.
+# This first segment named "discover" are the teaser-cards that are displayed in the "Discover my Work"-Area.
+# Be careful while editing: In YAML files the indentation of the content is important and can break the file if not done correctly.
+# You can use a online yaml Validator or ask me if you're having troubles :)
+# Texts are organized by language for each section
+discover:
+  title:
+    en: "Discover my <strong>Work</strong>"
+    nl: "Ontdek mijn <strong>Werk</strong>"
+
+  projects:
+    - id: "whatsuper" # Unique project ID
+      thumbnail:
+        path: "/images/projects/thumbnails/Whatsuper-frozen.jpg"
+        alt:
+          en: > # this > sign means, that we continue the text on the next line
+            Two mobile phone screens display a Dutch grocery shopping app interface. 
+            The left screen shows special offers for fruits like Conference pears (€1.19/kg), 
+            tangerines (€2.99/2kg), blueberries, and nectarines. The right screen shows filter 
+            options for store selection (including Albert Heijn, Lidl, Aldi, Dirk) and product 
+            categories such as bread, dairy, vegetables, and more. The background features fresh
+            pears on the left and blueberries on the right.
+          nl: >
+            Twee telefoonschermen tonen een Nederlandse boodschappen-app. 
+            Links zie je aanbiedingen voor onder andere Conference-peren (€1,19/kg), 
+            mandarijnen (€2,99/2kg), blauwe bessen en nectarines. 
+            Rechts zijn filteropties zichtbaar voor supermarkten (zoals Albert Heijn, Lidl, Aldi, Dirk) 
+            en productcategorieën zoals brood, zuivel en groenten. 
+            Op de achtergrond: peren links, blauwe bessen rechts.
+      title:
+        en: "Freelance project <strong>Whatsuper</strong>"
+        nl: "Freelance project <strong>Whatsuper</strong>"
+      description:
+        en: >
+          All supermarket offers in one overview. A light and clear design
+          to make you find the best sales on daily products.
+        nl: >
+          Alle supermarkt-aanbiedingen overzichtelijk in één app. 
+          Een licht en helder ontwerp om snel de beste deals te vinden.
+
+    - id: "longcovidsurvival"
+      thumbnail:
+        path: "/images/projects/thumbnails/survivalgids-frozen.jpg"
+        alt:
+          en: >
+            Instagram post from @longcovid.survival.gids shown on a phone screen, 
+            alongside a carousel post illustrating brain pathways with Dutch text 
+            about forming new neural paths.
+          nl: >
+            Instagram-post van @longcovid.survival.gids op een telefoonscherm, 
+            samen met een carrousel met illustraties van hersenbanen en Nederlandse 
+            tekst over het vormen van nieuwe neurale paden.
+      title:
+        en: "@longcovid.<strong>survival</strong>.gids"
+        nl: "@longcovid.<strong>survival</strong>.gids"
+      description:
+        en: >
+          From surviving to feeling alive again. How I recovered from long
+          covid with the mind body approach. Building new neural pathways
+          with trust, self-compassion, courage and perseverance.
+        nl: >
+          Van overleven naar weer echt leven. Hoe ik herstelde van long covid 
+          met de mind-body-benadering. Nieuwe neurale paden opbouwen met 
+          vertrouwen, zelfcompassie, moed en doorzettingsvermogen.
+
+    - id: "hansboodt"
+      thumbnail:
+        path: "/images/projects/thumbnails/hansboodt.jpg"
+        alt:
+          en: >
+            On the left side of the image, a mannequin wearing an elegant, 
+            flowing pink dress is suspended in the air by rings in a dramatic, 
+            softly lit scene. On the right, a smartphone displays the Hans Boodt Mannequins 
+            website, showing a rotatable 3D model of a mannequin. The composition 
+            highlights the blend of physical product design with digital representation.
+          nl: >
+            Links in beeld hangt een mannequin met een elegante, vloeiende roze jurk 
+            in de lucht, vastgehouden door ringen in een zacht belichte, dramatische scène. 
+            Rechts toont een smartphone de website van Hans Boodt Mannequins met een roteerbaar 
+            3D-model. De compositie benadrukt de combinatie van fysiek productdesign 
+            en digitale presentatie.
+      title:
+        en: "<strong>Hans Boodt Mannequins</strong> Snakeware"
+        nl: "<strong>Hans Boodt Mannequins</strong> Snakeware"
+      description:
+        en: >
+          In what way can Augmented Reality contribute to a more efficient
+          assessment of mannequins using a digital interactive product?
+        nl: >
+          Op welke manier kan Augmented Reality bijdragen aan een efficiëntere 
+          beoordeling van mannequins met behulp van een digitaal interactief product?
+
+    - id: "sprong"
+      thumbnail:
+        path: "/images/projects/thumbnails/sprong.jpg"
+        alt:
+          en: >
+            Two mobile screens from a wellness app. The left screen greets 
+            the user with a friendly sloth illustration and a gentle activity 
+            suggestion. The right screen shows a weekly progress overview with activity, 
+            feelings, and symptoms tracking.
+          nl: >
+            Twee mobiele schermen van een welzijnsapp. Links begroet een vriendelijke 
+            luiaard de gebruiker met een zachte activiteiten-tip. Rechts is een 
+            weekoverzicht te zien met activiteit-, gevoel- en symptoomtracking.
+      title:
+        en: "<strong>Sprong</strong> VuMC, Onconet"
+        nl: "<strong>Sprong</strong> VuMC, Onconet"
+      description:
+        en: >
+          How can we make people with breast cancer feel more in control
+          over their exercise program and improve the communication of data
+          with their physiotherapist through an engaging service?
+        nl: >
+          Hoe kunnen we mensen met borstkanker meer regie geven over hun 
+          beweegprogramma en de communicatie van gegevens met hun fysiotherapeut 
+          verbeteren via een motiverende service?
