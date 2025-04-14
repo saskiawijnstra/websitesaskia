@@ -1,5 +1,5 @@
 <template>
-  <div class="grid-container grid-test">
+  <!-- <div class="grid-container grid-test">
     <div class="col-span-12 grid-block"></div>
   </div>
   <div class="grid-container grid-test">
@@ -32,7 +32,7 @@
   <div class="grid-container grid-test">
     <div class="col-span-4-start-3 grid-block"></div>
     <div class="col-span-4 grid-block"></div>
-  </div>
+  </div> -->
 
   <transition name="fade">
     <div v-if="showReferenceGrid" class="reference-grid">

@@ -81,6 +81,21 @@
           </div>
         </div>
       </div>
+
+      <div class="more-designs grid-container">
+        <h2 class="h1 col-span-6">
+          {{ yamlDataWork["more-designs"].title[locale] }}
+        </h2>
+        <ul class="design-list col-span-12-start-1">
+          <li class="col-span-4" v-for="entry in moreDesignsData">
+            <img
+              :src="entry.thumbnail.path"
+              :alt="entry.thumbnail.alt[locale]"
+            />
+            <p v-html="entry.title[locale]"></p>
+          </li>
+        </ul>
+      </div>
     </article>
     <grid-test />
   </div>
@@ -104,6 +119,10 @@ const projects = computed(() => {
 
 const factorEShowcaseProjects = computed(() => {
   return yamlDataWork["factor-e"]["showcase"];
+});
+
+const moreDesignsData = computed(() => {
+  return yamlDataWork["more-designs"].projects;
 });
 
 const uiStore = useUiStore();
@@ -141,6 +160,9 @@ onUnmounted(() => {
 
 <style lang="scss" scoped>
 .work-view {
+  p {
+    line-height: calc-rem(28px);
+  }
   .discover-work-list {
     .content {
       display: grid;
@@ -160,6 +182,7 @@ onUnmounted(() => {
 
     .h1 {
       margin-top: 0;
+      margin-bottom: 60px;
     }
 
     &.color-scheme-light {
@@ -271,6 +294,33 @@ onUnmounted(() => {
           margin-top: 0.5rem;
           font-size: 1rem;
           font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .more-designs {
+    .h1 {
+      margin-top: calc-rem(121px);
+      margin-bottom: calc-rem(100px);
+    }
+    ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: subgrid;
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+        display: block;
+        margin: 0;
+        padding: 0;
+        img {
+          display: block;
+          object-fit: contain;
+          aspect-ratio: 428 / 287;
+          width: 100%;
         }
       }
     }
