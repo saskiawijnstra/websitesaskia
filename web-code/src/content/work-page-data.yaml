@@ -162,3 +162,31 @@ factor-e:
         alt-text:
           en: "Various screens showing insights and exercises for career control"
           nl: "Verschillende schermen met inzichten en oefeningen voor loopbaanregie"
+  showcase:
+    - id: "sein" # Unique project ID
+      thumbnail:
+        path: "/images/projects/thumbnails/SEIN.jpg"
+        alt:
+          en: "Screenshot of the SEIN homepage, showing a search bar and modules for epilepsy and sleep."
+          nl: "Screenshot van de SEIN-homepage met zoekfunctie en modules over epilepsie en slaap."
+      title:
+        en: "SEIN"
+        nl: "SEIN"
+    - id: "excap" # Unique project ID
+      thumbnail:
+        path: "/images/projects/thumbnails/excap.jpg"
+        alt:
+          en: "Homepage of excap with bold blue and pink design and three case studies."
+          nl: "Homepage van excap met felblauw en roze ontwerp en drie case studies."
+      title:
+        en: "excap"
+        nl: "excap"
+    - id: "dutchlease" # Unique project ID
+      thumbnail:
+        path: "/images/projects/thumbnails/dutchlease.jpg"
+        alt:
+          en: "Website of DutchLease with clean design and car leasing options."
+          nl: "Website van DutchLease met strak ontwerp en lease-opties."
+      title:
+        en: "DutchLease"
+        nl: "DutchLease"
