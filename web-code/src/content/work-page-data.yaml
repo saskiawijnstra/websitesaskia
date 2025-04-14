@@ -190,3 +190,54 @@ factor-e:
       title:
         en: "DutchLease"
         nl: "DutchLease"
+more-designs:
+  - id: vodafone-ziggo
+    thumbnail: "/images/projects/thumbnails/vodafone.jpg"
+    alt:
+      en: "Cityscape animation with colored buildings and network signal lines for Vodafone Ziggo."
+      nl: "Stadsanimatie met gekleurde gebouwen en netwerksignaallijnen voor Vodafone Ziggo."
+    title:
+      en: "Master project<strong>Vodafone Ziggo</strong> The Network"
+      nl: "Masterproject<strong>Vodafone Ziggo</strong> Het Netwerk"
+  - id: gforce
+    thumbnail: "/images/projects/thumbnails/g-force-workpage.jpg"
+    alt:
+      en: "Laptop and print layouts showcasing branding for G-Force Capital."
+      nl: "Laptop en drukwerk met brandingvoorbeelden voor G-Force Capital."
+    title:
+      en: "<strong>G-Force</strong> Capital"
+      nl: "<strong>G-Force</strong> Capital"
+
+  - id: mindbody
+    thumbnail: "/images/projects/thumbnails/mind-body.jpg"
+    alt:
+      en: "Logo design with butterfly and circle shape for Mind body met Moreen."
+      nl: "Logo-ontwerp met vlinder en cirkel voor Mind body met Moreen."
+    title:
+      en: "<strong>Mind body</strong> met Moreen"
+      nl: "<strong>Mind body</strong> met Moreen"
+
+  - id: magazine-saskia
+    thumbnail: "/images/projects/thumbnails/magazine.jpg"
+    alt:
+      en: "Hands holding a magazine titled Saskia on a wooden table."
+      nl: "Handen houden een magazine met de titel Saskia boven een houten tafel vast."
+    title:
+      en: "<strong>Magazine</strong> Saskia"
+      nl: "<strong>Magazine</strong> Saskia"
+  - id: fysiovries
+    thumbnail: "/images/projects/thumbnails/fysio.jpg"
+    alt:
+      en: "Website homepage of FysioVries with colorful navigation blocks."
+      nl: "Homepage van de website van FysioVries met kleurrijke navigatieblokken."
+    title:
+      en: "<strong>Fysio</strong>Vries"
+      nl: "<strong>Fysio</strong>Vries"
+  - id: acro-academy
+    thumbnail: "/images/projects/thumbnails/acro.jpg"
+    alt:
+      en: "Hands covered in chalk and bold A-logo for Acro Academy."
+      nl: "Met krijt bedekte handen en een krachtig A-logo voor Acro Academy."
+    title:
+      en: "<strong>Acro</strong> Academy"
+      nl: "<strong>Acro</strong> Academy"
