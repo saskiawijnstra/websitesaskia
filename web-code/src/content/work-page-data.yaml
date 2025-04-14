@@ -116,3 +116,49 @@ discover:
           Hoe kunnen we mensen met borstkanker meer regie geven over hun 
           beweegprogramma en de communicatie van gegevens met hun fysiotherapeut 
           verbeteren via een motiverende service?
+factor-e:
+  title:
+    en: Work at theFactor.e
+    nl: Work at theFactor.e
+  description:
+    en: >
+      I worked as a digital designer in disciplinary teams for different clients.
+      <br>
+      <strong><i>SEIN, excap, Aeres, DutchLease, Alfa College, Noorderpoort, 
+      CNV, Menzis, TwinQels, Van Hall Larenstein, Universiteit Leiden, UMCG, 
+      Staatsbosbeheer, Olympia, NHL, Minerva etc.</strong></i>
+      <br>
+      <br>
+      For SEIN and TwinQels I was the only UI Designer and made the designs from zero. 
+      For excap and DutchLease I worked together with another designer. 
+      There are many more projects I did, design sprints at location or UI Design already in the style of the company. Mostly in the sectors education and healthcare.
+    nl: >
+      Ik werkte als digital designer in multidisciplinaire teams voor verschillende klanten.
+      <strong>SEIN, excap, Aeres, DutchLease, Alfa College, Noorderpoort, 
+      CNV, Menzis, TwinQels, Van Hall Larenstein, Universiteit Leiden, UMCG, 
+      Staatsbosbeheer, Olympia, NHL, Minerva etc.</strong>
+      <br>
+      <br>
+      Voor SEIN en TwinQels was ik de enige UI Designer en heb ik de ontwerpen vanaf nul gemaakt. 
+      Voor excap en DutchLease werkte ik samen met een andere designer. 
+      Daarnaast heb ik nog veel meer projecten gedaan, zoals design sprints op locatie 
+      of UI Design dat al aansloot bij de bestaande huisstijl van het bedrijf. 
+      Voornamelijk binnen de sectoren onderwijs en zorg.
+  twin-qels-teaser:
+    images:
+      - image-name: Vital-0-iPhone-11.png
+        alt-text:
+          en: "Dashboard with modules and tasks to support personal growth at work"
+          nl: "Dashboard met modules en opdrachten voor groei op het werk"
+      - image-name: vital-1-iPhone-11.png
+        alt-text:
+          en: "Overview of your results and strengths visualized with colorful icons"
+          nl: "Overzicht van je resultaten en sterke punten met kleurrijke iconen"
+      - image-name: vital-2-iPhone-11.png
+        alt-text:
+          en: "Define goals and track progress towards certifications"
+          nl: "Formuleer doelen en volg je voortgang richting certificaten"
+      - image-name: Vital-3-iPhone-11.png
+        alt-text:
+          en: "Various screens showing insights and exercises for career control"
+          nl: "Verschillende schermen met inzichten en oefeningen voor loopbaanregie"

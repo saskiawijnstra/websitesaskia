@@ -45,6 +45,7 @@
   --color-grijs-8: #d2d2d2;
   --color-grijs-9: #c7c7c7;
   --color-grijs-10: #bdbdbd;
+  --color-area-background-lightmode: #dfe3ed;
 
   --color-default-text: var(--color-niet-zwart);
   --color-default-background: var(--color-niet-wit)
@@ -75,19 +76,22 @@ body {
   outline-offset: 2px;
 }
 
-h1 {
+h1,
+.h1 {
   font-size: calc-rem(36px, 16);
   font-weight: normal;
   font-style: normal;
 }
 
-h2 {
+h2,
+.h2 {
   font-size: calc-rem(24px);
   font-weight: normal;
   font-style: normal;
 }
 
-h3 {
+h3,
+.h3 {
   font-size: calc-rem(16px);
   font-weight: bold;
   font-style: italic;
