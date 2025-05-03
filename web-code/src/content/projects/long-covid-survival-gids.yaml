@@ -71,8 +71,10 @@ page:
             alt: "Social Media Post 'Gradient Slider'"
     - type: "quote-block"
       content:
-        text: |
-          "From surviving to feeling alive again. How I recovered from long covid with the mind body approach..."
+        text: >
+          “From **surviving** to **feeling alive** again. 
+          How I recovered from long covid with the **mind body approach**.
+           Building **new neural pathways** with **trust, self-compassion, courage and perseverance**.”
 
     - type: "image-row-3-small"
       content:
