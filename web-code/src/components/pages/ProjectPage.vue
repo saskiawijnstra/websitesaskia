@@ -3,12 +3,7 @@
     {{ currentProject }}
 
     <article class="grid-container">
-      <div class="blocks-wrapper col-span-12">
-        {{ currentProjectData }}...
-
-        {{ layoutBlocks }}
-        <br />
-
+      <div class="blocks-wrapper col-span-10-start-2">
         <component
           v-for="(blockData, index) in layoutBlocks"
           :key="index"
@@ -17,6 +12,8 @@
         />
       </div>
     </article>
+
+    <grid-test />
   </div>
 </template>
 
@@ -24,6 +21,7 @@
 import { computed, type Component } from "vue";
 import { useRoute } from "vue-router";
 
+import gridTest from "../grid-test.vue";
 import HeroMedia from "../elements/project-page-blocks/HeroMedia.vue";
 
 const route = useRoute();

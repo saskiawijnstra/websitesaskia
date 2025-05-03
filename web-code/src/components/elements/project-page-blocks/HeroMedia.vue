@@ -1,12 +1,11 @@
 <template>
   <div class="project-block hero-media">
     <img
-      v-if="blockData?.content?.[0]?.image"
-      :src="blockData.content[0].image"
-      alt="Hero Media"
+      v-if="blockData?.content?.image.url"
+      :src="blockData.content.image.url"
+      :alt="blockData.content.image.alt"
       class="hero-media__image"
     />
-    <slot />
   </div>
 </template>
 

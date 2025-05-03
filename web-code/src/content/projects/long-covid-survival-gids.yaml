@@ -4,7 +4,9 @@ page:
   sections:
     - type: "hero-media"
       content:
-        - image: "/images/projects/long-covid-survival/hero-image.jpg"
+        image:
+          url: "/images/projects/long-covid-survival/hero-image.jpg"
+          alt: "Screenshots and social media posts of the instagram profile 'Long covid survival gids'"
     - type: "meta-info-row"
       content:
         - label: "Date"
