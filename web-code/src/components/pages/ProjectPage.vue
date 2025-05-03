@@ -34,6 +34,7 @@ import ImageRow4Tilted from "../elements/project-page-blocks/ImageRow4Tilted.vue
 import QuoteBlock from "../elements/project-page-blocks/QuoteBlock.vue";
 import FullImage from "../elements/project-page-blocks/FullImage.vue";
 import ColorSwatchRow from "../elements/project-page-blocks/ColorSwatchRow.vue";
+import AppScreensGrid from "../elements/project-page-blocks/AppScreensGrid.vue";
 
 import { useI18n } from "vue-i18n";
 
@@ -80,6 +81,7 @@ const getComponentName = (type: string) => {
     "quote-block": QuoteBlock,
     "full-image": FullImage,
     "color-swatch-row": ColorSwatchRow,
+    "app-screens-grid": AppScreensGrid,
   };
 
   return componentMap[type] || "UnknownBlock";
