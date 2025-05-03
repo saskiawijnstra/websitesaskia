@@ -12,7 +12,8 @@ page:
         - label: "Date"
           value: "2022 - 2023"
         - label: "Instagram"
-          value: "@empowered.unafraid.guts"
+          value: "@longcovid.survival.gids"
+          link: "https://www.instagram.com/longcovid.survival.gids/" # link is optional value
         - label: "Role"
           value: "Content creator, Designer"
 

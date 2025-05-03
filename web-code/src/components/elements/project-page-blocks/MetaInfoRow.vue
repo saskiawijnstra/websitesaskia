@@ -6,12 +6,21 @@
       class="meta-info-item"
     >
       <span class="meta-info-label">{{ item.label }}</span>
-      <span class="meta-info-value">{{ item.value }}</span>
+      <component
+        :is="item.link ? 'a' : 'span'"
+        :href="item.link ? item.link : undefined"
+        target="_blank"
+        class="meta-info-value"
+      >
+        {{ item.value }}
+      </component>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import { link } from "fs";
+
 defineProps({
   blockData: {
     type: Object,
@@ -34,6 +43,15 @@ defineProps({
   flex-direction: column;
   align-items: center;
   min-width: calc-rem(210px);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-default-text);
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .meta-info-label {
