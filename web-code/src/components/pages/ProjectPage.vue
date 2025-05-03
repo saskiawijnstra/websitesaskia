@@ -23,6 +23,7 @@ import gridTest from "../grid-test.vue";
 import HeroMedia from "../elements/project-page-blocks/HeroMedia.vue";
 import MetaInfoRow from "../elements/project-page-blocks/MetaInfoRow.vue";
 import TextBlock from "../elements/project-page-blocks/TextBlock.vue";
+import ImageRow3 from "../elements/project-page-blocks/ImageRow3.vue";
 
 const route = useRoute();
 
@@ -61,6 +62,7 @@ const getComponentName = (type: string) => {
     "hero-media": HeroMedia,
     "meta-info-row": MetaInfoRow,
     "text-block": TextBlock,
+    "image-row-3": ImageRow3,
   };
 
   return componentMap[type] || "UnknownBlock";

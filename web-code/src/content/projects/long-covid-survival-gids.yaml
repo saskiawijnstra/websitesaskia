@@ -35,10 +35,15 @@ page:
           felt the connection with others in my isolation and it gave me a little bit of meaning.
     - type: "image-row-3"
       content:
-        - image: "cover1.jpg"
-        - image: "cover2.jpg"
-        - image: "cover3.jpg"
-
+        - image:
+            url: "/images/projects/long-covid-survival/neuralepaden.jpg"
+            alt: "Social Media Post Brain"
+        - image:
+            url: "/images/projects/long-covid-survival/7Fs.jpg"
+            alt: "Social Media Post 'The 7 F's'"
+        - image:
+            url: "/images/projects/long-covid-survival/gradient.jpg"
+            alt: "Social Media Post 'Gradient Slider'"
     - type: "text-block"
       content:
         text: >
