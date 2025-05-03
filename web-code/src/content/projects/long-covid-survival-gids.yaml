@@ -35,16 +35,16 @@ page:
           felt the connection with others in my isolation and it gave me a little bit of meaning.
     - type: "image-row-4-tilted"
       content:
-        - image: "/images/projects/long-covid-survival/book1.jpg"
+        - image: "/images/projects/long-covid-survival/wegvandepijn.png"
           alt: "Weg van de Pijn book cover"
           rotation: -5
-        - image: "/images/projects/long-covid-survival/talk.jpg"
+        - image: "/images/projects/long-covid-survival/masterclass.png"
           alt: "Audience in talk"
           rotation: 3
-        - image: "/images/projects/long-covid-survival/garden.jpg"
+        - image: "/images/projects/long-covid-survival/retraite.png"
           alt: "Garden view"
           rotation: -5
-        - image: "/images/projects/long-covid-survival/book2.jpg"
+        - image: "/images/projects/long-covid-survival/thewayout.png"
           alt: "The Way Out book cover"
           rotation: 5
     - type: "text-block"
