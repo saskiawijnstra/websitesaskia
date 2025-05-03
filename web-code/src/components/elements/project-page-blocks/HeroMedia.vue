@@ -1,5 +1,5 @@
 <template>
-  <div class="project-block hero-media">
+  <div class="project-block hero-media col-span-10-start-2">
     <img
       v-if="blockData?.content?.image.url"
       :src="blockData.content.image.url"
@@ -20,10 +20,6 @@ defineProps({
 
 <style scoped>
 .hero-media {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
 }
 
@@ -31,5 +27,6 @@ defineProps({
   width: 100%;
   height: auto;
   object-fit: cover;
+  display: block;
 }
 </style>

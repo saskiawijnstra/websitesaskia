@@ -1,9 +1,7 @@
 <template>
   <div class="content-page project-page">
-    {{ currentProject }}
-
     <article class="grid-container">
-      <div class="blocks-wrapper col-span-10-start-2">
+      <div class="blocks-wrapper col-span-12">
         <component
           v-for="(blockData, index) in layoutBlocks"
           :key="index"
@@ -23,6 +21,7 @@ import { useRoute } from "vue-router";
 
 import gridTest from "../grid-test.vue";
 import HeroMedia from "../elements/project-page-blocks/HeroMedia.vue";
+import MetaInfoRow from "../elements/project-page-blocks/MetaInfoRow.vue";
 
 const route = useRoute();
 
@@ -59,8 +58,25 @@ const layoutBlocks = computed(() => {
 const getComponentName = (type: string) => {
   const componentMap: Record<string, Component> = {
     "hero-media": HeroMedia,
+    "meta-info-row": MetaInfoRow,
   };
 
   return componentMap[type] || "UnknownBlock";
 };
 </script>
+
+<style lang="scss" scoped>
+.project-page {
+  article {
+    .blocks-wrapper {
+      display: grid;
+      grid-template-columns: subgrid;
+
+      &::v-deep(.project-block) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+</style>
