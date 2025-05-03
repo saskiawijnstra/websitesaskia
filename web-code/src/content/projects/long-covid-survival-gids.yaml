@@ -1,0 +1,62 @@
+projectId: long-covid-survival
+page:
+  title: "Long Covid Survival Gids"
+  sections:
+    - type: "hero-media"
+      content:
+        - image: "/images/projects/long-covid-survival/hero-image.jpg"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "2022 - 2023"
+        - label: "Instagram"
+          value: "@empowered.unafraid.guts"
+        - label: "Role"
+          value: "Content creator, Designer"
+
+    - type: "text-block"
+      content:
+        text: |
+          In October 2022 I got covid. At this moment after approximately six weeks, I didn’t recover...
+
+    - type: "image-row-3"
+      content:
+        - image: "cover1.jpg"
+        - image: "cover2.jpg"
+        - image: "cover3.jpg"
+
+    - type: "text-block"
+      content:
+        text: |
+          In 2023 I found the book “Weg uit de Pijn”...
+
+    - type: "quote-block"
+      content:
+        text: |
+          "From surviving to feeling alive again. How I recovered from long covid with the mind body approach..."
+
+    - type: "image-row-3-small"
+      content:
+        - image: "info1.png"
+        - image: "info2.png"
+        - image: "info3.png"
+
+    - type: "info-grid-6x7"
+      content:
+        columns: 6
+        rows: 7
+        items:
+          - image: "infographic1.png"
+          - image: "infographic2.png"
+          - image: "infographic3.png"
+          # ... alle weiteren 42 Infografiken
+
+    - type: "footer"
+      content:
+        contact_email: "info@saskiadesign.nl"
+        phone: "+31 6 24 48 41 19"
+        navigation:
+          - label: "Work"
+            url: "/work"
+          - label: "About"
+            url: "/about"
