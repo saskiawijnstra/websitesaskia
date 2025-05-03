@@ -9,3 +9,4 @@ settings.select-language-accessibility-label: Select Language / Taal selecteren
 # attention saskia: the @-Character needs to be wrapped like this {'@'}
 footer.contact.mail: info{'@'}saskiawijnstra.nl
 footer.contact.phone: "+316 34 43 84 33"
+project-page-backlink: Get back to my work

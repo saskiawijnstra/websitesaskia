@@ -9,6 +9,12 @@
           :block-data="blockData"
         />
       </div>
+
+      <div class="back-link-wrapper col-span-12">
+        <router-link class="back-link" to="/">{{
+          t("project-page-backlink")
+        }}</router-link>
+      </div>
     </article>
 
     <grid-test />
@@ -27,6 +33,9 @@ import ImageRow3 from "../elements/project-page-blocks/ImageRow3.vue";
 import ImageRow4Tilted from "../elements/project-page-blocks/ImageRow4Tilted.vue";
 import QuoteBlock from "../elements/project-page-blocks/QuoteBlock.vue";
 import FullImage from "../elements/project-page-blocks/FullImage.vue";
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
 
 const route = useRoute();
 
@@ -40,7 +49,6 @@ const PROJECT_DATA = import.meta.glob("../../content/projects/**.yaml", {
 
 const currentProjectData = computed(() => {
   const id = currentProject.value;
-  console.log(Object.values(PROJECT_DATA));
 
   const dataEntryWrapper = Object.values(PROJECT_DATA).find(
     (data: any) => data.default?.projectId === id,
@@ -85,6 +93,17 @@ const getComponentName = (type: string) => {
       &::v-deep(.project-block) {
         margin-top: 50px;
         margin-bottom: 50px;
+      }
+    }
+    .back-link {
+      margin-top: 50px;
+      display: grid;
+      text-align: center;
+      color: var(--color-default-text);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
       }
     }
   }
