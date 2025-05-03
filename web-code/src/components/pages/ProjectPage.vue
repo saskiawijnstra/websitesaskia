@@ -24,6 +24,7 @@ import HeroMedia from "../elements/project-page-blocks/HeroMedia.vue";
 import MetaInfoRow from "../elements/project-page-blocks/MetaInfoRow.vue";
 import TextBlock from "../elements/project-page-blocks/TextBlock.vue";
 import ImageRow3 from "../elements/project-page-blocks/ImageRow3.vue";
+import ImageRow4Tilted from "../elements/project-page-blocks/ImageRow4Tilted.vue";
 
 const route = useRoute();
 
@@ -63,6 +64,7 @@ const getComponentName = (type: string) => {
     "meta-info-row": MetaInfoRow,
     "text-block": TextBlock,
     "image-row-3": ImageRow3,
+    "image-row-4-tilted": ImageRow4Tilted,
   };
 
   return componentMap[type] || "UnknownBlock";

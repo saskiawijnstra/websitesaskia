@@ -33,17 +33,20 @@ page:
           To still make some designs I started an instagram page. Low key for fellow sufferers. 
           To help each other and get compassion about long covid. I got a lot of comments, 
           felt the connection with others in my isolation and it gave me a little bit of meaning.
-    - type: "image-row-3"
+    - type: "image-row-4-tilted"
       content:
-        - image:
-            url: "/images/projects/long-covid-survival/neuralepaden.jpg"
-            alt: "Social Media Post Brain"
-        - image:
-            url: "/images/projects/long-covid-survival/7Fs.jpg"
-            alt: "Social Media Post 'The 7 F's'"
-        - image:
-            url: "/images/projects/long-covid-survival/gradient.jpg"
-            alt: "Social Media Post 'Gradient Slider'"
+        - image: "/images/projects/long-covid-survival/book1.jpg"
+          alt: "Weg van de Pijn book cover"
+          rotation: -5
+        - image: "/images/projects/long-covid-survival/talk.jpg"
+          alt: "Audience in talk"
+          rotation: 3
+        - image: "/images/projects/long-covid-survival/garden.jpg"
+          alt: "Garden view"
+          rotation: -5
+        - image: "/images/projects/long-covid-survival/book2.jpg"
+          alt: "The Way Out book cover"
+          rotation: 5
     - type: "text-block"
       content:
         text: >
@@ -55,6 +58,17 @@ page:
           Nina Bosselaar (Lief Klein Leven) and followed a masterclass from Howard Schubiner (Neuroscientists). 
           I read the book; The way out - Alan Gordon. I fully immersed myself in the mind body method. 
           Did and still do yin yoga for relaxation. And step by step made my world bigger again by building new neural pathways.
+    - type: "image-row-3"
+      content:
+        - image:
+            url: "/images/projects/long-covid-survival/neuralepaden.jpg"
+            alt: "Social Media Post Brain"
+        - image:
+            url: "/images/projects/long-covid-survival/7Fs.jpg"
+            alt: "Social Media Post 'The 7 F's'"
+        - image:
+            url: "/images/projects/long-covid-survival/gradient.jpg"
+            alt: "Social Media Post 'Gradient Slider'"
     - type: "quote-block"
       content:
         text: |
