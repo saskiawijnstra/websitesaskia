@@ -91,3 +91,4 @@ page:
       content:
         url: "/images/projects/long-covid-survival/image-grid.png" # use png here to get transparency bewteen the images
         alt: "Image grid, of dozens of social media post thumbnails"
+        width: grid-10

@@ -33,6 +33,8 @@ import ImageRow3 from "../elements/project-page-blocks/ImageRow3.vue";
 import ImageRow4Tilted from "../elements/project-page-blocks/ImageRow4Tilted.vue";
 import QuoteBlock from "../elements/project-page-blocks/QuoteBlock.vue";
 import FullImage from "../elements/project-page-blocks/FullImage.vue";
+import ColorSwatchRow from "../elements/project-page-blocks/ColorSwatchRow.vue";
+
 import { useI18n } from "vue-i18n";
 
 const { t } = useI18n();
@@ -77,6 +79,7 @@ const getComponentName = (type: string) => {
     "image-row-4-tilted": ImageRow4Tilted,
     "quote-block": QuoteBlock,
     "full-image": FullImage,
+    "color-swatch-row": ColorSwatchRow,
   };
 
   return componentMap[type] || "UnknownBlock";

@@ -37,12 +37,13 @@ page:
     - type: "quote-block"
       content:
         text: >
-          "All **supermarket offers** in **one overview**. A **light** and **clear design**..."
-
-    - type: "image-centered"
+          “All **supermarket offers** in **one overview**. A **light** and **clear design** to make you find the best sales on daily products.”
+    - type: "full-image"
       content:
-        image: "/images/flowchart.jpg"
-
+        url: "/images/projects/whatsuper/whatsuper_flow.png"
+        alt: "Prototype Userflow in Figma (not all lines are visible). The whole prototype was clickable"
+        label: "Prototype Userflow in Figma (not all lines are visible)<br>The whole prototype was clickable"
+        width: grid-6
     - type: "text-block"
       content:
         text: >
