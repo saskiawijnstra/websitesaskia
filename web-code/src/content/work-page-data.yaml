@@ -39,7 +39,7 @@ discover:
           Alle supermarkt-aanbiedingen overzichtelijk in één app. 
           Een licht en helder ontwerp om snel de beste deals te vinden.
 
-    - id: "longcovidsurvival"
+    - id: "long-covid-survival"
       thumbnail:
         path: "/images/projects/thumbnails/survivalgids-frozen.jpg"
         alt:

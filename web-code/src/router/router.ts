@@ -31,10 +31,12 @@ declare interface ScrollPositionElement extends ScrollToOptions {
 
 import WorkView from "../components/pages/WorkView.vue";
 import AboutView from "../components/pages/AboutView.vue";
+import ProjectPage from "../components/pages/ProjectPage.vue";
 
 const routes = [
   { path: "/", component: WorkView },
   { path: "/work", redirect: "/" },
+  { path: "/work/:projectId", component: ProjectPage },
   { path: "/about", component: AboutView },
 ];
 

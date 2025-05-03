@@ -1,0 +1,93 @@
+projectId: long-covid-survival
+page:
+  title: "Long Covid Survival Gids"
+  sections:
+    - type: "hero-media"
+      content:
+        image:
+          url: "/images/projects/long-covid-survival/hero-image.jpg"
+          alt: "Screenshots and social media posts of the instagram profile 'Long covid survival gids'"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "2022 - 2023"
+        - label: "Instagram"
+          value: "@longcovid.survival.gids"
+          link: "https://www.instagram.com/longcovid.survival.gids/" # link is optional value
+        - label: "Role"
+          value: "Content creator, Designer"
+
+    - type: "text-block"
+      content:
+        text: >
+          In October 2020 I got covid. As others recovered after approximately two weeks I didn’t. 
+          I was completely cold. You could put a heating lamp on me and all blankets around me, but 
+          I couldn’t get warm. I had no energy. Exhaustion is an understatement. For three months 
+          I didn’t had smell or taste, they luckily came back. But other symptoms became worse. 
+          I couldn’t handle any stimuli, sound, light etc. 
+          The first year I still tried to work for 50%, but that became too much. I tried all kinds of treatments, 
+          physio, ergo, multiple rehabilitations, hyperbaric oxygen therapy, H.E.L.P. 
+          Apheresis, too much to write down. But my symptoms (a list of two pages long) became worse. 
+          I went from bed to couch. Showering, making food, 5 meters walking was too much. My body was empty.
+          <br><br>
+          To still make some designs I started an instagram page. Low key for fellow sufferers. 
+          To help each other and get compassion about long covid. I got a lot of comments, 
+          felt the connection with others in my isolation and it gave me a little bit of meaning.
+    - type: "image-row-4-tilted"
+      content:
+        - image: "/images/projects/long-covid-survival/book1.jpg"
+          alt: "Weg van de Pijn book cover"
+          rotation: -5
+        - image: "/images/projects/long-covid-survival/talk.jpg"
+          alt: "Audience in talk"
+          rotation: 3
+        - image: "/images/projects/long-covid-survival/garden.jpg"
+          alt: "Garden view"
+          rotation: -5
+        - image: "/images/projects/long-covid-survival/book2.jpg"
+          alt: "The Way Out book cover"
+          rotation: 5
+    - type: "text-block"
+      content:
+        text: >
+          In 2023 I found the book; Weg van de Pijn - Saskia de Bruin. 
+          Other people with long covid or with chronic symptoms had recovered using the tms/mind body method. 
+          When I read it a lot fell into place. I felt resistance, but more curiosity for this method. 
+          I felt symptoms go away when I applied it. It went with learning, ups and downs, 
+          but I finally had found something that worked for me. I went to a retreat from 
+          Nina Bosselaar (Lief Klein Leven) and followed a masterclass from Howard Schubiner (Neuroscientists). 
+          I read the book; The way out - Alan Gordon. I fully immersed myself in the mind body method. 
+          Did and still do yin yoga for relaxation. And step by step made my world bigger again by building new neural pathways.
+    - type: "image-row-3"
+      content:
+        - image:
+            url: "/images/projects/long-covid-survival/neuralepaden.jpg"
+            alt: "Social Media Post Brain"
+        - image:
+            url: "/images/projects/long-covid-survival/7Fs.jpg"
+            alt: "Social Media Post 'The 7 F's'"
+        - image:
+            url: "/images/projects/long-covid-survival/gradient.jpg"
+            alt: "Social Media Post 'Gradient Slider'"
+    - type: "quote-block"
+      content:
+        text: >
+          “From **surviving** to **feeling alive** again. 
+          How I recovered from long covid with the **mind body approach**.
+           Building **new neural pathways** with **trust, self-compassion, courage and perseverance**.”
+    - type: "text-block"
+      content:
+        text: >
+          Right now I am recovered from long covid. Healthy and full of energy. 
+          But still building up work and sports. Applying the mind body method as I go. 
+          I am super thank-full for finding this method. And proud of the courage and 
+          perseverance I have to find the trust in my body and myself back. 
+          On my instagram page you can find this journey and the insights 
+          I had along the way. Design way’s it is clean, simple, open and soft. 
+          Easy to read. Insightful with the illustrations. 
+          If you have any questions, feel free to contact me.
+    # lazy solution: image grid is just one image. not good for responsiveness, but quick :)
+    - type: "full-image"
+      content:
+        url: "/images/projects/long-covid-survival/image-grid.png" # use png here to get transparency bewteen the images
+        alt: "Image grid, of dozens of social media post thumbnails"
