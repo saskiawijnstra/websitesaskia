@@ -75,29 +75,19 @@ page:
           “From **surviving** to **feeling alive** again. 
           How I recovered from long covid with the **mind body approach**.
            Building **new neural pathways** with **trust, self-compassion, courage and perseverance**.”
-
-    - type: "image-row-3-small"
+    - type: "text-block"
       content:
-        - image: "info1.png"
-        - image: "info2.png"
-        - image: "info3.png"
-
-    - type: "info-grid-6x7"
+        text: >
+          Right now I am recovered from long covid. Healthy and full of energy. 
+          But still building up work and sports. Applying the mind body method as I go. 
+          I am super thank-full for finding this method. And proud of the courage and 
+          perseverance I have to find the trust in my body and myself back. 
+          On my instagram page you can find this journey and the insights 
+          I had along the way. Design way’s it is clean, simple, open and soft. 
+          Easy to read. Insightful with the illustrations. 
+          If you have any questions, feel free to contact me.
+    # lazy solution: image grid is just one image. not good for responsiveness, but quick :)
+    - type: "full-image"
       content:
-        columns: 6
-        rows: 7
-        items:
-          - image: "infographic1.png"
-          - image: "infographic2.png"
-          - image: "infographic3.png"
-          # ... alle weiteren 42 Infografiken
-
-    - type: "footer"
-      content:
-        contact_email: "info@saskiadesign.nl"
-        phone: "+31 6 24 48 41 19"
-        navigation:
-          - label: "Work"
-            url: "/work"
-          - label: "About"
-            url: "/about"
+        url: "/images/projects/long-covid-survival/image-grid.png" # use png here to get transparency bewteen the images
+        alt: "Image grid, of dozens of social media post thumbnails"

@@ -26,6 +26,7 @@ import TextBlock from "../elements/project-page-blocks/TextBlock.vue";
 import ImageRow3 from "../elements/project-page-blocks/ImageRow3.vue";
 import ImageRow4Tilted from "../elements/project-page-blocks/ImageRow4Tilted.vue";
 import QuoteBlock from "../elements/project-page-blocks/QuoteBlock.vue";
+import FullImage from "../elements/project-page-blocks/FullImage.vue";
 
 const route = useRoute();
 
@@ -67,6 +68,7 @@ const getComponentName = (type: string) => {
     "image-row-3": ImageRow3,
     "image-row-4-tilted": ImageRow4Tilted,
     "quote-block": QuoteBlock,
+    "full-image": FullImage,
   };
 
   return componentMap[type] || "UnknownBlock";
