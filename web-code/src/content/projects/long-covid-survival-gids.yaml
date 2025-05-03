@@ -19,9 +19,20 @@ page:
 
     - type: "text-block"
       content:
-        text: |
-          In October 2022 I got covid. At this moment after approximately six weeks, I didn’t recover...
-
+        text: >
+          In October 2020 I got covid. As others recovered after approximately two weeks I didn’t. 
+          I was completely cold. You could put a heating lamp on me and all blankets around me, but 
+          I couldn’t get warm. I had no energy. Exhaustion is an understatement. For three months 
+          I didn’t had smell or taste, they luckily came back. But other symptoms became worse. 
+          I couldn’t handle any stimuli, sound, light etc. 
+          The first year I still tried to work for 50%, but that became too much. I tried all kinds of treatments, 
+          physio, ergo, multiple rehabilitations, hyperbaric oxygen therapy, H.E.L.P. 
+          Apheresis, too much to write down. But my symptoms (a list of two pages long) became worse. 
+          I went from bed to couch. Showering, making food, 5 meters walking was too much. My body was empty.
+          <br><br>
+          To still make some designs I started an instagram page. Low key for fellow sufferers. 
+          To help each other and get compassion about long covid. I got a lot of comments, 
+          felt the connection with others in my isolation and it gave me a little bit of meaning.
     - type: "image-row-3"
       content:
         - image: "cover1.jpg"

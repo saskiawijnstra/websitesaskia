@@ -22,6 +22,7 @@ import { useRoute } from "vue-router";
 import gridTest from "../grid-test.vue";
 import HeroMedia from "../elements/project-page-blocks/HeroMedia.vue";
 import MetaInfoRow from "../elements/project-page-blocks/MetaInfoRow.vue";
+import TextBlock from "../elements/project-page-blocks/TextBlock.vue";
 
 const route = useRoute();
 
@@ -43,7 +44,7 @@ const currentProjectData = computed(() => {
 
   // @ts-ignore
   if (!dataEntryWrapper || !dataEntryWrapper.default) {
-    console.warn(`Kein Projekt mit projectId "${id}" gefunden.`);
+    console.warn(`No project found with id: "${id}".`);
     return { content: "404" };
   }
 
@@ -59,6 +60,7 @@ const getComponentName = (type: string) => {
   const componentMap: Record<string, Component> = {
     "hero-media": HeroMedia,
     "meta-info-row": MetaInfoRow,
+    "text-block": TextBlock,
   };
 
   return componentMap[type] || "UnknownBlock";
