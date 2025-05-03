@@ -10,9 +10,9 @@
         :is="item.link ? 'a' : 'span'"
         :href="item.link ? item.link : undefined"
         target="_blank"
+        v-html="item.value"
         class="meta-info-value"
       >
-        {{ item.value }}
       </component>
     </div>
   </div>
