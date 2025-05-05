@@ -61,20 +61,48 @@ page:
             alt: Magazine Page on table
           - url: /images/projects/hbm/slider/DSC_0983.png
             alt: Magazine Page on table
-    - type: "full-image"
-      content:
-        url: "/images/projects/sprong/sprong-fullpage-moodboard.jpg"
-        alt: 'Concept Moodboard. "Inviting, Motivating and Happy."'
-        label: "Moodboard"
-        width: grid-6
     - type: "text-block"
+      columns: 2
       content:
+        width: grid-8
         text: >
-          For this project we did a lot of research before making the final product. 
-          We went to physiotherapy sessions with our end users 
-          (people with breast cancer). We made a lot of mind-maps, collected data 
-          and wrote ux-flows. After that we tested our design with end users and 
-          improved it in multiple iterations.
+          <p>
+          Customers weigh the benefits and sacrifices of a product against each other. 
+          The trick is to maximize the benefits and make the sacrifice as small as possible, 
+          hat the customer sees a great customer value of the product. In many situations 
+          the sacrifices are decisive in the customer's choice process. 
+          The choice must therefore be made as simple as possible for the user.
+          </p>
+          <p>
+          Mistakes are often made during the decision-making process, the customer would have 
+          wanted to make a different choice afterwards. Therefore, the design must ensure that 
+          the customer can make as few mistakes as possible. What can also help with this is to 
+          provide the customer with sufficient information about the product, 
+          that a good choice can be made. 
+          </p>
+          <p>
+          The fashion industry is developing at lightning speed. 
+          One of the latest trends is large font combined with small font. You can also dare with colors. 
+          Bright colors are used and gradients are in. In the fashion industry, much more minimalist design is also applied.
+          </p>
+          <p>
+          Simple streamlined design is easy to understand for the user, it looks nice and gives the designer 
+          the space to play with little content. Animations are increasingly included in the design and increase 
+          user friendliness. 
+          </p>
+          <p>
+          The user must be able to orient himself well in AR. He always has to be able to "see" 
+          something and the scale of the design must be clear. It must be taken into account that the design 
+          remains intuitive and is familiar. 
+          </p>
+          <p>
+          Augmented Reality is a fairly new technique, 
+          for which not many design guidelines have yet been drawn up. What is important is that 
+          we look at the 'real world'. We are used to seeing this and if the design responds the 
+          'real world', it becomes easier to understand for the user. Instructions and instructions 
+          can help with this. If the design contains 360 degrees and depth, it looks more like the 
+          'real world' and the Augmented Reality experience is experienced as real and comfortable.
+          <p/>
     - type: image-mosaic
       content:
         columns:
