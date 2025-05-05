@@ -55,41 +55,8 @@ page:
           the user where you are in the app. The app is in the play store. 
           You can download it yourself. Under here you can find the final designs I made.
 
-    - type: "app-screens-grid"
-      max-column-count: 3
-      min-column-count: 2
+    - type: "full-image"
       content:
-        images:
-          - url: "/images/projects/twin-qels/grid/check_goed.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/check_taken.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/check_tijd.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/checkresultaten.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/checkresultatenV24ja.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/doelen.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/gesprek.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/gesprek2.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/modulesopdrachten_swipe.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/modulesopdrachten.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/ontwikkel-anders.jpg"
-            alt: ""
-
-          - url: "/images/projects/twin-qels/grid/resultaten.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/talent2.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/vitaliteit-lichamelijk-sliders.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/vitaliteit-lichamelijk.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/vitaliteitresultaten.jpg"
-            alt: ""
+        url: /images/projects/whatsuper/whatsuper_schermen.png
+        alt: A collection of the app's screenshots.
+        width: grid-10
