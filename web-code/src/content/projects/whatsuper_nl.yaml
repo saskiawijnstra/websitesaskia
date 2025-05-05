@@ -1,0 +1,64 @@
+projectId: "whatsuper"
+page:
+  title: "whatsuper"
+  sections:
+    - type: "hero-media"
+      content:
+        image:
+          url: "/images/projects/whatsuper/hero.jpg"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "September 2021"
+        - label: "Client"
+          value: "Whatsuper"
+        - label: "Role"
+          value: "UI/UX/App/Prototype<br>Brand Identity Design"
+
+    - type: "text-block"
+      content:
+        text: >
+          I got asked by a developer to design an app 
+          where he could find all the discounts from all the supermarkets 
+          in the Netherlands. He would do the coding and for the app he needed 
+          a designer to make his idea visual, understandable and logic. 
+          <br><br>
+          For the design I chose light colours and an open, easy to read font. 
+          The price and important information in red to get your attention. 
+          The background is slightly blue to make it calm and get your 
+          attention to the products. What I really liked about designing 
+          this app was how can I make it as clean and clear as possible, 
+          with all the sale variations and texts that needed to be in there.
+    - type: "color-swatch-row"
+      content:
+        - color: "#F84C3E"
+        - color: "#86C724"
+        - color: "#5EBEF5"
+    - type: "quote-block"
+      content:
+        text: >
+          “All **supermarket offers** in **one overview**. A **light** and **clear design** to make you find the best sales on daily products.”
+    - type: "full-image"
+      content:
+        url: "/images/projects/whatsuper/whatsuper_flow.png"
+        alt: "Prototype Userflow in Figma (not all lines are visible). The whole prototype was clickable"
+        label: "Prototype Userflow in Figma (not all lines are visible)<br>The whole prototype was clickable"
+        width: grid-6
+    - type: "text-block"
+      content:
+        text: >
+          For the design I thought about nice features to have in the app. 
+          For example to select the different supermarkets you go to or get 
+          a notification if something is for sale that you really want. 
+          I also prototyped the scrolling in the pages and how the 
+          transitions between the pages worked. To make it logic for 
+          the user where you are in the app. The app is in the play store. 
+          You can download it yourself. Under here you can find the final designs I made.
+
+    # maybe this should be a "app screens grid" block instead of one image, for better responsiveness.
+    # but its okay for now
+    - type: "full-image"
+      content:
+        url: /images/projects/whatsuper/whatsuper_schermen.png
+        alt: A collection of the app's screenshots.
+        width: grid-10

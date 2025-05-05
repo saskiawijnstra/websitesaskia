@@ -27,7 +27,7 @@ type LayoutBlock = {
   [key: string]: unknown;
 };
 
-import { computed, type Component, ref, onMounted } from "vue";
+import { computed, type Component, ref, onMounted, watch } from "vue";
 import { useRoute } from "vue-router";
 
 import gridTest from "../grid-test.vue";
@@ -44,7 +44,7 @@ import imageMosaic from "../elements/project-page-blocks/image-mosaic.vue";
 import { useI18n } from "vue-i18n";
 import ImageMosaic from "../elements/project-page-blocks/image-mosaic.vue";
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
 
 const route = useRoute();
 
@@ -57,17 +57,15 @@ const PROJECT_DATA = import.meta.glob("../../content/projects/**.yaml");
 const currentProjectData = computed(async () => {
   const id = currentProject.value;
 
-  console.log(Object.entries(PROJECT_DATA));
   const entries = await Promise.all(
-    Object.entries(PROJECT_DATA).map(
-      async ([path, importer]: [string, any]) => {
+    Object.entries(PROJECT_DATA)
+      .filter(([path]) => path.endsWith(`_${locale.value}.yaml`))
+      .map(async ([path, importer]: [string, any]) => {
         const data = await importer();
         return { data: data.default, path };
-      },
-    ),
+      }),
   );
 
-  console.log(entries);
   const dataEntry = entries.find((entry) => entry.data?.projectId === id);
 
   if (!dataEntry) {
@@ -80,14 +78,18 @@ const currentProjectData = computed(async () => {
 
 const layoutBlocks = ref<LayoutBlock[]>([]);
 
-onMounted(async () => {
+const loadProjectData = async () => {
   const projectData = await currentProjectData.value;
-  console.log(projectData);
 
   if (projectData && projectData.page?.sections) {
-    console.log([...projectData.page.sections]);
     layoutBlocks.value = [...projectData.page.sections];
   }
+};
+
+onMounted(loadProjectData);
+
+watch(locale, async () => {
+  await loadProjectData();
 });
 
 const getComponentName = (type: string) => {

@@ -1,0 +1,82 @@
+projectId: "sprong"
+page:
+  title: "Sprong VuMC"
+  sections:
+    - type: "hero-media"
+      content:
+        image:
+          url: "/images/projects/sprong/hero.jpg"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "July 2019"
+        - label: "Client"
+          value: "Onconet, VUmc"
+        - label: "Role"
+          value: "UI/UX/App/Prototype<br>Brand Identity Design"
+
+    - type: "text-block"
+      content:
+        text: >
+          People with breast cancer who follow a supervised exercise program 
+          during chemotherapy can preserve their physical fitness, limit fatigue 
+          and other symptoms, and increase the chance of chemotherapy completion.
+          At the Onconet in the VUmc they give these supervised exercise programs, 
+          also oncofysio called. Right now the physiotherapists and patient have 
+          papers where they fill in data. How they feel, what symptoms they have, 
+          the activity they did and more. For this project we wanted to combine all 
+          the data in an easy app so you have a nice overview of your progress in time.
+    - type: "quote-block"
+      content:
+        text: >
+          ““How can we make **people with breast cancer** feel more **in control** 
+          over their **exercise program** and improve the **communication of data** 
+          with their **physiotherapist** through an **engaging service**?”
+    - type: "full-image"
+      content:
+        url: "/images/projects/sprong/sprong-fullpage-moodboard.jpg"
+        alt: 'Concept Moodboard. "Inviting, Motivating and Happy."'
+        label: "Moodboard"
+        width: grid-6
+    - type: "text-block"
+      content:
+        text: >
+          For this project we did a lot of research before making the final product. 
+          We went to physiotherapy sessions with our end users 
+          (people with breast cancer). We made a lot of mind-maps, collected data 
+          and wrote ux-flows. After that we tested our design with end users and 
+          improved it in multiple iterations.
+    - type: image-mosaic
+      content:
+        columns:
+          #column 1
+          - images:
+              - url: /images/projects/sprong/2P1110209.jpg
+                alt: ""
+              - url: /images/projects/sprong/apr26afinitydiagram.jpg
+                alt: Post-Its based affinity diagram
+          #column 2
+          - images:
+              - url: /images/projects/sprong/mrt15stakeholdermap.jpg
+                alt: "Stakeholder map"
+              - url: /images/projects/sprong/tumblr_ppula21SJ81y8563ko3_1280.jpg
+                alt: Saskia smiling in a lab coat.
+          #column 3
+          - images:
+              - url: /images/projects/sprong/mrt14ideasfunctions5.jpg
+                alt: Concepts on whiteboard
+              - url: /images/projects/sprong/mrt7contextmap2.jpg
+                alt: A big, multicolored contextmap. "Where?, When?, How?, Why?, What?, Who?"
+        label: "The process; Mind maps, field research, user flows and more"
+    - type: "text-block"
+      content:
+        text: >
+          Imagine having a coach that listens to you, gives you a personalised goal that you 
+          can achieve and motivates you through your journey. 
+          You can find this all in the app.
+    - type: "full-image"
+      content:
+        url: "/images/projects/sprong/prototype.jpg"
+        alt: "Clickably prototype. Click here to try the prototype for yourself"
+        width: full
+        link: "https://example.com" # @saskia: add figma link to prototype here
