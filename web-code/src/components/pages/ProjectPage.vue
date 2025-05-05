@@ -22,7 +22,12 @@
 </template>
 
 <script setup lang="ts">
-import { computed, type Component } from "vue";
+type LayoutBlock = {
+  type: string;
+  [key: string]: unknown;
+};
+
+import { computed, type Component, ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 
 import gridTest from "../grid-test.vue";
@@ -47,29 +52,42 @@ const currentProject = computed(() => {
   return route.params.projectId;
 });
 
-const PROJECT_DATA = import.meta.glob("../../content/projects/**.yaml", {
-  eager: true,
-});
+const PROJECT_DATA = import.meta.glob("../../content/projects/**.yaml");
 
-const currentProjectData = computed(() => {
+const currentProjectData = computed(async () => {
   const id = currentProject.value;
 
-  const dataEntryWrapper = Object.values(PROJECT_DATA).find(
-    (data: any) => data.default?.projectId === id,
+  console.log(Object.entries(PROJECT_DATA));
+  const entries = await Promise.all(
+    Object.entries(PROJECT_DATA).map(
+      async ([path, importer]: [string, any]) => {
+        const data = await importer();
+        return { data: data.default, path };
+      },
+    ),
   );
 
-  // @ts-ignore
-  if (!dataEntryWrapper || !dataEntryWrapper.default) {
+  console.log(entries);
+  const dataEntry = entries.find((entry) => entry.data?.projectId === id);
+
+  if (!dataEntry) {
     console.warn(`No project found with id: "${id}".`);
     return { content: "404" };
   }
 
-  // @ts-ignore
-  return dataEntryWrapper.default;
+  return dataEntry.data;
 });
 
-const layoutBlocks = computed(() => {
-  return [...currentProjectData.value.page?.sections];
+const layoutBlocks = ref<LayoutBlock[]>([]);
+
+onMounted(async () => {
+  const projectData = await currentProjectData.value;
+  console.log(projectData);
+
+  if (projectData && projectData.page?.sections) {
+    console.log([...projectData.page.sections]);
+    layoutBlocks.value = [...projectData.page.sections];
+  }
 });
 
 const getComponentName = (type: string) => {
