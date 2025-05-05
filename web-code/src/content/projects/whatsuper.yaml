@@ -55,6 +55,8 @@ page:
           the user where you are in the app. The app is in the play store. 
           You can download it yourself. Under here you can find the final designs I made.
 
+    # maybe this should be a "app screens grid" block instead of one image, for better responsiveness.
+    # but its okay for now
     - type: "full-image"
       content:
         url: /images/projects/whatsuper/whatsuper_schermen.png
