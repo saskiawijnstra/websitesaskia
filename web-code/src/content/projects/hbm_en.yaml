@@ -65,6 +65,7 @@ page:
       columns: 2
       content:
         width: grid-8
+        # We use <p> wrappers for the paragraphs here, because line-breaks with <br> can cause columns to start with empty lines
         text: >
           <p>
           Customers weigh the benefits and sacrifices of a product against each other. 
@@ -103,37 +104,16 @@ page:
           can help with this. If the design contains 360 degrees and depth, it looks more like the 
           'real world' and the Augmented Reality experience is experienced as real and comfortable.
           <p/>
-    - type: image-mosaic
+    - type: "image-row-3"
       content:
-        columns:
-          #column 1
-          - images:
-              - url: /images/projects/sprong/2P1110209.jpg
-                alt: ""
-              - url: /images/projects/sprong/apr26afinitydiagram.jpg
-                alt: Post-Its based affinity diagram
-          #column 2
-          - images:
-              - url: /images/projects/sprong/mrt15stakeholdermap.jpg
-                alt: "Stakeholder map"
-              - url: /images/projects/sprong/tumblr_ppula21SJ81y8563ko3_1280.jpg
-                alt: Saskia smiling in a lab coat.
-          #column 3
-          - images:
-              - url: /images/projects/sprong/mrt14ideasfunctions5.jpg
-                alt: Concepts on whiteboard
-              - url: /images/projects/sprong/mrt7contextmap2.jpg
-                alt: A big, multicolored contextmap. "Where?, When?, How?, Why?, What?, Who?"
-        label: "The process; Mind maps, field research, user flows and more"
-    - type: "text-block"
-      content:
-        text: >
-          Imagine having a coach that listens to you, gives you a personalised goal that you 
-          can achieve and motivates you through your journey. 
-          You can find this all in the app.
-    - type: "full-image"
-      content:
-        url: "/images/projects/sprong/prototype.jpg"
-        alt: "Clickably prototype. Click here to try the prototype for yourself"
-        width: full
-        link: "https://example.com" # @saskia: add figma link to prototype here
+        images:
+          - image:
+              url: "/images/projects/hbm/moodboard1.png"
+              alt: "Moodboard Screenshot"
+          - image:
+              url: "/images/projects/hbm/moodboard2.png"
+              alt: "Moodboard Screenshot"
+          - image:
+              url: "/images/projects/hbm/moodboard3.png"
+              alt: "Moodboard Screenshot"
+        label: Moodboards
