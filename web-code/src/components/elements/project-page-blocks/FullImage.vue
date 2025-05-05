@@ -103,8 +103,8 @@ const columnsClass = computed(() => {
   flex-wrap: wrap;
 
   &.full {
-    grid-column: 1 / -1; // über alle Spalten
-    width: 100vw; // Viewport-Breite
+    grid-column: 1 / -1;
+    width: 100vw;
     margin-left: calc(-1 * grid.$container-padding);
     margin-right: calc(-1 * grid.$container-padding);
   }

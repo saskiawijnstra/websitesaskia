@@ -1,0 +1,111 @@
+projectId: "hbm"
+page:
+  title: "Hans Boodt Mannequins & Snakeware"
+  sections:
+    - type: "hero-media"
+      content:
+        image:
+          url: "/images/projects/hbm/hero.jpg"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "May 2018"
+        - label: "Client"
+          value: "Hans Boodt Mannequins & Snakeware"
+        - label: "Role"
+          value: "AR App"
+
+    - type: "text-block"
+      content:
+        text: >
+          For my graduation assignment of the bachelor Multimedia, Concepting and Design 
+          I worked for Hans Boodt Mannequins on behalf of Snakeware. Snakeware is a Digital 
+          Agency from Sneek and a client of them is Hans Boodt Mannequins (HBM).
+           Hans Boodt Mannequins designs, produces and sells contemporary, powerful 
+           display figures or mannequins. 
+          <br><br>
+          HBM customers are largely brand-conscious retailers or visual merchandisers. 
+          For them it is often difficult to imagine what the mannequin will look like in real life. 
+          Creating and producing mannequins is an expensive and time-consuming task. 
+          As a client and as a customer you want to prevent that it will cost extra time and money. 
+          You want to minimize the risk of bad shopping. 
+          It is therefore important that the customer has as good view of the mannequin 
+          in order to avoid the difference with reality. To solve this problem, 
+          HBM started a conversation with Snakeware. They have come up with the 
+          idea of an Augmented Reality (AR) app. Virtual images, 
+          in this case the mannequins, are added to reality. 
+          During this graduation assignment the prototype has been realized. 
+          In this graduation assignment the following question is answered:
+    - type: "quote-block"
+      content:
+        text: >
+          “In what way can **Augmented Reality** contribute to a more **efficient assessment of mannequins** 
+          using a **digital interactive product**?”
+    - type: swipe-gallery
+      height: 367
+      content:
+        images:
+          - url: /images/projects/hbm/slider/DSC_0977.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0958.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0978.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0961.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0962.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0980.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0982.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0983.png
+            alt: Magazine Page on table
+    - type: "full-image"
+      content:
+        url: "/images/projects/sprong/sprong-fullpage-moodboard.jpg"
+        alt: 'Concept Moodboard. "Inviting, Motivating and Happy."'
+        label: "Moodboard"
+        width: grid-6
+    - type: "text-block"
+      content:
+        text: >
+          For this project we did a lot of research before making the final product. 
+          We went to physiotherapy sessions with our end users 
+          (people with breast cancer). We made a lot of mind-maps, collected data 
+          and wrote ux-flows. After that we tested our design with end users and 
+          improved it in multiple iterations.
+    - type: image-mosaic
+      content:
+        columns:
+          #column 1
+          - images:
+              - url: /images/projects/sprong/2P1110209.jpg
+                alt: ""
+              - url: /images/projects/sprong/apr26afinitydiagram.jpg
+                alt: Post-Its based affinity diagram
+          #column 2
+          - images:
+              - url: /images/projects/sprong/mrt15stakeholdermap.jpg
+                alt: "Stakeholder map"
+              - url: /images/projects/sprong/tumblr_ppula21SJ81y8563ko3_1280.jpg
+                alt: Saskia smiling in a lab coat.
+          #column 3
+          - images:
+              - url: /images/projects/sprong/mrt14ideasfunctions5.jpg
+                alt: Concepts on whiteboard
+              - url: /images/projects/sprong/mrt7contextmap2.jpg
+                alt: A big, multicolored contextmap. "Where?, When?, How?, Why?, What?, Who?"
+        label: "The process; Mind maps, field research, user flows and more"
+    - type: "text-block"
+      content:
+        text: >
+          Imagine having a coach that listens to you, gives you a personalised goal that you 
+          can achieve and motivates you through your journey. 
+          You can find this all in the app.
+    - type: "full-image"
+      content:
+        url: "/images/projects/sprong/prototype.jpg"
+        alt: "Clickably prototype. Click here to try the prototype for yourself"
+        width: full
+        link: "https://example.com" # @saskia: add figma link to prototype here
