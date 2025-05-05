@@ -72,6 +72,9 @@ const columnsClass = computed(() => {
     case "grid-1":
       className = "col-span-1-start-6";
       break;
+    case "full":
+      className = "full";
+      break;
     default:
       className = "col-span-12";
   }
@@ -80,11 +83,20 @@ const columnsClass = computed(() => {
 </script>
 
 <style lang="scss" scoped>
+@use "@/scss/utils/_grid.scss" as grid;
+
 .full-image {
   display: flex;
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
+
+  &.full {
+    grid-column: 1 / -1; // über alle Spalten
+    width: 100vw; // Viewport-Breite
+    margin-left: calc(-1 * grid.$container-padding);
+    margin-right: calc(-1 * grid.$container-padding);
+  }
 }
 
 .full-image__image {
@@ -95,5 +107,6 @@ const columnsClass = computed(() => {
 label {
   margin-top: calc-rem(50);
   text-align: center;
+  color: var(--color-grijs-10);
 }
 </style>
