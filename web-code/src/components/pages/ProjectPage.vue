@@ -35,8 +35,9 @@ import QuoteBlock from "../elements/project-page-blocks/QuoteBlock.vue";
 import FullImage from "../elements/project-page-blocks/FullImage.vue";
 import ColorSwatchRow from "../elements/project-page-blocks/ColorSwatchRow.vue";
 import AppScreensGrid from "../elements/project-page-blocks/AppScreensGrid.vue";
-
+import imageMosaic from "../elements/project-page-blocks/image-mosaic.vue";
 import { useI18n } from "vue-i18n";
+import ImageMosaic from "../elements/project-page-blocks/image-mosaic.vue";
 
 const { t } = useI18n();
 
@@ -82,6 +83,7 @@ const getComponentName = (type: string) => {
     "full-image": FullImage,
     "color-swatch-row": ColorSwatchRow,
     "app-screens-grid": AppScreensGrid,
+    "image-mosaic": ImageMosaic,
   };
 
   return componentMap[type] || "UnknownBlock";

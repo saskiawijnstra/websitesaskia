@@ -4,12 +4,19 @@
     class="project-block full-image"
     :class="columnsClass"
   >
-    <img
-      :aria-labelledby="'#' + labelId"
-      :src="blockData.content.url"
-      :alt="blockData.content.alt"
-      class="full-image__image"
-    />
+    <component
+      class="wrapper"
+      :is="imageLink ? 'a' : 'span'"
+      :href="imageLink ? imageLink : undefined"
+      :target="imageLink ? '_blank' : undefined"
+    >
+      <img
+        :aria-labelledby="'#' + labelId"
+        :src="blockData.content.url"
+        :alt="blockData.content.alt"
+        class="full-image__image"
+      />
+    </component>
     <label
       :id="labelId"
       v-if="blockData.content.label"
@@ -27,6 +34,10 @@ const props = defineProps({
     type: Object,
     required: true,
   },
+});
+
+const imageLink = computed(() => {
+  return props.blockData.content.link;
 });
 
 const labelId = computed<string>(() => {
