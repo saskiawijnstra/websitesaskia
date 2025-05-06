@@ -736,6 +736,11 @@ footer .footer-copyright {
     footer .col-md-4 {
         padding-top: 42px;
     }
+
+    video {
+        width: 100%;
+        height: auto;
+      }
 }
 
 
@@ -826,6 +831,11 @@ b {
     .begintitel {
         font-size: calc( 20px + (24 - 16) * (100vw - 400px) / (800 - 400));
     }
+
+    video {
+        width: 100%;
+        height: auto;
+      }
 }
 
 
