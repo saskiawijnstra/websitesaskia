@@ -104,7 +104,8 @@ page:
           can help with this. If the design contains 360 degrees and depth, it looks more like the 
           'real world' and the Augmented Reality experience is experienced as real and comfortable.
           <p/>
-    - type: "image-row-3"
+    - type: "image-row"
+      column-count: 3
       content:
         images:
           - image:

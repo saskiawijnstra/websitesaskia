@@ -34,7 +34,7 @@ import gridTest from "../grid-test.vue";
 import HeroMedia from "../elements/project-page-blocks/HeroMedia.vue";
 import MetaInfoRow from "../elements/project-page-blocks/MetaInfoRow.vue";
 import TextBlock from "../elements/project-page-blocks/TextBlock.vue";
-import ImageRow3 from "../elements/project-page-blocks/ImageRow3.vue";
+import ImageRow from "../elements/project-page-blocks/ImageRow.vue";
 import ImageRow4Tilted from "../elements/project-page-blocks/ImageRow4Tilted.vue";
 import QuoteBlock from "../elements/project-page-blocks/QuoteBlock.vue";
 import FullImage from "../elements/project-page-blocks/FullImage.vue";
@@ -98,7 +98,7 @@ const getComponentName = (type: string) => {
     "hero-media": HeroMedia,
     "meta-info-row": MetaInfoRow,
     "text-block": TextBlock,
-    "image-row-3": ImageRow3,
+    "image-row": ImageRow,
     "image-row-4-tilted": ImageRow4Tilted,
     "quote-block": QuoteBlock,
     "full-image": FullImage,

@@ -58,7 +58,8 @@ page:
           Nina Bosselaar (Lief Klein Leven) and followed a masterclass from Howard Schubiner (Neuroscientists). 
           I read the book; The way out - Alan Gordon. I fully immersed myself in the mind body method. 
           Did and still do yin yoga for relaxation. And step by step made my world bigger again by building new neural pathways.
-    - type: "image-row-3"
+    - type: "image-row"
+      column-count: 3
       content:
         images:
           - image:
