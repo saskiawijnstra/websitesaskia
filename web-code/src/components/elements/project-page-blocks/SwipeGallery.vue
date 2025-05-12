@@ -108,7 +108,11 @@ onUnmounted(() => {
     pointer-events: none;
     transform: translateY(-5%);
     height: 110%;
-    background: linear-gradient(90deg, #16161600 0%, var(--color-grijs-1) 100%);
+    background: linear-gradient(
+      90deg,
+      #16161600 0%,
+      var(--color-default-background) 100%
+    );
     width: 44.5px;
   }
   &.color-scheme-light {
@@ -116,7 +120,7 @@ onUnmounted(() => {
       background: linear-gradient(
         90deg,
         rgba(223, 227, 237, 0) 0%,
-        rgba(223, 227, 237, 1) 100%
+        var(--color-default-background) 100%
       );
     }
   }
