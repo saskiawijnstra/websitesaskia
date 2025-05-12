@@ -158,3 +158,15 @@ page:
             alt: App prototype with printed paper cutouts on table
             is-portrait: true # portrait images get the "height"-size limit as their width limit, and exceed the height
         label: Paper prototype
+    - type: "image-row"
+      column-count: 2
+      content:
+        images:
+          - image:
+              url: "/images/projects/hbm/UXDesign.png"
+              alt: "UX Design Screenshot"
+              label: UX Design
+          - image:
+              url: "/images/projects/hbm/UIDesign.png"
+              alt: "UI Design Screenshot"
+              label: "UI Design"

@@ -40,7 +40,7 @@ const labelId = computed<string>(() => {
   return `label-id-${Math.random() * 1000000}`;
 });
 
-const columnCount = computed(() => props.blockData.columnCount || 3);
+const columnCount = computed(() => props.blockData["column-count"] || 3);
 </script>
 
 <style lang="scss" scoped>
