@@ -156,3 +156,4 @@ page:
           - url: /images/projects/hbm/slider-2/Paperprototype3.png
             alt: App prototype with printed paper cutouts on table
             is-portrait: true # portrait images get the "height"-size limit as their width limit, and exceed the height
+        label: Paper prototype

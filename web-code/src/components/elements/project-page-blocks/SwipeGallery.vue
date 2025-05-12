@@ -41,6 +41,8 @@
         </div>
       </div>
     </div>
+    <label v-if="blockData.content.label" v-html="blockData.content.label">
+    </label>
   </div>
 </template>
 
@@ -195,5 +197,12 @@ onUnmounted(() => {
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+label {
+  display: block;
+  margin: 0 auto;
+  margin-top: calc-rem(50);
+  text-align: center;
+  color: var(--color-grijs-10);
 }
 </style>
