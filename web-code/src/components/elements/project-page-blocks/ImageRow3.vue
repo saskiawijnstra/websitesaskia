@@ -1,18 +1,22 @@
 <template>
   <div class="project-block image-row-3 col-span-12">
-    <img
+    <div
       v-for="(item, index) in blockData.content.images"
       :key="index"
-      :src="item.image.url"
-      :alt="item.image.alt"
-      class="image-row-3__image"
-    />
-    <label
-      :id="labelId"
-      v-if="blockData.content.label"
-      v-html="blockData.content.label"
+      class="image-label-combo col-span-4"
     >
-    </label>
+      <img
+        :src="item.image.url"
+        :alt="item.image.alt"
+        class="image-row-3__image"
+      />
+      <label
+        :id="labelId"
+        v-if="blockData.content.label"
+        v-html="blockData.content.label"
+      >
+      </label>
+    </div>
   </div>
 </template>
 
@@ -34,19 +38,26 @@ const labelId = computed<string>(() => {
 <style lang="scss" scoped>
 .image-row-3 {
   display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
+  // gap: 1rem;
+  // justify-content: center;
+  // flex-wrap: wrap;
+
+  display: grid;
+  // grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: subgrid;
 }
 
-.image-row-3__image {
-  width: calc(33.333% - 0.666rem);
-  object-fit: cover;
-}
+.image-label-combo {
+  .image-row-3__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 
-label {
-  margin-top: calc-rem(50);
-  text-align: center;
-  color: var(--color-grijs-10);
+  label {
+    margin-top: calc-rem(50);
+    text-align: center;
+    color: var(--color-grijs-10);
+  }
 }
 </style>
