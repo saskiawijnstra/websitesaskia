@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="project-block swipe-gallery full"
-    :style="`height: ${blockData.height}px`"
-  >
+  <div class="project-block swipe-gallery full">
     <div class="scroll-wrapper" :class="`color-scheme-${colorScheme}`">
       <transition name="fade">
         <button
@@ -31,7 +28,15 @@
             :key="index"
             class="gallery-item"
           >
-            <img :src="image.url" :alt="image.alt" />
+            <img
+              :src="image.url"
+              :alt="image.alt"
+              :style="
+                image['is-portrait']
+                  ? `width: ${blockData.height}px`
+                  : `height: ${blockData.height}px`
+              "
+            />
           </div>
         </div>
       </div>
@@ -169,10 +174,10 @@ onUnmounted(() => {
   height: 100%;
   gap: 2rem;
   min-width: max-content;
+  align-items: center;
 }
 
 .gallery-item {
-  height: 100%;
   flex: 0 0 auto;
   scroll-snap-align: start;
 }
