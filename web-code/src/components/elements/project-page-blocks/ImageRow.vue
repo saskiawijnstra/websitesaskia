@@ -65,6 +65,10 @@ const columnCount = computed(() => props.blockData["column-count"] || 3);
     height: auto;
     object-fit: cover;
   }
+  label {
+    display: block;
+    width: 100%;
+  }
 }
 
 label {

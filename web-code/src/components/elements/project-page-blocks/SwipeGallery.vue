@@ -201,7 +201,8 @@ onUnmounted(() => {
 label {
   display: block;
   margin: 0 auto;
-  margin-top: calc-rem(50);
+  // margin-top: calc-rem(50);
+  margin-bottom: calc-rem(50);
   text-align: center;
   color: var(--color-grijs-10);
 }
