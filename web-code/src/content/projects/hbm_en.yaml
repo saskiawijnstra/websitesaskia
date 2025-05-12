@@ -117,3 +117,31 @@ page:
               url: "/images/projects/hbm/moodboard3.png"
               alt: "Moodboard Screenshot"
         label: Moodboards
+    - type: text-block
+      content:
+        text: >
+          With the Hans Boodt Mannequins Augmented Reality app you can view all 
+          collections, you can do a quick quiz making your choice easier or 
+          scan a mannequin from the catalog. If you have a custom made 
+          mannequin, you can also view and approve the design in the app. 
+          All mannequins can be shown in 3D and AR. In the 3D / AR environment 
+          you can view and place the mannequin in the room as you wish. 
+          Here are several options including viewing information or changing 
+          the color of the mannequin.
+           <br>
+           <br>
+          Various methods have been used to 
+          make the prototype. First there are moodboards created for the design 
+          to form an image. Then an interaction model has been made that shows which 
+          way the customer will walk with and without the Augmented Reality app. 
+          A task-analysis is made of design conditions, brainstorming, interviews and surveys. 
+          Here you can see which functions must be included in the app. 
+          A paper prototype has been made from the task analysis. 
+          The paper prototype has been tested for functionalities for a rapid evaluation. 
+          In the rapid evaluation the think-aloud method was used to get the big frustrations 
+          out of the prototype. 
+          This feedback has been taken to the UX design and taken to the UI design. 
+          To get a good overview of the app the UX design is made in a user flow. 
+          The user flow gives a nice insight into the app. After all the screens were clear, 
+          it was made clickable in ProtoPie program. This allows you to walk through all screens 
+          and get a good view of the final app.
