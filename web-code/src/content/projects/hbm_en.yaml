@@ -145,3 +145,14 @@ page:
           The user flow gives a nice insight into the app. After all the screens were clear, 
           it was made clickable in ProtoPie program. This allows you to walk through all screens 
           and get a good view of the final app.
+    - type: swipe-gallery
+      height: 367
+      content:
+        images:
+          - url: /images/projects/hbm/slider-2/Paperprototype1.png
+            alt: App prototype with printed paper cutouts on table
+          - url: /images/projects/hbm/slider-2/Paperprototype2.png
+            alt: App prototype with printed paper cutouts on table
+          - url: /images/projects/hbm/slider-2/Paperprototype3.png
+            alt: App prototype with printed paper cutouts on table
+            is-portrait: true # portrait images get the "height"-size limit as their width limit, and exceed the height
