@@ -104,7 +104,8 @@ onUnmounted(() => {
   height: 100%;
   overflow: hidden;
 
-  &::after {
+  &::after,
+  &::before {
     // scroll gradient
     content: "";
     position: absolute;
@@ -120,8 +121,15 @@ onUnmounted(() => {
     );
     width: 44.5px;
   }
+
+  &::before {
+    right: auto;
+    left: 0;
+    transform: translateY(-5%) rotate(180deg);
+  }
   &.color-scheme-light {
-    &::after {
+    &::after,
+    &::before {
       background: linear-gradient(
         90deg,
         rgba(223, 227, 237, 0) 0%,
