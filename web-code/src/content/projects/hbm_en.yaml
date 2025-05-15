@@ -176,3 +176,13 @@ page:
         alt: "User Flow Chart"
         width: grid-10
         label: Userflow
+    - type: full-image
+      content:
+        url: /images/projects/hbm/ar-app.mp4
+        is-video: true
+        show-controls: true
+        try-autoplay: true # only works if video has no sound
+        width: grid-4
+        alt: Clickable prototype
+        label: Clickable prototype - Click here to test the prototype yourself.
+        label-link: http://example.com

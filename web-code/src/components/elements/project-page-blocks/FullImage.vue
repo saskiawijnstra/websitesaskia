@@ -10,19 +10,39 @@
       :href="imageLink ? imageLink : undefined"
       :target="imageLink ? '_blank' : undefined"
     >
-      <img
-        :aria-labelledby="'#' + labelId"
-        :src="blockData.content.url"
-        :alt="blockData.content.alt"
-        class="full-image__image"
-      />
+      <template v-if="isVideo">
+        <video
+          :controls="showControls"
+          controlslist="nodownload"
+          :aria-labelledby="'#' + labelId"
+          :poster="blockData.content['poster-url']"
+          :src="blockData.content.url"
+          class="full-image__image"
+        ></video>
+      </template>
+      <v-else>
+        <img
+          v-if="!isVideo"
+          :aria-labelledby="'#' + labelId"
+          :src="blockData.content.url"
+          :alt="blockData.content.alt"
+          class="full-image__image"
+        />
+      </v-else>
     </component>
-    <label
-      :id="labelId"
-      v-if="blockData.content.label"
-      v-html="blockData.content.label"
+    <component
+      class="wrapper"
+      :is="labelLink ? 'a' : 'span'"
+      :href="labelLink ? labelLink : undefined"
+      :target="labelLink ? '_blank' : undefined"
     >
-    </label>
+      <label
+        :id="labelId"
+        v-if="blockData.content.label"
+        v-html="blockData.content.label"
+      >
+      </label>
+    </component>
   </div>
 </template>
 
@@ -46,6 +66,21 @@ const labelId = computed<string>(() => {
 });
 
 const { columnsClass } = useGridWidthFromYaml(props.blockData);
+
+const isVideo = computed(() => {
+  return props.blockData.content["is-video"];
+});
+
+const labelLink = computed(() => {
+  return props.blockData.content["label-link"];
+});
+
+const showControls = computed(() => {
+  if (props.blockData.content["show-controls"] === undefined) {
+    return true;
+  }
+  return props.blockData.content["show-controls"];
+});
 </script>
 
 <style lang="scss" scoped>
@@ -70,9 +105,12 @@ const { columnsClass } = useGridWidthFromYaml(props.blockData);
   object-fit: cover;
 }
 
-label {
+label,
+a label {
   margin-top: calc-rem(50);
   text-align: center;
   color: var(--color-grijs-10);
+  display: block;
+  cursor: pointer;
 }
 </style>
