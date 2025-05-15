@@ -2,6 +2,31 @@ projectId: "twin-qels"
 page:
   title: "TwinQels"
   sections:
+    - type: "hero-media"
+      content:
+        image:
+          url: "/images/projects/twin-qels/TwinQels-mockup.png"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "Januari 2020"
+        - label: "Client"
+          value: "TwinQels"
+        - label: "Role"
+          value: "Design"
+    - type: full-image
+      content:
+        url: /images/projects/twin-qels/TwinQels-appstore.png
+        alt: Appstore screenshots of Twin qels App"
+    - type: text-block
+      content:
+        text: >
+          Human Software - TwinQels makes conversations in organisations easier and better. 
+          Employees work with an app that supports reflection, development and job satisfaction. 
+          TwinQels offers the basis for self-direction. In this way, employers can have conversations 
+          with well-prepared employees who know what they want. In addition, 
+          there is an (anonymous) dashboard for HR with relevant HR analytics. 
+          Organisations know what is going on and can take action on this.
     - type: "app-screens-grid"
       max-column-count: 3
       min-column-count: 2
