@@ -33,15 +33,17 @@
             <p v-html="yamlDataWork['factor-e'].description[locale]"></p>
           </div>
           <div class="twin-qels-teaser col-span-6">
-            <div class="screenshots">
-              <img
-                v-for="image in yamlDataWork['factor-e']['twin-qels-teaser']
-                  .images"
-                :src="`/images/projects/twin-qels-teaser-screenshots/${image['image-name']}`"
-                :alt="image['alt-text'][locale]"
-              />
-            </div>
-            <p>TwinQels</p>
+            <router-link to="work/twin-qels">
+              <div class="screenshots">
+                <img
+                  v-for="image in yamlDataWork['factor-e']['twin-qels-teaser']
+                    .images"
+                  :src="`/images/projects/twin-qels-teaser-screenshots/${image['image-name']}`"
+                  :alt="image['alt-text'][locale]"
+                />
+              </div>
+              <p>TwinQels</p>
+            </router-link>
           </div>
         </div>
         <div class="scroll-wrapper">
@@ -209,6 +211,15 @@ onUnmounted(() => {
           display: block;
           width: calc(20%);
           object-fit: contain;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: var(--color-default-text);
+
+        &:hover {
+          text-decoration: underline;
         }
       }
     }
