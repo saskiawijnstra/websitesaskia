@@ -170,3 +170,9 @@ page:
               url: "/images/projects/hbm/UIDesign.png"
               alt: "UI Design Screenshot"
               label: "UI Design"
+    - type: "full-image"
+      content:
+        url: "/images/projects/hbm/Userflow.png" # use png here to get transparency bewteen the images
+        alt: "User Flow Chart"
+        width: grid-10
+        label: Userflow
