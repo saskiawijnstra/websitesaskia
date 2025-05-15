@@ -12,15 +12,18 @@
     >
       <template v-if="isVideo">
         <video
+          ref="videoEl"
+          v-intersection-observer="onIntersectionObserver"
           :controls="showControls"
           controlslist="nodownload"
           :aria-labelledby="'#' + labelId"
+          :muted="blockData.content['try-autoplay']"
           :poster="blockData.content['poster-url']"
           :src="blockData.content.url"
           class="full-image__image"
         ></video>
       </template>
-      <v-else>
+      <template v-else>
         <img
           v-if="!isVideo"
           :aria-labelledby="'#' + labelId"
@@ -28,7 +31,7 @@
           :alt="blockData.content.alt"
           class="full-image__image"
         />
-      </v-else>
+      </template>
     </component>
     <component
       class="wrapper"
@@ -47,7 +50,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from "vue";
+import { computed, ref, onMounted, watch } from "vue";
+import { vIntersectionObserver } from "@vueuse/components";
 import { useGridWidthFromYaml } from "./useGridWidthFromYaml";
 
 const props = defineProps({
@@ -81,6 +85,29 @@ const showControls = computed(() => {
   }
   return props.blockData.content["show-controls"];
 });
+
+const videoEl = ref<HTMLVideoElement | null>(null);
+
+async function onIntersectionObserver([entry]: IntersectionObserverEntry[]) {
+  if (props.blockData.content["try-autoplay"] && videoEl.value) {
+    if (entry.isIntersecting) {
+      try {
+        await videoEl.value.play();
+      } catch (err) {
+        console.log(
+          "autoplay not allowed on this video. maybe it contains sound?",
+        );
+        // autoplay failed, maybe due to browser restrictions
+      }
+    } else {
+      try {
+        await videoEl.value.pause();
+      } catch (err) {
+        console.log("an error occured when trying to pause the video");
+      }
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
