@@ -1,0 +1,13 @@
+projectId: "dutchlease"
+page:
+  title: "dutchlease"
+  sections:
+    - type: "app-screens-grid"
+      max-column-count: 2
+      min-column-count: 2
+      content:
+        images:
+          - url: "/images/projects/dutchlease/app-screens/Auto-detailpagina-donker.jpg"
+            alt: ""
+          - url: "/images/projects/dutchlease/app-screens/Homepage-donker.jpg"
+            alt: ""
