@@ -20,51 +20,31 @@ page:
           value: "Design"
     - type: full-image
       content:
-        url: /images/projects/twin-qels/TwinQels-appstore.png
-        alt: Appstore screenshots of Twin qels App"
+        url: /images/projects/sein/elements-sein.png
+        alt: SEIN Design elements"
+        width: grid-6
     - type: text-block
       content:
         text: >
-          Human Software - TwinQels makes conversations in organisations easier and better. 
-          Employees work with an app that supports reflection, development and job satisfaction. 
-          TwinQels offers the basis for self-direction. In this way, employers can have conversations 
-          with well-prepared employees who know what they want. In addition, 
-          there is an (anonymous) dashboard for HR with relevant HR analytics. 
-          Organisations know what is going on and can take action on this.
+          SEIN is the centre of expertise for epilepsy and sleep healthcare. 
+          Together with a UX Designer I was allowed to completely recreate the website. 
+          For this target audience we really needed to make clear that it was readable, 
+          clean and peaceful. This website was completely made during the pandemic. 
+          So we did all the presentations online with the client and unfortunately I have never visited SEIN myself.
     - type: "app-screens-grid"
-      max-column-count: 3
+      max-column-count: 2
       min-column-count: 2
       content:
         images:
-          - url: "/images/projects/twin-qels/grid/check_goed.jpg"
+          - url: "/images/projects/sein/app-screens/01-home.jpg"
             alt: ""
-          - url: "/images/projects/twin-qels/grid/check_taken.jpg"
+          - url: "/images/projects/sein/app-screens/02-Overzichtw.jpg"
             alt: ""
-          - url: "/images/projects/twin-qels/grid/check_tijd.jpg"
+          - url: "/images/projects/sein/app-screens/Vervolg_Doelgroep33.jpg"
             alt: ""
-          - url: "/images/projects/twin-qels/grid/checkresultaten.jpg"
+          - url: "/images/projects/sein/app-screens/02-Overzichtw.jpg"
             alt: ""
-          - url: "/images/projects/twin-qels/grid/checkresultatenV24ja.jpg"
+          - url: "/images/projects/sein/app-screens/Eerste-afspraakV2.jpg"
             alt: ""
-          - url: "/images/projects/twin-qels/grid/doelen.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/gesprek.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/gesprek2.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/modulesopdrachten_swipe.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/modulesopdrachten.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/ontwikkel-anders.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/resultaten.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/talent2.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/vitaliteit-lichamelijk-sliders.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/vitaliteit-lichamelijk.jpg"
-            alt: ""
-          - url: "/images/projects/twin-qels/grid/vitaliteitresultaten.jpg"
+          - url: "/images/projects/sein/app-screens/Over-SEIN.jpg"
             alt: ""
