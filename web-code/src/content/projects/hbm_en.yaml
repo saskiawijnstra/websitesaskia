@@ -186,3 +186,26 @@ page:
         alt: Clickable prototype
         label: Clickable prototype - Click here to test the prototype yourself.
         label-link: http://example.com
+    - type: full-image
+      content:
+        url: /images/projects/hbm/screens.png
+        alt: Grid of App-Screenshots
+    - type: text-block
+      content:
+        text: >
+          The prototype was eventually tested by means of a field trial with the think-aloud method. 
+          11 test persons have completed assignments and then answered questions. 
+          According to the test subjects, the app was experienced as intuitive and user-friendly. 
+          There were a number of points for improvement, but in general the test persons 
+          found that they could carry out the assignments properly. 
+          Ultimately, 18 of the 22 design conditions were well incorporated in the design. 
+          <br>
+          <br>
+          The results of the tests have shown that the prototype matches the needs of the users. 
+          The prototype can certainly contribute to a more efficient assessment of the mannequins. 
+          The Augmented Reality creates a much better image of the mannequin and therefore the 
+          customer can better judge the product.
+    - type: full-image
+      content:
+        url: /images/projects/hbm/end.png
+        alt: Angled closeup photo of the "Afstudeerrapport" from "Saskia Wijnstra"
