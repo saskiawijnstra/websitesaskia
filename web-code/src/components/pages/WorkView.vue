@@ -73,11 +73,13 @@
                 :key="project.id"
                 class="gallery-item"
               >
-                <img
-                  :src="project.thumbnail.path"
-                  :alt="project.thumbnail.alt[locale]"
-                />
-                <p class="caption">{{ project.title[locale] }}</p>
+                <router-link :to="`work/${project.id}`">
+                  <img
+                    :src="project.thumbnail.path"
+                    :alt="project.thumbnail.alt[locale]"
+                  />
+                  <p class="caption">{{ project.title[locale] }}</p>
+                </router-link>
               </div>
             </div>
           </div>
@@ -292,6 +294,35 @@ onUnmounted(() => {
         // height: 450px;
         scroll-snap-align: start;
         text-align: center;
+
+        a {
+          text-decoration: none;
+          color: var(--color-default-text);
+          text-align: left;
+
+          &:hover {
+            p {
+              &::after {
+                transform: translateX(12px);
+              }
+            }
+          }
+
+          p {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            &::after {
+              content: "";
+              display: inline-block;
+              transform: translateX(0);
+              transition: transform 0.2s ease-in-out;
+              width: 18px;
+              height: 16px;
+              background-image: url(@/assets/images/arrow-right.svg);
+            }
+          }
+        }
 
         img {
           width: 100%;

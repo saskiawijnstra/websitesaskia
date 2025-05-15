@@ -1,0 +1,70 @@
+projectId: "sein"
+page:
+  title: "SEIN"
+  sections:
+    - type: "hero-media"
+      content:
+        image:
+          url:
+            "/images/projects/sein/screenshot-sein.png" # you should always have a image, even if there is a video.
+            # it is displayed as an alternative if devices or connections are slow, or user has low-power mode enabled
+        video:
+          url: "/images/projects/sein/SEINmotion-1-cropped.mp4"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "Januari 2020"
+        - label: "Client"
+          value: "TwinQels"
+        - label: "Role"
+          value: "Design"
+    - type: full-image
+      content:
+        url: /images/projects/twin-qels/TwinQels-appstore.png
+        alt: Appstore screenshots of Twin qels App"
+    - type: text-block
+      content:
+        text: >
+          Human Software - TwinQels makes conversations in organisations easier and better. 
+          Employees work with an app that supports reflection, development and job satisfaction. 
+          TwinQels offers the basis for self-direction. In this way, employers can have conversations 
+          with well-prepared employees who know what they want. In addition, 
+          there is an (anonymous) dashboard for HR with relevant HR analytics. 
+          Organisations know what is going on and can take action on this.
+    - type: "app-screens-grid"
+      max-column-count: 3
+      min-column-count: 2
+      content:
+        images:
+          - url: "/images/projects/twin-qels/grid/check_goed.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/check_taken.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/check_tijd.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/checkresultaten.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/checkresultatenV24ja.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/doelen.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/gesprek.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/gesprek2.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/modulesopdrachten_swipe.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/modulesopdrachten.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/ontwikkel-anders.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/resultaten.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/talent2.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/vitaliteit-lichamelijk-sliders.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/vitaliteit-lichamelijk.jpg"
+            alt: ""
+          - url: "/images/projects/twin-qels/grid/vitaliteitresultaten.jpg"
+            alt: ""
