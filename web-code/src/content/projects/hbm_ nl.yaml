@@ -1,0 +1,211 @@
+projectId: "hbm"
+page:
+  title: "Hans Boodt Mannequins & Snakeware"
+  sections:
+    - type: "hero-media"
+      content:
+        image:
+          url: "/images/projects/hbm/hero.jpg"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "May 2018"
+        - label: "Client"
+          value: "Hans Boodt Mannequins & Snakeware"
+        - label: "Role"
+          value: "AR App"
+
+    - type: "text-block"
+      content:
+        text: >
+          For my graduation assignment of the bachelor Multimedia, Concepting and Design 
+          I worked for Hans Boodt Mannequins on behalf of Snakeware. Snakeware is a Digital 
+          Agency from Sneek and a client of them is Hans Boodt Mannequins (HBM).
+           Hans Boodt Mannequins designs, produces and sells contemporary, powerful 
+           display figures or mannequins. 
+          <br><br>
+          HBM customers are largely brand-conscious retailers or visual merchandisers. 
+          For them it is often difficult to imagine what the mannequin will look like in real life. 
+          Creating and producing mannequins is an expensive and time-consuming task. 
+          As a client and as a customer you want to prevent that it will cost extra time and money. 
+          You want to minimize the risk of bad shopping. 
+          It is therefore important that the customer has as good view of the mannequin 
+          in order to avoid the difference with reality. To solve this problem, 
+          HBM started a conversation with Snakeware. They have come up with the 
+          idea of an Augmented Reality (AR) app. Virtual images, 
+          in this case the mannequins, are added to reality. 
+          During this graduation assignment the prototype has been realized. 
+          In this graduation assignment the following question is answered:
+    - type: "quote-block"
+      content:
+        text: >
+          “In what way can **Augmented Reality** contribute to a more **efficient assessment of mannequins** 
+          using a **digital interactive product**?”
+    - type: swipe-gallery
+      height: 367
+      content:
+        images:
+          - url: /images/projects/hbm/slider/DSC_0977.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0958.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0978.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0961.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0962.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0980.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0982.png
+            alt: Magazine Page on table
+          - url: /images/projects/hbm/slider/DSC_0983.png
+            alt: Magazine Page on table
+    - type: "text-block"
+      columns: 2
+      content:
+        width: grid-8
+        # We use <p> wrappers for the paragraphs here, because line-breaks with <br> can cause columns to start with empty lines
+        text: >
+          <p>
+          Customers weigh the benefits and sacrifices of a product against each other. 
+          The trick is to maximize the benefits and make the sacrifice as small as possible, 
+          hat the customer sees a great customer value of the product. In many situations 
+          the sacrifices are decisive in the customer's choice process. 
+          The choice must therefore be made as simple as possible for the user.
+          </p>
+          <p>
+          Mistakes are often made during the decision-making process, the customer would have 
+          wanted to make a different choice afterwards. Therefore, the design must ensure that 
+          the customer can make as few mistakes as possible. What can also help with this is to 
+          provide the customer with sufficient information about the product, 
+          that a good choice can be made. 
+          </p>
+          <p>
+          The fashion industry is developing at lightning speed. 
+          One of the latest trends is large font combined with small font. You can also dare with colors. 
+          Bright colors are used and gradients are in. In the fashion industry, much more minimalist design is also applied.
+          </p>
+          <p>
+          Simple streamlined design is easy to understand for the user, it looks nice and gives the designer 
+          the space to play with little content. Animations are increasingly included in the design and increase 
+          user friendliness. 
+          </p>
+          <p>
+          The user must be able to orient himself well in AR. He always has to be able to "see" 
+          something and the scale of the design must be clear. It must be taken into account that the design 
+          remains intuitive and is familiar. 
+          </p>
+          <p>
+          Augmented Reality is a fairly new technique, 
+          for which not many design guidelines have yet been drawn up. What is important is that 
+          we look at the 'real world'. We are used to seeing this and if the design responds the 
+          'real world', it becomes easier to understand for the user. Instructions and instructions 
+          can help with this. If the design contains 360 degrees and depth, it looks more like the 
+          'real world' and the Augmented Reality experience is experienced as real and comfortable.
+          <p/>
+    - type: "image-row"
+      column-count: 3
+      content:
+        images:
+          - image:
+              url: "/images/projects/hbm/moodboard1.png"
+              alt: "Moodboard Screenshot"
+          - image:
+              url: "/images/projects/hbm/moodboard2.png"
+              alt: "Moodboard Screenshot"
+          - image:
+              url: "/images/projects/hbm/moodboard3.png"
+              alt: "Moodboard Screenshot"
+        label: Moodboards
+    - type: text-block
+      content:
+        text: >
+          With the Hans Boodt Mannequins Augmented Reality app you can view all 
+          collections, you can do a quick quiz making your choice easier or 
+          scan a mannequin from the catalog. If you have a custom made 
+          mannequin, you can also view and approve the design in the app. 
+          All mannequins can be shown in 3D and AR. In the 3D / AR environment 
+          you can view and place the mannequin in the room as you wish. 
+          Here are several options including viewing information or changing 
+          the color of the mannequin.
+           <br>
+           <br>
+          Various methods have been used to 
+          make the prototype. First there are moodboards created for the design 
+          to form an image. Then an interaction model has been made that shows which 
+          way the customer will walk with and without the Augmented Reality app. 
+          A task-analysis is made of design conditions, brainstorming, interviews and surveys. 
+          Here you can see which functions must be included in the app. 
+          A paper prototype has been made from the task analysis. 
+          The paper prototype has been tested for functionalities for a rapid evaluation. 
+          In the rapid evaluation the think-aloud method was used to get the big frustrations 
+          out of the prototype. 
+          This feedback has been taken to the UX design and taken to the UI design. 
+          To get a good overview of the app the UX design is made in a user flow. 
+          The user flow gives a nice insight into the app. After all the screens were clear, 
+          it was made clickable in ProtoPie program. This allows you to walk through all screens 
+          and get a good view of the final app.
+    - type: swipe-gallery
+      height: 367
+      content:
+        images:
+          - url: /images/projects/hbm/slider-2/Paperprototype1.png
+            alt: App prototype with printed paper cutouts on table
+          - url: /images/projects/hbm/slider-2/Paperprototype2.png
+            alt: App prototype with printed paper cutouts on table
+          - url: /images/projects/hbm/slider-2/Paperprototype3.png
+            alt: App prototype with printed paper cutouts on table
+            is-portrait: true # portrait images get the "height"-size limit as their width limit, and exceed the height
+        label: Paper prototype
+    - type: "image-row"
+      column-count: 2
+      content:
+        images:
+          - image:
+              url: "/images/projects/hbm/UXDesign.png"
+              alt: "UX Design Screenshot"
+              label: UX Design
+          - image:
+              url: "/images/projects/hbm/UIDesign.png"
+              alt: "UI Design Screenshot"
+              label: "UI Design"
+    - type: "full-image"
+      content:
+        url: "/images/projects/hbm/Userflow.png" # use png here to get transparency bewteen the images
+        alt: "User Flow Chart"
+        width: grid-10
+        label: Userflow
+    - type: full-image
+      content:
+        url: /images/projects/hbm/ar-app.mp4
+        is-video: true
+        show-controls: true
+        try-autoplay: true # only works if video has no sound
+        width: grid-4
+        alt: Clickable prototype
+        label: Clickable prototype - Click here to test the prototype yourself.
+        label-link: http://example.com
+    - type: full-image
+      content:
+        url: /images/projects/hbm/screens.png
+        alt: Grid of App-Screenshots
+    - type: text-block
+      content:
+        text: >
+          The prototype was eventually tested by means of a field trial with the think-aloud method. 
+          11 test persons have completed assignments and then answered questions. 
+          According to the test subjects, the app was experienced as intuitive and user-friendly. 
+          There were a number of points for improvement, but in general the test persons 
+          found that they could carry out the assignments properly. 
+          Ultimately, 18 of the 22 design conditions were well incorporated in the design. 
+          <br>
+          <br>
+          The results of the tests have shown that the prototype matches the needs of the users. 
+          The prototype can certainly contribute to a more efficient assessment of the mannequins. 
+          The Augmented Reality creates a much better image of the mannequin and therefore the 
+          customer can better judge the product.
+    - type: full-image
+      content:
+        url: /images/projects/hbm/end.png
+        alt: Angled closeup photo of the "Afstudeerrapport" from "Saskia Wijnstra"

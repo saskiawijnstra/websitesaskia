@@ -1,0 +1,19 @@
+projectId: "excap"
+page:
+  title: "excap"
+  sections:
+    - type: "app-screens-grid"
+      max-column-count: 2
+      min-column-count: 2
+      content:
+        images:
+          - url: "/images/projects/excap/app-screens/Homepage.jpg"
+            alt: ""
+          - url: "/images/projects/excap/app-screens/Homepage-juni.jpg"
+            alt: ""
+          - url: "/images/projects/excap/app-screens/Menu.jpg"
+            alt: ""
+          - url: "/images/projects/excap/app-screens/Kennisdetailpaginaversie.jpg"
+            alt: ""
+          - url: "/images/projects/excap/app-screens/Casess.jpg"
+            alt: ""

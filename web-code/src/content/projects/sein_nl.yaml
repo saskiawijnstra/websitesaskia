@@ -1,0 +1,50 @@
+projectId: "sein"
+page:
+  title: "SEIN"
+  sections:
+    - type: "hero-media"
+      content:
+        image:
+          url:
+            "/images/projects/sein/screenshot-sein.png" # you should always have a image, even if there is a video.
+            # it is displayed as an alternative if devices or connections are slow, or user has low-power mode enabled
+        video:
+          url: "/images/projects/sein/SEINmotion-1-cropped.mp4"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "Januari 2020"
+        - label: "Client"
+          value: "TwinQels"
+        - label: "Role"
+          value: "Design"
+    - type: full-image
+      content:
+        url: /images/projects/sein/elements-sein.png
+        alt: SEIN Design elements"
+        width: grid-6
+    - type: text-block
+      content:
+        text: >
+          SEIN is the centre of expertise for epilepsy and sleep healthcare. 
+          Together with a UX Designer I was allowed to completely recreate the website. 
+          For this target audience we really needed to make clear that it was readable, 
+          clean and peaceful. This website was completely made during the pandemic. 
+          So we did all the presentations online with the client and unfortunately I have never visited SEIN myself.
+    - type: "app-screens-grid"
+      max-column-count: 2
+      min-column-count: 2
+      content:
+        images:
+          - url: "/images/projects/sein/app-screens/01-home.jpg"
+            alt: ""
+          - url: "/images/projects/sein/app-screens/02-Overzichtw.jpg"
+            alt: ""
+          - url: "/images/projects/sein/app-screens/Vervolg_Doelgroep33.jpg"
+            alt: ""
+          - url: "/images/projects/sein/app-screens/02-Overzichtw.jpg"
+            alt: ""
+          - url: "/images/projects/sein/app-screens/Eerste-afspraakV2.jpg"
+            alt: ""
+          - url: "/images/projects/sein/app-screens/Over-SEIN.jpg"
+            alt: ""
