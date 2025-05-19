@@ -44,10 +44,13 @@ import ImageMosaic from "../elements/project-page-blocks/image-mosaic.vue";
 import SwipeGallery from "../elements/project-page-blocks/SwipeGallery.vue";
 
 import { useI18n } from "vue-i18n";
+import { useTitle } from "@vueuse/core";
 
 const { t, locale } = useI18n();
 
 const route = useRoute();
+
+const title = useTitle();
 
 const currentProject = computed(() => {
   return route.params.projectId;
@@ -73,6 +76,8 @@ const currentProjectData = computed(async () => {
     console.warn(`No project found with id: "${id}".`);
     return { content: "404" };
   }
+
+  title.value = `${t("page-title-prefix")} ${dataEntry.data.page.title ? "| " + dataEntry.data.page.title : ""}`;
 
   return dataEntry.data;
 });

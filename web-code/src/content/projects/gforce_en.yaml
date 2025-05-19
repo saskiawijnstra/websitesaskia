@@ -1,0 +1,70 @@
+projectId: "gforce"
+page:
+  title: "G-Force"
+  sections:
+    - type: "hero-media"
+      content:
+        image:
+          url: "/images/projects/g-force/g-force-fullpage1.png"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "June 2017"
+        - label: "Client"
+          value: "G-Force Capital"
+        - label: "Role"
+          value: "Brand Identity / Website"
+        - label: Website
+          value: g-force.nl
+          link: https://g-force.nl # @saskia site seems to be offline?
+
+    - type: "full-image"
+      content:
+        url: "/images/projects/g-force/g-force-fullpageoverlap.png"
+        alt: "G-Force Capital Logos in dark and light color schemes"
+        width: grid-10
+    - type: "full-image"
+      content:
+        url: "/images/projects/g-force/g-force-fullpage2.png"
+        alt: "G-Force Capital Logos iconography"
+        width: grid-10
+    - type: text-block
+      content:
+        text: >
+          G-Force Capital is an investment fund for start-ups where 'ICT' or 'digital' 
+          is the core of their proposition. The G in G-Force stands for Groningen. 
+          The investment fund stands for honest, transparent, fast, clear, 
+          down-to-earth and northern. I tried to process this as much as possible in 
+          the logo and the website.
+    - type: "image-row"
+      column-count: 3
+      content:
+        images:
+          - image:
+              url: "/images/projects/g-force/g-force-schetswit1.png"
+              alt: "Handwritten Design Sketches"
+          - image:
+              url: "/images/projects/g-force/g-force-schetswit2.png"
+              alt: "Handwritten Design Sketches"
+          - image:
+              url: "/images/projects/g-force/g-force-schetswit2.png"
+              alt: "Handwritten Design Sketches"
+        label: "Sketches"
+    - type: quote-block
+      content:
+        text: >
+          “G-Force doesn't invest in dreams, but in **promising plans** by promising entrepreneurs.”
+        quotee: "-Marco de Jong, G-Force"
+    - type: full-image
+      content:
+        url: /images/projects/g-force/g-force-website.png
+        alt: Screenshot of g-force website
+    - type: text-block
+      content:
+        text: >
+          During the start of G-Force Capital there was a big opening to reveal the logo and website. 
+          It was a really fun day with investors, start-ups, colleagues and more.
+    - type: full-image
+      content:
+        url: /images/projects/g-force/g-force-fullpage3.png
+        alt: G-Force logo reveal event.

@@ -1,5 +1,6 @@
 ---
 page-logo-alt: saskia
+page-title-prefix: "Saskia Wijnstra" # this is the text in the browser titlebar/tab label. Its prefixed to projects titles on project pages
 navigation.link-labels.work: Work
 navigation.link-labels.about: About
 settings.toggle-dark-mode-accessibility-label: Toggle color scheme

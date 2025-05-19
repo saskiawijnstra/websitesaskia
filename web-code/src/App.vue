@@ -14,6 +14,13 @@
 <script setup lang="ts">
 import headerBar from "./components/header/header-bar.vue";
 import footerBar from "./components/footer-bar.vue";
+import { useTitle } from "@vueuse/core";
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
+const title = useTitle();
+
+title.value = t("page-title-prefix");
 </script>
 
 <style lang="scss">
