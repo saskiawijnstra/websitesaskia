@@ -1,0 +1,17 @@
+projectId: "acro-academy"
+page:
+  title: "Acro Academy"
+  sections:
+    - type: "full-image"
+      content:
+        url: "/images/projects/acro/Brand-Guide-AcroAcademyNoordNederland-BrandGuide2.png"
+        alt: "Acro Academy Design"
+        width: grid-10
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "July 2016"
+        - label: "Client"
+          value: "Acro Academy Noord Nederland"
+        - label: "Role"
+          value: "Logo Design"
