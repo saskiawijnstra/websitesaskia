@@ -1,0 +1,60 @@
+projectId: "fysiovries"
+page:
+  title: "FysioVries"
+  sections:
+    - type: "hero-media"
+      content:
+        image:
+          url: "/images/projects/fysio/fysiovries-fullpage1.png"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "July 2016"
+        - label: "Client"
+          value: "FysioVries"
+        - label: "Role"
+          value: "Brand Identity / Website"
+        - label: Website
+          value: fysiovries.nl
+          link: https://fysiovries.nl
+    - type: "full-image"
+      content:
+        url: "/images/projects/fysio/fysiovries-fullpage2.png"
+        alt: "FysioVries Logo"
+        width: grid-10
+    - type: "text-block"
+      content:
+        text: >
+          FysioVries is a physiotherapy practice located in Vries. 
+          FysioVries strives for the best result for its customers. 
+          Quality, small scale, good service and personal attention 
+          to their customers are important for FysioVries. 
+          They offer this within a confidential and committed atmosphere.
+    - type: "full-image"
+      content:
+        url: "/images/projects/fysio/fysiovries-fullpage3.png"
+        alt: ""
+        width: grid-10
+    - type: "full-image"
+      content:
+        url: "/images/projects/fysio/fysiovries-fullpage4.png"
+        alt: "Medische fitnesstraining"
+    - type: "full-image"
+      content:
+        url: "/images/projects/fysio/fysiovries-fullpage5.png"
+        alt: "Hydrotherapie"
+        width: grid-10
+    - type: text-block
+      content:
+        text: >
+          I designed the logo and the website for FysioVries. 
+          I made all the photos on the website myself. The website had to 
+          be clear for young and old users. The most important information 
+          is on the home-page in the four boxes and on the other pages is 
+          in-depth text. I have built it as clear and clean as possible 
+          with fresh colors and photography.
+    - type: "full-image"
+      content:
+        url: "/images/projects/fysio/fysiovriessite1.png"
+        alt: "FysioVries Website screenshot"
+        width: grid-10
