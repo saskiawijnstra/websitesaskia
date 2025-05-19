@@ -202,8 +202,8 @@ more-designs:
           en: "Cityscape animation with colored buildings and network signal lines for Vodafone Ziggo."
           nl: "Stadsanimatie met gekleurde gebouwen en netwerksignaallijnen voor Vodafone Ziggo."
       title:
-        en: "Master project<strong>Vodafone Ziggo</strong> The Network"
-        nl: "Masterproject<strong>Vodafone Ziggo</strong> Het Netwerk"
+        en: "Master project <strong>Vodafone Ziggo</strong> The Network"
+        nl: "Masterproject <strong>Vodafone Ziggo</strong> Het Netwerk"
     - id: gforce
       thumbnail:
         path: "/images/projects/thumbnails/g-force-workpage.jpg"
