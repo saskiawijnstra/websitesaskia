@@ -223,7 +223,7 @@ more-designs:
         en: "<strong>Mind body</strong> met Moreen"
         nl: "<strong>Mind body</strong> met Moreen"
 
-    - id: magazine-saskia
+    - id: magazine
       thumbnail:
         path: "/images/projects/thumbnails/magazine.jpg"
         alt:

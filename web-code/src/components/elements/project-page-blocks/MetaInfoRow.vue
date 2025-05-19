@@ -41,7 +41,7 @@ defineProps({
 .meta-info-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   min-width: calc-rem(210px);
 }
 
@@ -57,9 +57,12 @@ a {
 .meta-info-label {
   margin-bottom: 0.25rem;
   text-align: center;
+  line-height: calc-rem(28);
 }
 
 .meta-info-value {
   font-size: 1rem;
+  text-align: center;
+  line-height: calc-rem(28);
 }
 </style>

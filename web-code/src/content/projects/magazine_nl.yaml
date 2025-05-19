@@ -1,0 +1,76 @@
+projectId: "magazine"
+page:
+  title: "Magazine"
+  sections:
+    - type: "hero-media"
+      content:
+        image:
+          url: "/images/projects/magazine/hero.jpg"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "November 2015"
+        - label: "Client"
+          value: "Hanze hogeschool<br>2nd year CMD Assignment"
+        - label: "Role"
+          value: "Design / Photography"
+
+    - type: "full-image"
+      content:
+        url: "/images/projects/magazine/magazine-fullpage1.jpg"
+        alt: "A person viewing the transparent magazine title page."
+        width: grid-10
+    - type: "text-block"
+      content:
+        text: >
+          In the second year of the Multimedia, Concepting and Design program, 
+          we had to make a magazine about ourselves. On this page you can see the result 
+          of this project. The magazine had to have a mean subject that has something 
+          to do with yourself. For this I chose list-maker. I make lists of many things 
+          to keep the overview. I have implemented this in my magazine.
+    - type: "image-row"
+      column-count: 2
+      content:
+        images:
+          - image:
+              url: "/images/projects/magazine/magazine-fullpage3.png"
+              alt: 'Opened magazine page "LISTMAKER"'
+          - image:
+              url: "/images/projects/magazine/magazine-fullpage4.png"
+              alt: 'Closeup shot of the "LISTMAKER"-page'
+    - type: "text-block"
+      content:
+        text: >
+          Therefore I made a list about how to make your own cruesli and a list with exercises for your abs. Everything with photo’s, graphics and texts from myself.
+    - type: "full-image"
+      content:
+        url: "/images/projects/magazine/magazine-fullpage5.png"
+        alt: 'Magazine page "Make your own cruesli"'
+        width: grid-10
+    - type: "full-image"
+      content:
+        url: "/images/projects/magazine/magazine-fullpage6.png"
+        alt: 'Magazine page "Workout"'
+        width: grid-10
+    - type: "full-image"
+      content:
+        url: "/images/projects/magazine/magazine-fullpage7.png"
+        alt: "Magazine page closeup of page turning"
+        width: grid-10
+    - type: swipe-gallery
+      height: 368
+      content:
+        images:
+          - url: /images/projects/magazine/magazine-fullpage8.png
+            alt: Magazine Page on table
+          - url: /images/projects/magazine/magazine-fullpage9.png
+            alt: Magazine Page on table
+          - url: /images/projects/magazine/magazine-fullpage10.png
+            alt: Magazine Page on table
+          - url: /images/projects/magazine/magazine-fullpage11.png
+            alt: Magazine Page on table
+    - type: "full-image"
+      content:
+        url: "/images/projects/magazine/magazine-fullpage12.png"
+        alt: "Magazine page closeup of magazine logo"
+        width: grid-10
