@@ -1,0 +1,80 @@
+projectId: "vodafone-ziggo"
+page:
+  title: "Vodafone Ziggo"
+  sections:
+    - type: "quote-block"
+      content:
+        text: >
+          “How might we make **VodafoneZiggo**'s senior managers understand the society's **exponentially** growing 
+          appetite for data will outpace the **network's capacity** if they do not act with **urgency**?”
+    - type: swipe-gallery
+      height: 551
+      content:
+        images:
+          - url: /images/projects/vodafone-ziggo/slider/vzgame.png
+            alt: Game Graphic
+          - url: /images/projects/vodafone-ziggo/slider/vzgamecongratulations.png
+            alt: Game score screen "Congratulations"
+          - url: /images/projects/vodafone-ziggo/slider/vzgamename.png
+            alt: Game user name input
+          - url: /images/projects/vodafone-ziggo/slider/vzgamescore.png
+            alt: Game score board list
+          - url: /images/projects/vodafone-ziggo/slider/vzgamestart.png
+            alt: Game start screen
+          - url: /images/projects/vodafone-ziggo/slider/vzgameupgrade.png
+            alt: Game upgrade screen
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "December 2018"
+        - label: "Instagram"
+          value: "Vodafone Ziggo"
+          link: https://example.org # @saskia: insert correct url here if you want to link the channel
+        - label: "Role"
+          value: "Design"
+    - type: text-block
+      content:
+        text: >
+          During my Master Digital Design the first project in a group was for VodafoneZiggo. 
+          Now a days we use a lot of data. There are even unlimited subscriptions. 
+          But the network is not unlimited, there is a certain capacity we are reaching. 
+          At one point, if we don’t act, the capacity will be full. Our client at VodafoneZiggo 
+          wanted to make this clear to the senior managers. When he gave a presentation it didn’t 
+          came trough. We made it visual with two different games, to feel the urgency. 
+          <br><br>
+          Above here you can see the first game. You make lines on an interactive board 
+          from the data center to the houses. Than the houses ask for more data. 
+          You need to draw more and more lines. Quicker and quicker. Obstacles come 
+          in your way and some houses are not getting the data they ask for. See how far you can get.
+    - type: swipe-gallery
+      height: 465
+      content:
+        images:
+          - url: /images/projects/vodafone-ziggo/slider-2/group1.png
+            alt: Game Graphic
+          - url: /images/projects/vodafone-ziggo/slider-2/vz-ideation2.png
+            alt: Game score screen "Congratulations"
+          - url: /images/projects/vodafone-ziggo/slider-2/group2.png
+            alt: Game user name input
+          - url: /images/projects/vodafone-ziggo/slider-2/vz-ideation1.png
+            alt: Game score board list
+          - url: /images/projects/vodafone-ziggo/slider-2/vz-firstnotes.png
+            alt: Game start screen
+    - type: text-block
+      content:
+        text: >
+          The second game is an interactive city. 
+          You have a certain amount of data and money you can spend on this city. 
+          While answering questions you make decisions. After a decision you get feedback. 
+          It gives you insights on how a data network works.
+    - type: full-image
+      content:
+        url: /images/projects/vodafone-ziggo/Video_Prototype_The Network_VodafoneZiggo_Project.mp4
+        poster-url: /images/projects/vodafone-ziggo/videovz.png
+        is-video: true
+        show-controls: true
+        try-autoplay: true # only works if video has no sound
+        width: grid-10
+        alt: Clickable prototype
+        label: Clickable prototype - Click here to test the prototype yourself.
+        label-link: http://example.com # @saskia insert link to prototype here

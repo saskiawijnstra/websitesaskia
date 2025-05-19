@@ -80,6 +80,9 @@ function scrollNext(direction: -1 | 1) {
 onMounted(() => {
   scrollContainerEl.value?.addEventListener("scroll", updateScrollState);
   nextTick(() => updateScrollState());
+  window.setTimeout(() => {
+    updateScrollState();
+  }, 1000);
 });
 
 onUnmounted(() => {

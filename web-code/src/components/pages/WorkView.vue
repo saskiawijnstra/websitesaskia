@@ -92,11 +92,13 @@
         </h2>
         <ul class="design-list col-span-12-start-1">
           <li class="col-span-4" v-for="entry in moreDesignsData">
-            <img
-              :src="entry.thumbnail.path"
-              :alt="entry.thumbnail.alt[locale]"
-            />
-            <p v-html="entry.title[locale]"></p>
+            <router-link :to="`/work/${entry.id}`">
+              <img
+                :src="entry.thumbnail.path"
+                :alt="entry.thumbnail.alt[locale]"
+              />
+              <p v-html="entry.title[locale]"></p>
+            </router-link>
           </li>
         </ul>
       </div>
@@ -358,6 +360,15 @@ onUnmounted(() => {
         display: block;
         margin: 0;
         padding: 0;
+
+        a {
+          text-decoration: none;
+          color: var(--color-default-text);
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
         img {
           display: block;
           object-fit: contain;
