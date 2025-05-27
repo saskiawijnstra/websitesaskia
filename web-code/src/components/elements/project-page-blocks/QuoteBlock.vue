@@ -1,6 +1,6 @@
 <template>
   <div class="quote-block project-block col-span-10-start-2">
-    <p v-html="formattedText" class=""></p>
+    <p v-html="formattedText" :style="`text-align: ${textAlign}`"></p>
     <label v-if="blockData.content.quotee" v-html="formattedQuotee"></label>
   </div>
 </template>
@@ -22,6 +22,10 @@ const formattedText = computed(() => {
 
 const formattedQuotee = computed(() => {
   return formatText(props.blockData.content.quotee);
+});
+
+const textAlign = computed(() => {
+  return props.blockData.textAlign || "center";
 });
 
 /**

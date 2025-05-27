@@ -1,0 +1,82 @@
+---
+# Hey Saskia. This Data-Structure is for rendering the content of the about page.
+# Be careful while editing: In YAML files the indentation of the content is important and can break the file if not done correctly.
+# You can use a online yaml Validator or ask me if you're having troubles :)
+# Texts are organized by language for each section
+introduction:
+  quote:
+    en: "Design is my passion. I can make a **clear creative solution** from a messy idea. Designing creative solutions for customers and deliver a product where I'm **proud** of. That's what I love to do."
+    nl: ""
+  image:
+    url: "/images/about/windinmijnharen.png"
+    alt:
+      en: Photo of Saskia in a green field, wind in her hair.
+      nl: :""
+  text:
+    title:
+      en: "Saskia Wijnstra"
+      nl: "Saskia Wijnstra"
+    article:
+      en: >
+        Hi! Welcome to my website. From when I was young I liked to be creative 
+        or do sports. My room changed every week and I loved watching television 
+        shows about interior design. On my high school I started making my own website 
+        and made posters for events. 
+        <br>
+        <br>
+        I studied Multimedia, Concepting and Design at the Hanzehogeschool in Groningen. 
+        In my third year I went to Denmark to follow a specialisation in UI design. 
+        This was a great experience where I learned a lot. My graduation project for my 
+        bachelor was designing an app with Augmented Reality. 
+        <br/>
+        <br/>
+        After my bachelor I got selected for the Master Digital Design in Amsterdam, 
+        where I graduated with a project for people with breast cancer to make them feel more in control. 
+        Together with only 24 international students I developed myself further as a 
+        Digital Designer through big projects, guest lectures from designers all over the 
+        world and much more. 
+        <br>
+        <br>
+        With all the knowledge I had from my studies I started working full-time as a 
+        Digital Designer at the Factor.e. Together with different teams I developed websites, 
+        apps, dashboards and more mostly for big company’s in education and healthcare. 
+        Noorderpoort, Alfa college, UMCG, SEIN, excap etc. 
+        <br>
+        <br>
+        When I'm not doing creative things, 
+        changing my interiur, I love to do sports. Be in my body and move. 
+        I'm also interested in (mental) health and sustainability.
+        <br>
+        <br>
+        Now I am searching for a job! I would like to work for a company where 
+        I can show my creative ideas and design User Interfaces. 
+        Please feel free to <a href="mailto:info@saskiawijnstra.nl" target="_blank">contact</a> 
+        me if you want to get to know me better.
+      nl: >
+        ""
+  jump-links:
+    - type: annotated-link
+      target: hbm
+      annotation:
+        en: "Go to my graduation project:"
+        nl: ""
+      name:
+        en: "***Hans Boodt Mannequins***" # three stars make text go bold and italic
+        nl: "***Hans Boodt Mannequins***"
+    - type: annotated-link
+      target: sprong
+      annotation:
+        en: "Go to my masters project:"
+        nl: ""
+      name:
+        en: "***Sprong*** (Onconet, VUmc)"
+    - type: link-list
+      links:
+        - target: sein
+          name:
+            en: SEIN
+            nl: SEIN
+        - target: excap
+          name:
+            en: excap
+            nl: excap
