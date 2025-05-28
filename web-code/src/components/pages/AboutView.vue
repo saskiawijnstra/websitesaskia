@@ -162,7 +162,7 @@ function parseContent(content: string): string {
 
 .experiences {
   h3 {
-    font-size: calc-rem(24a);
+    font-size: calc-rem(24px);
     margin-bottom: 60px;
   }
   .experience {
