@@ -70,7 +70,11 @@ introduction:
         nl: ""
       name:
         en: "***Sprong*** (Onconet, VUmc)"
+        nl: ""
     - type: link-list
+      annotation:
+        en: "Go to a project:"
+        nl: ""
       links:
         - target: sein
           name:
