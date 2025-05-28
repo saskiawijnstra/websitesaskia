@@ -113,6 +113,9 @@ introduction:
             en: excap
             nl: excap
 experience:
+  heading:
+    en: Experience
+    nl: Experience
   image-1:
     url: "/images/about/master.png"
     alt:

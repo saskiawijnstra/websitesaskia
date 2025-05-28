@@ -68,6 +68,7 @@
     </div>
 
     <div class="experiences block grid-container">
+      <h3 class="col-span-12">{{ data.experience.heading[locale] }}</h3>
       <dl class="col-span-4-start-1">
         <div
           class="experience"
@@ -160,6 +161,10 @@ function parseContent(content: string): string {
 }
 
 .experiences {
+  h3 {
+    font-size: calc-rem(24a);
+    margin-bottom: 60px;
+  }
   .experience {
     display: flex;
     align-items: center;
