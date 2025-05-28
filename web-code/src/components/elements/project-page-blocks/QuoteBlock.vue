@@ -7,6 +7,9 @@
 
 <script setup lang="ts">
 import { computed } from "vue";
+import { useMarkdownParser } from "../useMarkdownParser";
+
+const { formatText } = useMarkdownParser();
 
 const props = defineProps({
   blockData: {
@@ -27,14 +30,6 @@ const formattedQuotee = computed(() => {
 const textAlign = computed(() => {
   return props.blockData.textAlign || "center";
 });
-
-/**
- * replaces markdown style asterisks with html strong tags in supplied text string
- * @param text
- */
-function formatText(text: string): string {
-  return text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-}
 </script>
 
 <style lang="scss" scoped>
