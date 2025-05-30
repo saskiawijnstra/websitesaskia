@@ -371,37 +371,58 @@ h3 {
 
   img {
     width: 100%;
+
+    @media (max-width: 712px) {
+      grid-column: 2 / span 10;
+      margin-bottom: 40px;
+    }
   }
 
-  .education-entry {
-    display: flex;
-    align-items: center;
-    gap: 45px;
-    margin-bottom: 30px;
-
-    &.indented {
-      margin-left: 50px; // kannst du an dein Grid anpassen
+  dl {
+    @media (max-width: 712px) {
+      grid-column: 1 / span 12;
+      margin-bottom: 40px;
     }
+    .education-entry {
+      display: flex;
+      align-items: center;
+      gap: 45px;
+      margin-bottom: 30px;
+      @media (max-width: 712px) {
+        gap: 15px;
+      }
+      &.indented {
+        margin-left: 50px;
 
-    img {
-      width: 84px;
-    }
+        @media (max-width: 420px) {
+          margin-left: 20px;
+        }
+      }
 
-    dt,
-    dd {
-      line-height: calc-rem(28px);
-    }
+      img {
+        width: 84px;
 
-    dt {
-      font-weight: 700;
-    }
+        @media (max-width: 600px) {
+          width: 64px;
+        }
+      }
 
-    dd {
-      margin: 0;
-    }
+      dt,
+      dd {
+        line-height: calc-rem(28px);
+      }
 
-    dd + dd {
-      margin-top: 5px;
+      dt {
+        font-weight: 700;
+      }
+
+      dd {
+        margin: 0;
+      }
+
+      dd + dd {
+        margin-top: 5px;
+      }
     }
   }
 }
