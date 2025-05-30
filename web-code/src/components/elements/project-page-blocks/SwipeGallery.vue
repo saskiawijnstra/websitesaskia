@@ -78,6 +78,7 @@ function scrollNext(direction: -1 | 1) {
 }
 
 onMounted(() => {
+  window.addEventListener("resize", updateScrollState);
   scrollContainerEl.value?.addEventListener("scroll", updateScrollState);
   nextTick(() => updateScrollState());
   window.setTimeout(() => {
@@ -86,12 +87,15 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
+  window.removeEventListener("resize", updateScrollState);
+
   scrollContainerEl.value?.removeEventListener("scroll", updateScrollState);
 });
 </script>
 
 <style lang="scss" scoped>
 @use "@/scss/utils/_grid.scss" as grid;
+@use "sass:math";
 
 .swipe-gallery {
   width: 100%;
@@ -101,6 +105,16 @@ onUnmounted(() => {
     width: 100vw;
     margin-left: calc(-1 * grid.$container-padding);
     margin-right: calc(-1 * grid.$container-padding);
+
+    @media (max-width: 1200px) {
+      margin-left: calc(-1 * math.div(grid.$container-padding, 1.5));
+      margin-right: calc(-1 * math.div(grid.$container-padding, 1.5));
+    }
+
+    @media (max-width: 600px) {
+      margin-left: calc(-1 * 24px);
+      margin-right: calc(-1 * 24px);
+    }
   }
 }
 .scroll-wrapper {
