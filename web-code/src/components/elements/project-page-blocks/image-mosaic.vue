@@ -74,6 +74,12 @@ onUnmounted(() => {
   height: max-content;
   grid-template-columns: subgrid;
 
+  @media (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-size;
+  }
+
   /* column-count: 3;
   column-gap: 1rem; */
 
@@ -96,5 +102,9 @@ label {
   text-align: center;
   color: var(--color-grijs-10);
   font-size: calc-rem(16);
+
+  @media (max-width: 1024px) {
+    margin-top: 0;
+  }
 }
 </style>
