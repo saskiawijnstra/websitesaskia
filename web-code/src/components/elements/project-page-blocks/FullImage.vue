@@ -113,6 +113,7 @@ async function onIntersectionObserver([entry]: IntersectionObserverEntry[]) {
 
 <style lang="scss" scoped>
 @use "@/scss/utils/_grid.scss" as grid;
+@use "sass:math";
 
 .full-image {
   display: flex;
@@ -143,6 +144,15 @@ async function onIntersectionObserver([entry]: IntersectionObserverEntry[]) {
     width: 100vw;
     margin-left: calc(-1 * grid.$container-padding);
     margin-right: calc(-1 * grid.$container-padding);
+    @media (max-width: 1200px) {
+      margin-left: calc(-1 * math.div(grid.$container-padding, 1.5));
+      margin-right: calc(-1 * math.div(grid.$container-padding, 1.5));
+    }
+
+    @media (max-width: 600px) {
+      margin-left: calc(-1 * 24px);
+      margin-right: calc(-1 * 24px);
+    }
   }
 }
 
