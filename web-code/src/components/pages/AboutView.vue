@@ -279,35 +279,70 @@ h3 {
 }
 
 .experiences {
-  .experience {
-    display: flex;
-    align-items: center;
-    gap: 45px;
-    margin-bottom: 30px;
-
-    img {
-      width: 84px;
+  @media (max-width: 1100px) {
+    // display: block;
+    // border: 1px solid red;
+  }
+  dl {
+    @media (max-width: 1100px) {
+      grid-column: 1 / span 12;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
 
-    dt,
-    dd {
-      line-height: calc-rem(28px);
-      width: 300px;
+    @media (max-width: 850px) {
+      display: block;
     }
+    .experience {
+      display: flex;
+      align-items: center;
+      gap: 45px;
+      margin-bottom: 30px;
 
-    dt {
-      font-weight: 700;
-    }
+      @media (max-width: 1100px) {
+        // border: 2px solid green;
+        width: 50%;
+      }
 
-    dd {
-      span {
-        display: block;
+      @media (max-width: 850px) {
+        width: 100%;
+        gap: 20px;
+      }
+      img {
+        width: 84px;
+        @media (max-width: 420px) {
+          width: 64px;
+        }
+      }
+
+      dt,
+      dd {
+        line-height: calc-rem(28px);
+        min-width: 300px;
+
+        @media (max-width: 600px) {
+          min-width: 0;
+        }
+      }
+
+      dt {
+        font-weight: 700;
+      }
+
+      dd {
+        span {
+          display: block;
+        }
       }
     }
   }
 }
 
 .tilted-images {
+  @media (max-width: 1100px) {
+    grid-column: 2 / span 10;
+  }
   .img-1 {
     width: 820px;
     max-width: 100%;
@@ -319,6 +354,10 @@ h3 {
     width: 712px;
     max-width: 90%;
     transform: translateX(100px) rotate(5.38deg);
+
+    @media (max-width: 600px) {
+      transform: translateX(8%) rotate(5.38deg);
+    }
   }
 }
 
