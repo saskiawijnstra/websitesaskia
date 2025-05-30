@@ -16,6 +16,7 @@
           v-intersection-observer="onIntersectionObserver"
           :controls="showControls"
           controlslist="nodownload"
+          playsinline
           :aria-labelledby="'#' + labelId"
           :muted="blockData.content['try-autoplay']"
           :poster="blockData.content['poster-url']"
@@ -118,6 +119,12 @@ async function onIntersectionObserver([entry]: IntersectionObserverEntry[]) {
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
+
+  &.col-span-4-start-5 {
+    @media (max-width: 768px) {
+      grid-column: 2 / span 10;
+    }
+  }
 
   &.col-span-6-start-4 {
     @media (max-width: 1024px) {
