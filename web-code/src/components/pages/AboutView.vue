@@ -431,6 +431,10 @@ h3 {
   .skills-lists {
     column-count: 2;
 
+    @media (max-width: 1100px) {
+      grid-column: 2 / span 11;
+    }
+
     .skill-list {
       break-inside: avoid-column;
       margin-bottom: 60px;
@@ -455,6 +459,10 @@ h3 {
             margin: 0px;
             columns: 2;
             column-gap: 30px;
+
+            @media (max-width: 680px) {
+              columns: 1;
+            }
           }
         }
       }
@@ -463,6 +471,13 @@ h3 {
 
   .skills-images {
     position: relative;
+
+    @media (max-width: 1100px) {
+      grid-column: 2 / span 11;
+
+      aspect-ratio: 1/0.8;
+    }
+
     img {
       max-width: 45%;
       width: 562px;
@@ -486,6 +501,14 @@ h3 {
   }
 
   .interest-category {
+    @media (max-width: 800px) {
+      grid-column: span 6;
+      margin-bottom: 30px;
+    }
+
+    @media (max-width: 420px) {
+      grid-column: 4 / span 8;
+    }
     .icon {
       width: 64px;
       margin-bottom: 20px;
