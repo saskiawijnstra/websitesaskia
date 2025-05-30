@@ -32,5 +32,9 @@ defineProps({
   width: calc(25% - calc-rem(60));
   object-fit: cover;
   transition: transform 0.3s ease;
+
+  @media (max-width: 768px) {
+    width: calc(50% - calc-rem(60));
+  }
 }
 </style>
