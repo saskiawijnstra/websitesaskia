@@ -222,16 +222,50 @@ function parseContent(content: string): string {
   }
 }
 
+.introtext {
+  @media (max-width: 1100px) {
+    grid-column: 2 / span 10;
+  }
+}
+
 .jump-links {
   align-self: center;
   display: flex;
   gap: 109px;
   flex-direction: column;
+  margin: 0 auto;
+
+  @media (max-width: 1100px) {
+    width: 100%;
+    grid-column: span 12;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 920px) {
+    flex-direction: column;
+    align-items: flex-start;
+    width: max-content;
+  }
 
   .jump-link {
     display: flex;
     align-items: center;
     gap: calc-rem(16);
+
+    @media (max-width: 1100px) {
+      min-width: 200px;
+      max-width: 33%;
+    }
+
+    @media (max-width: 1100px) {
+      min-width: 200px;
+      max-width: 100%;
+    }
   }
 
   dt {
