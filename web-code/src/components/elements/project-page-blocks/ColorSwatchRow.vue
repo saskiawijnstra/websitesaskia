@@ -27,8 +27,16 @@ defineProps({
   .color {
     height: 100px;
     width: 100px;
+    flex-shrink: 0;
     border-radius: 16px;
     box-shadow: 0px 1px 20px 0px #0000000d;
+
+    @media (max-width: 480px) {
+      border-radius: 20%;
+      width: calc(33% - 10px);
+      aspect-ratio: 1/1;
+      height: auto;
+    }
   }
 }
 </style>
