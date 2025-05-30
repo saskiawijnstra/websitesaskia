@@ -63,9 +63,13 @@ async function onIntersectionObserver([entry]: IntersectionObserverEntry[]) {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .hero-media {
   overflow: hidden;
+
+  @media (max-width: 600px) {
+    grid-column: span 12;
+  }
 }
 
 .hero-media__image {
