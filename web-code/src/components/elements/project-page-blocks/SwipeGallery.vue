@@ -99,6 +99,7 @@ onUnmounted(() => {
 
 .swipe-gallery {
   width: 100%;
+  max-width: 1470px;
 
   &.full {
     grid-column: 1 / -1;
@@ -133,11 +134,7 @@ onUnmounted(() => {
     pointer-events: none;
     transform: translateY(-5%);
     height: 110%;
-    background: linear-gradient(
-      90deg,
-      #16161600 0%,
-      var(--color-default-background) 100%
-    );
+    background: linear-gradient(90deg, #16161600 0%, var(--color-grijs-1) 100%);
     width: 44.5px;
   }
 
@@ -152,7 +149,7 @@ onUnmounted(() => {
       background: linear-gradient(
         90deg,
         rgba(223, 227, 237, 0) 0%,
-        var(--color-default-background) 100%
+        var(--color-grijs-6) 100%
       );
     }
   }
