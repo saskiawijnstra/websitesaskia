@@ -92,13 +92,16 @@
         </h2>
         <ul class="design-list col-span-12-start-1">
           <li class="col-span-4" v-for="entry in moreDesignsData">
-            <router-link :to="`/work/${entry.id}`">
+            <component
+              :is="entry['no-link'] === true ? 'div' : 'router-link'"
+              :to="`/work/${entry.id}`"
+            >
               <img
                 :src="entry.thumbnail.path"
                 :alt="entry.thumbnail.alt[locale]"
               />
               <p v-html="entry.title[locale]"></p>
-            </router-link>
+            </component>
           </li>
         </ul>
       </div>

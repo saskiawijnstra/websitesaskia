@@ -214,6 +214,7 @@ more-designs:
         en: "<strong>G-Force</strong> Capital"
         nl: "<strong>G-Force</strong> Capital"
     - id: mindbody
+      no-link: true
       thumbnail:
         path: "/images/projects/thumbnails/mind-body.jpg"
         alt:
