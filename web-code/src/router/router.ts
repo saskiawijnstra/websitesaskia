@@ -36,7 +36,7 @@ import ProjectPage from "../components/pages/ProjectPage.vue";
 const routes = [
   { path: "/", component: WorkView },
   { path: "/work", redirect: "/" },
-  { path: "/work/:projectId", component: ProjectPage },
+  { name: "project-page", path: "/work/:projectId", component: ProjectPage },
   { path: "/about", component: AboutView },
 ];
 

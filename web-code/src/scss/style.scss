@@ -64,11 +64,19 @@ body {
     var(--color-middle-grijs)
   );
 
+  &.background-style-project-page {
+    background-color: var(--color-grijs-6);
+  }
+
   &.color-scheme-dark {
     color: var(--color-niet-wit);
     background-color: var(--color-niet-zwart);
     --color-default-background: var(--color-niet-zwart);
     --color-default-text: var(--color-niet-wit);
+
+    &.background-style-project-page {
+      background-color: var(--color-grijs-1);
+    }
   }
 }
 *:focus-visible {
