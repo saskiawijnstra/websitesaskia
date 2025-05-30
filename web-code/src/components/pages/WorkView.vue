@@ -155,11 +155,13 @@ function scrollNext(direction: -1 | 1) {
 }
 
 onMounted(() => {
+  window.addEventListener("resize", updateScrollState);
   scrollContainerEl.value?.addEventListener("scroll", updateScrollState);
   nextTick(() => updateScrollState()); // initial check
 });
 
 onUnmounted(() => {
+  window.removeEventListener("resize", updateScrollState);
   scrollContainerEl.value?.removeEventListener("scroll", updateScrollState);
 });
 </script>
@@ -173,10 +175,18 @@ onUnmounted(() => {
     .content {
       display: grid;
       grid-template-columns: subgrid;
-
       row-gap: calc-rem(140px);
+
       > :nth-child(even) {
         transform: translateY(calc-rem(-73px));
+
+        @media (max-width: 768px) {
+          transform: none;
+        }
+      }
+
+      @media (max-width: 768px) {
+        display: block;
       }
     }
   }
@@ -185,6 +195,13 @@ onUnmounted(() => {
     background-color: var(--color-grijs-1);
     padding-top: 100px;
     padding-bottom: 118px;
+
+    .introduction,
+    .twin-qels-teaser {
+      @media (max-width: 768px) {
+        grid-column: 1 / span 12;
+      }
+    }
 
     .h1 {
       margin-top: 0;
@@ -296,6 +313,11 @@ onUnmounted(() => {
         // height: 450px;
         scroll-snap-align: start;
         text-align: center;
+        max-width: 610px;
+
+        @media (max-width: 768px) {
+          width: calc(70vw);
+        }
 
         a {
           text-decoration: none;
@@ -360,6 +382,10 @@ onUnmounted(() => {
         display: block;
         margin: 0;
         padding: 0;
+
+        @media (max-width: 768px) {
+          grid-column: span 6;
+        }
 
         a {
           text-decoration: none;

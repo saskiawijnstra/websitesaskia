@@ -71,7 +71,7 @@ $grid-columns: 12;
 
 @media (max-width: 1200px) {
   .grid-container {
-    column-gap: math.div($gutter, 3);
+    column-gap: math.div($gutter, 1.5);
     padding-left: math.div($container-padding, 1.5);
     padding-right: math.div($container-padding, 1.5);
   }
@@ -79,7 +79,7 @@ $grid-columns: 12;
 
 @media (max-width: 600px) {
   .grid-container {
-    column-gap: 5px;
+    column-gap: 10px;
     padding-left: 10px;
     padding-right: 10px;
   }
