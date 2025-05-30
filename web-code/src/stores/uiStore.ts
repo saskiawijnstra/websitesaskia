@@ -3,6 +3,8 @@ import { nextTick, ref, watch } from "vue";
 import { useRoute } from "vue-router";
 
 export const useUiStore = defineStore("ui", () => {
+  const isMenuVisible = ref(false);
+
   const prefersDarkModeQuery = window.matchMedia(
     "(prefers-color-scheme: dark)",
   );
@@ -41,5 +43,6 @@ export const useUiStore = defineStore("ui", () => {
   return {
     colorScheme,
     updateColorScheme,
+    isMenuVisible,
   };
 });

@@ -1,5 +1,6 @@
 <template>
   <header-bar />
+  <MobileMenu />
   <div class="content-wrapper">
     <router-view v-slot="{ Component }">
       <transition name="fade" mode="out-in">
@@ -16,6 +17,7 @@ import headerBar from "./components/header/header-bar.vue";
 import footerBar from "./components/footer-bar.vue";
 import { useTitle } from "@vueuse/core";
 import { useI18n } from "vue-i18n";
+import MobileMenu from "./components/MobileMenu.vue";
 
 const { t } = useI18n();
 const title = useTitle();

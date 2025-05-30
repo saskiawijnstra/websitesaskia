@@ -7,20 +7,34 @@
           <logo-svg />
         </figure>
       </h1>
+      <template v-if="!isMobileLayout">
+        <nav>
+          <router-link to="/">{{
+            t("navigation.link-labels.work")
+          }}</router-link>
+          <router-link to="/about">{{
+            t("navigation.link-labels.about")
+          }}</router-link>
+        </nav>
 
-      <nav>
-        <router-link to="/work">{{
-          t("navigation.link-labels.work")
-        }}</router-link>
-        <router-link to="/about">{{
-          t("navigation.link-labels.about")
-        }}</router-link>
-      </nav>
-
-      <div class="settings">
-        <color-scheme-switch />
-        <locale-switch />
-      </div>
+        <div class="settings">
+          <color-scheme-switch />
+          <locale-switch />
+        </div>
+      </template>
+      <button
+        @click="toggleMenu"
+        class="menu-button"
+        :class="{ opened: isMenuVisible }"
+        aria-label="Menu"
+        v-else
+      >
+        <figure>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </figure>
+      </button>
     </div>
   </div>
 </template>
@@ -32,11 +46,28 @@ import localeSwitch from "./locale-switch.vue";
 import LogoSvg from "@/assets/images/logo.svg?component";
 import { useUiStore } from "../../stores/uiStore";
 import { storeToRefs } from "pinia";
+import { useMediaQuery } from "@vueuse/core";
+import { watch } from "vue";
 
 const { t } = useI18n();
 
 const uiStore = useUiStore();
-const { colorScheme } = storeToRefs(uiStore);
+const { colorScheme, isMenuVisible } = storeToRefs(uiStore);
+
+const isMobileLayout = useMediaQuery("(max-width: 1024px)");
+
+watch(
+  () => isMobileLayout.value,
+  () => {
+    if (!isMobileLayout.value) {
+      isMenuVisible.value = false;
+    }
+  },
+);
+
+function toggleMenu() {
+  isMenuVisible.value = !isMenuVisible.value;
+}
 </script>
 
 <style lang="scss" scoped>
@@ -70,6 +101,67 @@ const { colorScheme } = storeToRefs(uiStore);
   .content {
     display: flex;
     justify-content: space-between;
+
+    .menu-button {
+      margin: 0;
+      padding: 5px;
+      display: grid;
+      place-items: center;
+      cursor: pointer;
+      background: none;
+      border: none;
+
+      &.opened {
+        figure {
+          .bar {
+            transform: translateX(0);
+
+            &:first-child {
+              transform: translateX(0) rotate(45deg);
+            }
+            &:last-child {
+              transform: translateX(0) rotate(-45deg);
+            }
+
+            &:nth-child(2) {
+              opacity: 0;
+            }
+          }
+        }
+      }
+
+      figure {
+        position: relative;
+        display: block;
+        width: 23px;
+        height: 18px;
+        margin: 0;
+        overflow: visible;
+        padding: 0;
+
+        .bar {
+          position: absolute;
+          height: 2px;
+          top: 50%;
+          width: 100%;
+
+          content: "";
+          transition:
+            transform 0.2s ease-in-out,
+            opacity 0.2s linear;
+          background-color: var(--color-default-text);
+          transform: translateY(-50%);
+
+          &:first-child {
+            transform: translateY(-50%) translateY(-6px);
+          }
+          &:last-child {
+            transform: translateY(-50%) translateY(6px);
+          }
+        }
+      }
+    }
+
     h1 {
       margin: 0;
       padding: 0;
