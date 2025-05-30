@@ -292,7 +292,6 @@ function parseContent(content: string): string {
 }
 
 h3 {
-  font-size: calc-rem(24px);
   margin-bottom: 60px;
 }
 
@@ -381,7 +380,6 @@ h3 {
 
 .education {
   h3 {
-    font-size: calc-rem(24px);
     margin-bottom: 60px;
     margin-top: 0;
     padding-top: 0;
@@ -453,6 +451,10 @@ h3 {
       grid-column: 2 / span 11;
     }
 
+    @media (max-width: 600px) {
+      column-count: 1;
+    }
+
     .skill-list {
       break-inside: avoid-column;
       margin-bottom: 60px;
@@ -510,9 +512,15 @@ h3 {
   }
 }
 
+h3 {
+  font-size: calc-rem(24px);
+  @media (max-width: 480px) {
+    font-size: calc-rem(18px);
+  }
+}
+
 .interests {
   h3 {
-    font-size: calc-rem(24px);
     margin-bottom: 60px;
     font-style: italic;
     font-weight: 700;
