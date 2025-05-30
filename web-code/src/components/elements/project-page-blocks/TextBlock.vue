@@ -27,11 +27,17 @@ const { columnsClass } = useGridWidthFromYaml(
 <style lang="scss" scoped>
 .text-block {
   @media (max-width: 1024px) {
-    grid-column: 3 / span 9;
+    grid-column: 2 / span 10;
   }
 
   @media (max-width: 768px) {
     grid-column: span 12;
+  }
+
+  div {
+    @media (max-width: 1024px) {
+      column-count: 1 !important;
+    }
   }
   &::v-deep(p) {
     // p {
