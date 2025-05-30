@@ -1,5 +1,6 @@
 <template>
   <article class="about">
+    <GridTest />
     <div class="introduction-1 block grid-container">
       <quote-block
         :blockData="{
@@ -98,6 +99,83 @@
         />
       </div>
     </div>
+
+    <div class="education block grid-container">
+      <img
+        class="col-span-4-start-1"
+        :src="data.education.portrait.url"
+        :alt="data.education.portrait.alt[locale]"
+      />
+
+      <dl class="col-span-6-start-6">
+        <h3 class="col-span-12">{{ data.education.heading[locale] }}</h3>
+        <div
+          class="education-entry"
+          v-for="(education, index) in data.education.educations"
+          :key="index"
+          :class="{ indented: education.indent }"
+        >
+          <img :src="education['icon-path']" />
+          <div class="text">
+            <dt>{{ education.title[locale] }}</dt>
+            <dd v-html="education.description[locale]"></dd>
+            <dd>{{ education.time[locale] }}</dd>
+          </div>
+        </div>
+      </dl>
+    </div>
+
+    <div class="skills block grid-container">
+      <div class="skills-lists col-span-6">
+        <div
+          v-for="(list, index) in data.skills.lists"
+          :key="index"
+          class="skill-list"
+        >
+          <h3>{{ list.heading[locale] }}</h3>
+          <ul>
+            <li v-for="(item, idx) in list.items" :key="idx">
+              <span>{{ item[locale] }}</span>
+              <template v-if="item.subitems">
+                <ul>
+                  <li v-for="(subitem, subidx) in item.subitems" :key="subidx">
+                    {{ subitem[locale] }}
+                  </li>
+                </ul>
+              </template>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="skills-images col-span-6-start-7">
+        <img
+          v-for="(image, index) in data.skills.images"
+          :key="index"
+          :src="image.url"
+          :alt="image.alt[locale]"
+          :class="'img-' + (index + 1)"
+        />
+      </div>
+    </div>
+
+    <div class="interests block grid-container">
+      <h3 class="col-span-12">{{ data.interests.heading[locale] }}</h3>
+
+      <div
+        class="interest-category col-span-3"
+        v-for="(category, index) in data.interests.categories"
+        :key="index"
+      >
+        <img :src="category.icon" :alt="category.title[locale]" class="icon" />
+        <h4>{{ category.title[locale] }}</h4>
+        <ul>
+          <li v-for="(item, idx) in category.items" :key="idx">
+            {{ item[locale] }}
+          </li>
+        </ul>
+      </div>
+    </div>
   </article>
 </template>
 
@@ -109,6 +187,7 @@ import { useI18n } from "vue-i18n";
 import FullImage from "../elements/project-page-blocks/FullImage.vue";
 import { useMarkdownParser } from "../elements/useMarkdownParser";
 import LinkArrow from "../elements/LinkArrow.vue";
+import GridTest from "../grid-test.vue";
 const data = computed(() => yamlDataAbout);
 
 const { locale } = useI18n();
@@ -160,11 +239,12 @@ function parseContent(content: string): string {
   }
 }
 
+h3 {
+  font-size: calc-rem(24px);
+  margin-bottom: 60px;
+}
+
 .experiences {
-  h3 {
-    font-size: calc-rem(24px);
-    margin-bottom: 60px;
-  }
   .experience {
     display: flex;
     align-items: center;
@@ -205,6 +285,135 @@ function parseContent(content: string): string {
     width: 712px;
     max-width: 90%;
     transform: translateX(100px) rotate(5.38deg);
+  }
+}
+
+.education {
+  h3 {
+    font-size: calc-rem(24px);
+    margin-bottom: 60px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .education-entry {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-bottom: 30px;
+
+    &.indented {
+      margin-left: 50px; // kannst du an dein Grid anpassen
+    }
+
+    img {
+      width: 84px;
+    }
+
+    dt,
+    dd {
+      line-height: calc-rem(28px);
+    }
+
+    dt {
+      font-weight: 700;
+    }
+
+    dd {
+      margin: 0;
+    }
+
+    dd + dd {
+      margin-top: 5px;
+    }
+  }
+}
+
+.skills {
+  .skills-lists {
+    column-count: 2;
+
+    .skill-list {
+      break-inside: avoid-column;
+      margin-bottom: 60px;
+
+      h3 {
+        margin-top: 0;
+        margin-bottom: 40px;
+      }
+
+      ul {
+        list-style: disc;
+        padding-left: 20px;
+
+        li {
+          margin-bottom: 8px;
+          margin: 0;
+          line-height: calc-rem(28);
+
+          ul {
+            list-style: disc;
+            padding-left: 20px;
+            margin: 0px;
+            columns: 2;
+            column-gap: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .skills-images {
+    position: relative;
+    img {
+      max-width: 45%;
+      width: 562px;
+      position: absolute;
+    }
+
+    .img-2 {
+      width: 466px;
+      transform: translateX(100%) translateY(40px) rotate(12deg);
+      z-index: -1;
+    }
+  }
+}
+
+.interests {
+  h3 {
+    font-size: calc-rem(24px);
+    margin-bottom: 60px;
+    font-style: italic;
+    font-weight: 700;
+  }
+
+  .interest-category {
+    .icon {
+      width: 64px;
+      margin-bottom: 20px;
+    }
+
+    h4 {
+      font-style: italic;
+      font-weight: 600;
+      margin: 0;
+      margin-bottom: 0;
+      line-height: calc-rem(28px);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        line-height: calc-rem(28px);
+      }
+    }
   }
 }
 

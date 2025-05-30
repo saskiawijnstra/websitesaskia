@@ -217,3 +217,182 @@ experience:
         en: 2011 - 2012
         nl: 2011 - 2012
       icon-path: "/images/about/experience-icons/turnen.png"
+
+education:
+  heading:
+    en: Education
+    nl: Opleiding
+  portrait:
+    url: /images/about/saskiawijnstra.jpg
+    alt:
+      en: Portrait of Saskia with a smile
+      nl: ""
+  educations:
+    - title:
+        en: Master Digital Design
+        nl: Master Digital Design
+      description:
+        en: Hogeschool Amsterdam<br/>University of Applied Sciences
+        nl: Hogeschool Amsterdam<br/>University of Applied Sciences
+      time:
+        en: 2018 - 2019
+        nl: 2018 - 2019
+      icon-path: "/images/about/experience-icons/hva.png"
+    - title:
+        en: Bachelor Multimedia, Concepting & Design
+        nl: Bachelor Multimedia, Concepting & Design
+      description:
+        en: Hanzehogeschool Groningen<br/>University of Applied Sciences
+        nl: Hanzehogeschool Groningen<br/>Hogeschool
+      time:
+        en: 2014 - 2018
+        nl: 2014 - 2018
+      icon-path: "/images/about/experience-icons/hanze.png"
+    - title:
+        en: Specialisation UX/UI Design
+        nl: Specialisatie UX/UI Design
+      description:
+        en: IBS Erhvervsakademi Denmark, Kolding<br/>Multimedia, Design and Communication
+        nl: IBS Erhvervsakademi Denemarken, Kolding<br/>Multimedia, Design en Communicatie
+      time:
+        en: 2016 - 2017
+        nl: 2016 - 2017
+      icon-path: "/images/about/experience-icons/iba.png"
+      indent: true
+    - title:
+        en: HAVO Nature & Techniek
+        nl: HAVO Natuur & Techniek
+      description:
+        en: RSG de borgen - Lindenborg Leek
+        nl: RSG de borgen - Lindenborg Leek
+      time:
+        en: 2009 - 2014
+        nl: 2009 - 2014
+      icon-path: "/images/about/experience-icons/lindenborg.png"
+
+skills:
+  lists:
+    - heading:
+        en: Personal skills
+        nl: Persoonlijke vaardigheden
+      items:
+        - en: Creative
+          nl: Creatief
+        - en: Driven
+          nl: Gedreven
+        - en: Intuitive
+          nl: Intuïtief
+        - en: Planning and organising
+          nl: Plannen en organiseren
+    - heading:
+        en: Language skills
+        nl: Taalvaardigheden
+      items:
+        - en: Dutch Native language
+          nl: Nederlands Moedertaal
+        - en: Frisian Family language
+          nl: Fries Familietaal
+        - en: English Professional
+          nl: Engels Professioneel
+        - en: German Basic
+          nl: Duits Basis
+    - heading:
+        en: Software skills
+        nl: Softwarevaardigheden
+      items:
+        - en: Figma
+          nl: Figma
+        - en: Sketch
+          nl: Sketch
+        - en: Adobe Creative Cloud
+          nl: Adobe Creative Cloud
+          subitems:
+            - en: Illustrator
+              nl: Illustrator
+            - en: Photoshop
+              nl: Photoshop
+            - en: After Effects
+              nl: After Effects
+            - en: InDesign
+              nl: InDesign
+            - en: Premiere
+              nl: Premiere
+            - en: XD
+              nl: XD
+        - en: Principle
+          nl: Principle
+        - en: Protopie
+          nl: Protopie
+        - en: HTML & CSS
+          nl: HTML & CSS
+        - en: Microsoft Office
+          nl: Microsoft Office
+    - heading:
+        en: Other skills
+        nl: Overige vaardigheden
+      items:
+        - en: Drivers license AM-B
+          nl: Rijbewijs AM-B
+        - en: Blind typing
+          nl: Blind typen
+  images:
+    - url: /images/about/skills-1.jpg
+      alt:
+        en: Sailboat on the sand at low tide
+        nl: Zeilboot op het zand bij eb
+    - url: /images/about/skills-2.jpg
+      alt:
+        en: Saskia after a running event with medal
+        nl: Saskia na een hardloopevenement met medaille
+
+interests:
+  heading:
+    en: Interests & hobbies
+    nl: Interesses & hobby's
+  categories:
+    - icon: /images/about/interests/design.png
+      title:
+        en: Being creative
+        nl: Creatief bezig zijn
+      items:
+        - en: Designing
+          nl: Ontwerpen
+        - en: Interior
+          nl: Interieur
+        - en: Photography
+          nl: Fotografie
+    - icon: /images/about/interests/food.png
+      title:
+        en: (Mental) Health
+        nl: (Mentale) Gezondheid
+      items:
+        - en: Food, Cooking
+          nl: Eten, koken
+        - en: Psychology
+          nl: Psychologie
+        - en: Subconscious patterns
+          nl: Onderbewuste patronen
+        - en: Sauna
+          nl: Sauna
+    - icon: /images/about/interests/bike.png
+      title:
+        en: Sports
+        nl: Sport
+      items:
+        - en: Aerial Acrobatics
+          nl: Luchtacrobatiek
+        - en: Yoga
+          nl: Yoga
+        - en: Sailing
+          nl: Zeilen
+        - en: Snowboarding
+          nl: Snowboarden
+    - icon: /images/about/interests/natuur.png
+      title:
+        en: Sustainability
+        nl: Duurzaamheid
+      items:
+        - en: Nature
+          nl: Natuur
+        - en: Animals
+          nl: Dieren
