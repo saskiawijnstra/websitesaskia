@@ -27,6 +27,7 @@
 </template>
 
 <script setup lang="ts">
+import { useMediaQuery } from "@vueuse/core";
 import { computed } from "vue";
 
 const props = defineProps({
@@ -40,7 +41,16 @@ const labelId = computed<string>(() => {
   return `label-id-${Math.random() * 1000000}`;
 });
 
-const columnCount = computed(() => props.blockData["column-count"] || 3);
+const isSmallScreen = useMediaQuery("(max-width: 768px)");
+
+const columnCount = computed(() => {
+  var originalColCount = props.blockData["column-count"] || 3;
+  if (!isSmallScreen.value) {
+    return originalColCount;
+  }
+
+  return 1;
+});
 </script>
 
 <style lang="scss" scoped>
