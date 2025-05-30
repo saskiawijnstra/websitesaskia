@@ -5,6 +5,7 @@
         class="hero-media__image video"
         :src="blockData.content.video.url"
         autoplay
+        playsinline
         v-intersection-observer="onIntersectionObserver"
         ref="videoEl"
         :poster="blockData.content.image?.url"
