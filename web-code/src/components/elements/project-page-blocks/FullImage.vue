@@ -119,6 +119,18 @@ async function onIntersectionObserver([entry]: IntersectionObserverEntry[]) {
   justify-content: center;
   flex-wrap: wrap;
 
+  &.col-span-6-start-4 {
+    @media (max-width: 1024px) {
+      grid-column: 2 / span 10;
+    }
+  }
+
+  &.col-span-10-start-2 {
+    @media (max-width: 1024px) {
+      grid-column: span 12;
+    }
+  }
+
   &.full {
     grid-column: 1 / -1;
     width: 100vw;
