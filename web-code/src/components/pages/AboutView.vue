@@ -12,7 +12,6 @@
       />
 
       <FullImage
-        style="margin-top: 100px"
         :blockData="{
           content: {
             url: data.introduction.image.url,
@@ -203,6 +202,10 @@ function parseContent(content: string): string {
 .about {
   .block {
     margin-bottom: 100px;
+
+    @media (max-width: 600px) {
+      margin-bottom: 40px;
+    }
   }
   h1 {
     font-weight: 600;
@@ -218,6 +221,21 @@ function parseContent(content: string): string {
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+.introduction-1 {
+  .full-image {
+    @media (max-width: 480px) {
+      grid-column: span 12;
+    }
+  }
+  ::v-deep(img) {
+    margin-top: 100px;
+
+    @media (max-width: 768px) {
+      margin-top: 30px;
     }
   }
 }

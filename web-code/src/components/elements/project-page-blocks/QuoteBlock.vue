@@ -42,6 +42,11 @@ const textAlign = computed(() => {
     line-height: calc-rem(55);
     margin-bottom: 0;
 
+    @media (max-width: 768px) {
+      font-size: calc-rem(24);
+      line-height: calc-rem(34px);
+    }
+
     &.strong {
       font-weight: bold;
     }
