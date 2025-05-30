@@ -36,6 +36,10 @@ defineProps({
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
 }
 
 .meta-info-item {

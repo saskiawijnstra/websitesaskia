@@ -127,6 +127,11 @@ const getComponentName = (type: string) => {
       &::v-deep(.project-block) {
         margin-top: 50px;
         margin-bottom: 50px;
+
+        @media (max-width: 1024px) {
+          margin-top: 25px;
+          margin-bottom: 25px;
+        }
       }
     }
     .back-link {
