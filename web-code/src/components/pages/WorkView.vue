@@ -1,5 +1,6 @@
 <template>
   <div class="content-page work-view">
+    <LandingPage />
     <article class="">
       <!-- Discover my Work -->
       <div class="discover-work-list grid-container">
@@ -119,6 +120,7 @@ import { computed, nextTick, onMounted, onUnmounted, ref } from "vue";
 import { useUiStore } from "../../stores/uiStore";
 import { storeToRefs } from "pinia";
 import ArrowRight from "@/assets/images/arrow-right.svg?component";
+import LandingPage from "../elements/LandingPage.vue";
 
 const { locale } = useI18n();
 

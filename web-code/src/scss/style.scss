@@ -17,6 +17,15 @@
   src: url("@/assets/fonts/InterVariable-Italic.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "Reenie Beanie Regular";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Reenie Beanie Regular"),
+    url("@/assets/fonts/ReenieBeanie.woff") format("woff");
+}
+
 :root {
   font-family: Inter, Helvetica, Arial, sans-serif;
 
