@@ -30,6 +30,18 @@
     <div class="image">
       <img src="@/assets/images/windinmijnharen.jpg" alt="Saskia Wijnstra" />
     </div>
+
+    <div class="links">
+      <a href="#work" class="work">
+        <LinkArrow class="arrow" />
+        {{ t("landingpage.link-work") }}
+      </a>
+
+      <router-link to="/about">
+        <LinkArrow />
+        {{ t("landingpage.link-about") }}
+      </router-link>
+    </div>
   </div>
 </template>
 
@@ -46,6 +58,7 @@ import Prototypebuilder from "@/assets/images/header-drawings/Prototypebuilder.p
 import User from "@/assets/images/header-drawings/User.png";
 import Vision from "@/assets/images/header-drawings/Vision.png";
 import Visualthinker from "@/assets/images/header-drawings/Visualthinker.png";
+import LinkArrow from "./LinkArrow.vue";
 
 const { t } = useI18n();
 const SCRIBBLES = [
@@ -131,16 +144,56 @@ const SCRIBBLES = [
 </script>
 
 <style lang="scss" scoped>
+@use "sass:math";
+
 .landing-page {
   display: grid;
   width: 100vw;
-  height: calc(100vh - 103px);
+  height: calc(100vh - 141px); // subtract header height
   overflow: hidden;
+  grid-template-columns: minmax(750px, 2fr) 1fr;
+  grid-template-rows: 1fr 4rem;
+  margin-bottom: 170px;
 
-  grid-template-columns: 2fr 1fr;
+  @media (max-width: 1080px), (max-height: 580px) {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
 
   .lettering {
     position: relative;
+    transform-origin: top center;
+
+    @media (max-height: 690px), (max-width: 1200px) {
+      transform: scale(0.8);
+    }
+
+    @media (max-width: 1080px), (max-height: 580px) {
+      width: 100%;
+      aspect-ratio: 16 / 8;
+      transform: translateY(-50px);
+    }
+
+    @media (max-width: 880px) {
+      width: 835px;
+      transform: scale(1) translateY(-0px) translateX(-50%);
+      left: 50%;
+    }
+
+    @media (max-width: 880px) {
+      transform: translateX(-50%) scale(0.8) translateY(-0px);
+    }
+
+    @media (max-width: 650px) {
+      transform: translateX(-50%) scale(0.5) translateY(-0px);
+      margin-bottom: calc((-1 - 0.5) * 100px);
+    }
+
+    @media (max-width: 410px) {
+      transform: translateX(-50%) scale(0.4) translateY(-0px);
+      margin-bottom: calc((-1 - 0.4) * 100px);
+    }
 
     .main-text {
       position: absolute;
@@ -153,35 +206,23 @@ const SCRIBBLES = [
       flex-direction: column;
       z-index: 1;
       margin: 0;
+      font-size: calc-rem(128);
       line-height: calc-rem(120);
+
+      @media (max-height: 690px), (max-width: 1200px) {
+        font-size: calc-rem(100);
+        line-height: calc-rem(90);
+      }
 
       span {
         display: block;
-        font-size: calc-rem(128);
+        opacity: 0;
         animation: fly-from-left 0.6s ease-in-out 0.8s forwards;
         transform: translateX(-100vw);
 
         &:last-child {
-          animation-name: fly-from-right;
-          transform: translateX(100vw);
-        }
-
-        @keyframes fly-from-left {
-          from {
-            transform: translateX(-100vw);
-          }
-          to {
-            transform: translateX(-1.1rem);
-          }
-        }
-
-        @keyframes fly-from-right {
-          from {
-            transform: translateX(100vw);
-          }
-          to {
-            transform: translateX(0);
-          }
+          animation: fly-from-right 0.6s ease-in-out 0.8s forwards;
+          transform: translateX(120vw);
         }
       }
     }
@@ -192,15 +233,6 @@ const SCRIBBLES = [
       align-items: center;
       opacity: 0;
       animation: fade-in 0.3s linear 0s forwards;
-
-      @keyframes fade-in {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
 
       img {
         width: 50px;
@@ -217,11 +249,16 @@ const SCRIBBLES = [
   }
 
   .image {
+    @media (max-width: 1080px), (max-height: 580px) {
+      align-self: flex-end;
+
+      max-width: min(80%, 500px);
+    }
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      object-position: left bottom;
+      object-position: 13% bottom;
       transform: translateX(100%);
       animation: fly-from-right 0.6s ease-in-out 1.2s forwards;
 
@@ -234,6 +271,90 @@ const SCRIBBLES = [
         }
       }
     }
+  }
+
+  .links {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: subgrid;
+    opacity: 0;
+    animation: fade-in 0.3s linear 2.5s forwards;
+    padding-left: 105px; // grid padding
+
+    @media (max-width: 1080px), (max-height: 580px) {
+      grid-template-columns: 1fr min(80%, 500px);
+      margin-top: 25px;
+    }
+
+    @media (max-width: 820px) {
+      grid-template-rows: 60px 60px;
+    }
+
+    @media (max-width: 1200px) {
+      padding-left: math.div(105px, 1.5);
+    }
+
+    @media (max-width: 600px) {
+      padding-left: 24px;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      gap: calc-rem(17px);
+      color: var(--color-default-text);
+      grid-column: 2;
+
+      &.work {
+        grid-column: 1;
+        width: max-content;
+
+        @media (max-width: 820px) {
+          grid-row: 2;
+          grid-column: 1 / span 2;
+        }
+        .arrow {
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fly-from-left {
+  0% {
+    transform: translateX(-100vw);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-1.1rem);
+  }
+}
+
+@keyframes fly-from-right {
+  0% {
+    transform: translateX(120vw);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 </style>
