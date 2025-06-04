@@ -200,6 +200,8 @@ onUnmounted(() => {
     background-color: var(--color-grijs-1);
     padding-top: 100px;
     padding-bottom: 118px;
+    width: 100%;
+    overflow: hidden;
 
     .introduction,
     .twin-qels-teaser {
@@ -356,7 +358,7 @@ onUnmounted(() => {
         img {
           width: 100%;
           border-radius: 12px;
-          height: 100%;
+          // height: 100%;
           object-fit: cover;
           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
