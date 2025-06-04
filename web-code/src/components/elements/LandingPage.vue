@@ -54,7 +54,7 @@ const SCRIBBLES = [
     image: Visualthinker,
     position: {
       x: 19,
-      y: 18,
+      y: 14,
     },
   },
   {
@@ -63,7 +63,7 @@ const SCRIBBLES = [
     secondImage: User,
     position: {
       x: 50,
-      y: 20,
+      y: 16,
     },
   },
   {
@@ -71,7 +71,7 @@ const SCRIBBLES = [
     image: Creative,
     position: {
       x: 79,
-      y: 26,
+      y: 22,
     },
   },
   {
@@ -79,7 +79,7 @@ const SCRIBBLES = [
     image: ListMaker,
     position: {
       x: 80,
-      y: 50,
+      y: 46,
     },
   },
   {
@@ -87,7 +87,7 @@ const SCRIBBLES = [
     image: Prototypebuilder,
     position: {
       x: 68,
-      y: 80,
+      y: 76,
     },
   },
   {
@@ -95,7 +95,7 @@ const SCRIBBLES = [
     image: EmpathyPassion,
     position: {
       x: 40,
-      y: 90,
+      y: 86,
     },
   },
 
@@ -104,7 +104,7 @@ const SCRIBBLES = [
     image: Vision,
     position: {
       x: 22,
-      y: 90,
+      y: 86,
     },
   },
 
@@ -114,7 +114,7 @@ const SCRIBBLES = [
     imageCss: "transform: translate(112px, -33px)",
     position: {
       x: 1,
-      y: 87,
+      y: 83,
     },
   },
 
@@ -124,7 +124,7 @@ const SCRIBBLES = [
     imageCss: "transform: translate(90px, -35px)",
     position: {
       x: 13,
-      y: 44,
+      y: 40,
     },
   },
 ];
@@ -134,7 +134,7 @@ const SCRIBBLES = [
 .landing-page {
   display: grid;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 103px);
   overflow: hidden;
 
   grid-template-columns: 2fr 1fr;
@@ -152,6 +152,8 @@ const SCRIBBLES = [
       justify-content: center;
       flex-direction: column;
       z-index: 1;
+      margin: 0;
+      line-height: calc-rem(120);
 
       span {
         display: block;
@@ -169,7 +171,7 @@ const SCRIBBLES = [
             transform: translateX(-100vw);
           }
           to {
-            transform: translateX(0);
+            transform: translateX(-1.1rem);
           }
         }
 
