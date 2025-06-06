@@ -87,7 +87,7 @@ discover:
           In what way can Augmented Reality contribute to a more efficient
           assessment of mannequins using a digital interactive product?
         nl: >
-          Op welke manier kan Augmented Reality bijdragen aan een efficiëntere 
+          Op welke manier kan Augmented Reality bijdragen aan een efficiëntere
           beoordeling van mannequins met behulp van een digitaal interactief product?
 
     - id: "sprong"
@@ -112,13 +112,13 @@ discover:
           over their exercise program and improve the communication of data
           with their physiotherapist through an engaging service?
         nl: >
-          Hoe kunnen we mensen met borstkanker meer regie geven over hun 
-          beweegprogramma en de communicatie van gegevens met hun fysiotherapeut 
-          verbeteren via een motiverende service?
+          Hoe kunnen we mensen met borstkanker meer controle geven over hun
+          trainingsprogramma en de communicatie van data met hun fysiotherapeut verbeteren
+          middels een aantrekkelijke service?
 factor-e:
   title:
     en: Work at theFactor.e
-    nl: Work at theFactor.e
+    nl: Werk bij theFactor.e
   description:
     en: >
       I worked as a digital designer in disciplinary teams for different clients.
@@ -132,17 +132,16 @@ factor-e:
       For excap and DutchLease I worked together with another designer. 
       There are many more projects I did, design sprints at location or UI Design already in the style of the company. Mostly in the sectors education and healthcare.
     nl: >
-      Ik werkte als digital designer in multidisciplinaire teams voor verschillende klanten.
-      <strong>SEIN, excap, Aeres, DutchLease, Alfa College, Noorderpoort, 
-      CNV, Menzis, TwinQels, Van Hall Larenstein, Universiteit Leiden, UMCG, 
-      Staatsbosbeheer, Olympia, NHL, Minerva etc.</strong>
+      
+      Ik heb als digital designer in disciplinaire teams voor verschillende klanten gewerkt.
+      <strong><i>SEIN, excap, Aeres, DutchLease, Alfa College, Noorderpoort, CNV, Menzis, 
+      TwinQels, Van Hall Larenstein, Universiteit Leiden, UMCG, Staatsbosbeheer, Olympia, NHL, Minerva, etc.</strong></i>
       <br>
       <br>
-      Voor SEIN en TwinQels was ik de enige UI Designer en heb ik de ontwerpen vanaf nul gemaakt. 
-      Voor excap en DutchLease werkte ik samen met een andere designer. 
-      Daarnaast heb ik nog veel meer projecten gedaan, zoals design sprints op locatie 
-      of UI Design dat al aansloot bij de bestaande huisstijl van het bedrijf. 
-      Voornamelijk binnen de sectoren onderwijs en zorg.
+      Voor SEIN en TwinQels was ik de enige UI-ontwerper en maakte ik de ontwerpen vanaf 
+      nul. Voor excap en DutchLease werkte ik samen met een andere ontwerper. Er zijn nog 
+      veel meer projecten die ik heb gedaan, design sprints op locatie of UI-ontwerpen in 
+      de stijl van het bedrijf. Vooral in de sectoren onderwijs en gezondheidszorg.
   twin-qels-teaser:
     images:
       - image-name: Vital-0-iPhone-11.png
@@ -192,7 +191,7 @@ factor-e:
 more-designs:
   title:
     en: More designs
-    nl: More designs
+    nl: Meer designs
   projects:
     - id: vodafone-ziggo
       thumbnail:
