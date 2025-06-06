@@ -34,10 +34,10 @@ discover:
       description:
         en: >
           All supermarket offers in one overview. A light and clear design
-          to make you find the best sales on daily products.
+          to make you find the best sales on daily products. Test
         nl: >
           Alle supermarkt-aanbiedingen overzichtelijk in één app. 
-          Een licht en helder ontwerp om snel de beste deals te vinden.
+          Een licht en helder ontwerp om snel de beste deals te vinden. Test
 
     - id: "long-covid-survival"
       thumbnail:
