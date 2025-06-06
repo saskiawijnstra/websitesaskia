@@ -36,8 +36,8 @@ discover:
           All supermarket offers in one overview. A light and clear design
           to make you find the best sales on daily products.
         nl: >
-          Alle supermarkt-aanbiedingen overzichtelijk in één app. 
-          Een licht en helder ontwerp om snel de beste deals te vinden.
+          Alle supermarktaanbiedingen in één overzicht. Met een licht en overzichtelijk design
+          helpt de app je de beste aanbiedingen voor dagelijkse producten te vinden.
 
     - id: "long-covid-survival"
       thumbnail:
@@ -60,9 +60,8 @@ discover:
           covid with the mind body approach. Building new neural pathways
           with trust, self-compassion, courage and perseverance.
         nl: >
-          Van overleven naar weer echt leven. Hoe ik herstelde van long covid 
-          met de mind-body-benadering. Nieuwe neurale paden opbouwen met 
-          vertrouwen, zelfcompassie, moed en doorzettingsvermogen.
+          Van overleven naar leven. Hoe ik herstelde van long covid met de mindbody-visie.
+          Nieuwe neurale paden maken met vertrouwen, zelfcompassie, moed en doorzettingsvermogen.
 
     - id: "hbm"
       thumbnail:
