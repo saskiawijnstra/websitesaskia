@@ -99,7 +99,7 @@ onUnmounted(() => {
 
 .swipe-gallery {
   width: 100%;
-  max-width: 1470px;
+  max-width: 1550px; //matches grid behaviour
 
   &.full {
     grid-column: 1 / -1;

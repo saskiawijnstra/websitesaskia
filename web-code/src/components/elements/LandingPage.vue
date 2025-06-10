@@ -280,7 +280,7 @@ const SCRIBBLES = [
     grid-template-columns: subgrid;
     opacity: 0;
     animation: fade-in 0.3s linear 2.5s forwards;
-    padding-left: 105px; // grid padding
+    padding-left: 50px; // grid padding
 
     @media (max-width: 1080px), (max-height: 580px) {
       grid-template-columns: 1fr min(80%, 500px);
@@ -292,7 +292,7 @@ const SCRIBBLES = [
     }
 
     @media (max-width: 1200px) {
-      padding-left: math.div(105px, 1.5);
+      padding-left: math.div(50px, 1.5); // grid padding
     }
 
     @media (max-width: 600px) {
