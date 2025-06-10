@@ -2,10 +2,12 @@
   <div class="header-bar grid-container" :class="`header-style-${colorScheme}`">
     <div class="content col-span-12">
       <h1>
-        <!-- <img :alt="t('page-logo-alt')" :src="logoUrl" /> -->
-        <figure class="logo-graphic" :aria-label="t('page-logo-alt')">
-          <logo-svg />
-        </figure>
+        <router-link to="/">
+          <!-- <img :alt="t('page-logo-alt')" :src="logoUrl" /> -->
+          <figure class="logo-graphic" :aria-label="t('page-logo-alt')">
+            <logo-svg />
+          </figure>
+        </router-link>
       </h1>
       <template v-if="!isMobileLayout">
         <nav>
@@ -165,6 +167,12 @@ function toggleMenu() {
     h1 {
       margin: 0;
       padding: 0;
+
+      a {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+      }
 
       .logo-graphic {
         margin: 0;

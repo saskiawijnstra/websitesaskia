@@ -4,12 +4,14 @@
     :class="`background-style-${backgroundStyle} color-scheme-${colorScheme}`"
   >
     <div class="footer-content grid-container">
-      <figure
-        class="logo-graphic col-span-3-start-1"
-        :aria-label="t('page-logo-alt')"
-      >
-        <logo-svg />
-      </figure>
+      <router-link to="/">
+        <figure
+          class="logo-graphic col-span-3-start-1"
+          :aria-label="t('page-logo-alt')"
+        >
+          <logo-svg />
+        </figure>
+      </router-link>
 
       <div class="contact col-span-3-start-4">
         <a :href="t('footer.contact.mail')">{{ t("footer.contact.mail") }}</a>
