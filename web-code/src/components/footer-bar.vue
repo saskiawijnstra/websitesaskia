@@ -13,7 +13,7 @@
         </figure>
       </router-link>
 
-      <div class="contact col-span-3-start-4">
+      <div class="contact col-span-3-start-2">
         <a :href="t('footer.contact.mail')">{{ t("footer.contact.mail") }}</a>
         <a :href="`tel:${t('footer.contact.phone')}`">
           {{ t("footer.contact.phone") }}
