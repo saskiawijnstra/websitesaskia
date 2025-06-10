@@ -56,6 +56,7 @@
   --color-grijs-10: #bdbdbd;
   --color-area-background-lightmode: #dfe3ed;
 
+  --color-text-hover: var(--color-middle-grijs);
   --color-default-text: var(--color-niet-zwart);
   --color-default-background: var(--color-niet-wit);
   --color-default-focus-border: var(--color-middle-grijs);
@@ -127,6 +128,6 @@ a {
   text-decoration: none;
 
   &:hover {
-    text-decoration: underline;
+    color: var(--color-text-hover);
   }
 }

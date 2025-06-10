@@ -247,7 +247,7 @@ onUnmounted(() => {
         color: var(--color-default-text);
 
         &:hover {
-          text-decoration: underline;
+          color: var(--color-text-hover);
         }
       }
     }
@@ -399,7 +399,7 @@ onUnmounted(() => {
           color: var(--color-default-text);
 
           &:hover {
-            text-decoration: underline;
+            color: var(--color-text-hover);
           }
         }
         img {

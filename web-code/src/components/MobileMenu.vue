@@ -71,7 +71,8 @@ const { t } = useI18n();
         }
 
         &:hover {
-          text-decoration: underline;
+          // text-decoration: underline;
+          color: var(--color-text-hover);
         }
 
         &.router-link-active {

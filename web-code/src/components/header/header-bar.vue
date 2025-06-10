@@ -199,14 +199,14 @@ function toggleMenu() {
         text-decoration: none;
 
         &:hover {
-          text-decoration: underline;
+          color: var(--color-text-hover);
         }
 
         &.router-link-active {
           color: var(--color-middle-grijs);
           cursor: default;
           &:hover {
-            text-decoration: none;
+            color: var(--color-text-hover);
           }
         }
       }

@@ -142,7 +142,7 @@ const getComponentName = (type: string) => {
       text-decoration: none;
 
       &:hover {
-        text-decoration: underline;
+        color: var(--color-text-hover);
       }
     }
   }

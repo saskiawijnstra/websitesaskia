@@ -220,7 +220,7 @@ function parseContent(content: string): string {
     font-weight: 600;
 
     &:hover {
-      text-decoration: underline;
+      color: var(--color-text-hover);
     }
   }
 }
