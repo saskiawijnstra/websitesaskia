@@ -80,6 +80,11 @@ function toggleMenu() {
   min-height: calc-rem(153px);
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
+
+  @media (max-width: 800px), (max-height: 500px) {
+    margin-top: 0;
+  }
 
   // background-color: var(--color-niet-wit);
   &.header-style-dark {
