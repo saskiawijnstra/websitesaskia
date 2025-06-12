@@ -2,8 +2,10 @@
   <div class="project-teaser col-span-6">
     <router-link :to="{ path: `/work/${projectId}` }">
       <project-thumbnail
-        :thumbnail-path="thumbnailPath"
-        :alt-text="thumbnailAltText"
+        :thumbnail-path="thumbnailData.path"
+        :poster-path="thumbnailData.poster"
+        :is-video="thumbnailData['is-video']"
+        :alt-text="thumbnailData.alt[locale as 'en' | 'nl']"
       />
       <h2>
         <slot name="title"></slot>
@@ -16,11 +18,21 @@
 </template>
 
 <script setup lang="ts">
+import { useI18n } from "vue-i18n";
 import projectThumbnail from "./project-thumbnail.vue";
 
+const { locale } = useI18n();
+
 defineProps<{
-  thumbnailPath: string;
-  thumbnailAltText: string;
+  thumbnailData: {
+    path: string;
+    poster?: string;
+    ["is-video"]?: boolean;
+    alt: {
+      en: string;
+      nl: string;
+    };
+  };
   projectId: string;
 }>();
 </script>

@@ -12,7 +12,9 @@ discover:
   projects:
     - id: "whatsuper" # Unique project ID
       thumbnail:
-        path: "/images/projects/thumbnails/Whatsuper-frozen.jpg"
+        path: "/images/projects/thumbnails/whatsuper.mp4"
+        poster: "/images/projects/thumbnail/Whatsuper-frozen.jpg" # this image will get shown before the video is loaded or when the device cant play the video
+        is-video: true
         alt:
           en: > # this > sign means, that we continue the text on the next line
             Two mobile phone screens display a Dutch grocery shopping app interface. 
@@ -132,7 +134,7 @@ factor-e:
       For excap and DutchLease I worked together with another designer. 
       There are many more projects I did, design sprints at location or UI Design already in the style of the company. Mostly in the sectors education and healthcare.
     nl: >
-      
+
       Ik heb als digital designer in disciplinaire teams voor verschillende klanten gewerkt.
       <strong><i>SEIN, excap, Aeres, DutchLease, Alfa College, Noorderpoort, CNV, Menzis, 
       TwinQels, Van Hall Larenstein, Universiteit Leiden, UMCG, Staatsbosbeheer, Olympia, NHL, Minerva, etc.</strong></i>

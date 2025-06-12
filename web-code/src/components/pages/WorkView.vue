@@ -13,8 +13,7 @@
             v-for="project in projects"
             :key="project.id"
             :project-id="project.id"
-            :thumbnail-path="project.thumbnail.path"
-            :thumbnail-alt-text="project.thumbnail.alt[locale]"
+            :thumbnailData="project.thumbnail"
           >
             <template #title>
               <span v-html="project.title[locale]" />

@@ -1,10 +1,28 @@
 <template>
-  <img class="project-thumbnail" :src="thumbnailPath" :alt="altText" />
+  <img
+    v-if="!isVideo"
+    class="project-thumbnail"
+    :src="thumbnailPath"
+    :alt="altText"
+  />
+
+  <video
+    v-else
+    :src="thumbnailPath"
+    :poster="posterPath"
+    class="project-thumbnail"
+    playsinline
+    muted
+    loop
+    autoplay
+  ></video>
 </template>
 
 <script setup lang="ts">
 defineProps<{
   thumbnailPath: string;
+  isVideo?: boolean;
+  posterPath?: string;
   altText: string;
 }>();
 </script>
