@@ -78,7 +78,11 @@
                     :src="project.thumbnail.path"
                     :alt="project.thumbnail.alt[locale]"
                   />
-                  <p class="caption">{{ project.title[locale] }}</p>
+                  <p class="caption">
+                    {{ project.title[locale] }}
+
+                    <ArrowRight class="arrow-icon" />
+                  </p>
                 </router-link>
               </div>
             </div>
@@ -332,7 +336,7 @@ onUnmounted(() => {
 
           &:hover {
             p {
-              &::after {
+              .arrow-icon {
                 transform: translateX(12px);
               }
             }
@@ -342,14 +346,16 @@ onUnmounted(() => {
             display: flex;
             gap: 0.5rem;
             align-items: center;
-            &::after {
-              content: "";
+            .arrow-icon {
               display: inline-block;
               transform: translateX(0);
               transition: transform 0.2s ease-in-out;
               width: 18px;
               height: 16px;
-              background-image: url(@/assets/images/arrow-right.svg);
+
+              &::v-deep(path) {
+                fill: var(--color-default-text);
+              }
             }
           }
         }
