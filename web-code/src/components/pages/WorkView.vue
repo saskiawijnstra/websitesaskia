@@ -391,8 +391,17 @@ onUnmounted(() => {
       list-style: none;
       display: grid;
       grid-template-columns: subgrid;
+      row-gap: calc-rem(100px);
       margin: 0;
       padding: 0;
+
+      @media (max-width: 920px) {
+        row-gap: calc-rem(60px);
+      }
+
+      @media (max-width: 768px) {
+        row-gap: calc-rem(20px);
+      }
 
       li {
         list-style: none;
