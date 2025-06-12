@@ -6,6 +6,7 @@
           v-if="canScrollLeft"
           class="scroll-button left"
           @click="scrollNext(-1)"
+          style="cursor: pointer"
         >
           <arrow-right />
         </button>
@@ -16,6 +17,7 @@
           v-if="canScrollRight"
           class="scroll-button right"
           @click="scrollNext(1)"
+          style="cursor: pointer"
         >
           <arrow-right />
         </button>
@@ -80,6 +82,7 @@ function scrollNext(direction: -1 | 1) {
 onMounted(() => {
   window.addEventListener("resize", updateScrollState);
   scrollContainerEl.value?.addEventListener("scroll", updateScrollState);
+  scrollContainerEl.value?.addEventListener("scroll", enableSnapAfterScroll);
   nextTick(() => updateScrollState());
   window.setTimeout(() => {
     updateScrollState();
@@ -90,7 +93,73 @@ onUnmounted(() => {
   window.removeEventListener("resize", updateScrollState);
 
   scrollContainerEl.value?.removeEventListener("scroll", updateScrollState);
+  scrollContainerEl.value?.removeEventListener("scroll", enableSnapAfterScroll);
+
+  const el = scrollContainerEl.value;
+
+  if (el) {
+    el.removeEventListener("mousedown", mouseDown);
+    el.removeEventListener("mouseleave", mouseLeave);
+    el.removeEventListener("mouseup", mouseUp);
+    el.removeEventListener("mousemove", mouseMove);
+  }
 });
+
+// Drag-to-scroll functionality
+let isDown = false;
+let startX: number;
+let scrollLeft: number;
+
+onMounted(() => {
+  const el = scrollContainerEl.value;
+
+  if (el) {
+    el.addEventListener("mousedown", mouseDown);
+    el.addEventListener("mouseleave", mouseLeave);
+    el.addEventListener("mouseup", mouseUp);
+    el.addEventListener("mousemove", mouseMove);
+  }
+});
+
+function mouseDown(e: MouseEvent) {
+  const el = scrollContainerEl.value;
+  if (!el) return;
+  isDown = true;
+  el.classList.add("active", "no-snap");
+  startX = e.pageX - el.offsetLeft;
+  scrollLeft = el.scrollLeft;
+}
+
+function mouseLeave(e: MouseEvent) {
+  const el = scrollContainerEl.value;
+  if (!el) return;
+  isDown = false;
+  el.classList.remove("active");
+}
+
+function mouseUp(e: MouseEvent) {
+  const el = scrollContainerEl.value;
+  if (!el) return;
+  isDown = false;
+  el.classList.remove("active");
+}
+function mouseMove(e: MouseEvent) {
+  const el = scrollContainerEl.value;
+  if (!el) return;
+  if (!isDown) return;
+  e.preventDefault();
+  const x = e.pageX - el.offsetLeft;
+  const walk = (x - startX) * 1.5;
+  el.scrollLeft = scrollLeft - walk;
+}
+
+function enableSnapAfterScroll() {
+  const el = scrollContainerEl.value;
+  if (!el) return;
+  if (!isDown) {
+    el.classList.remove("no-snap");
+  }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -182,7 +251,14 @@ onUnmounted(() => {
   fill: var(--color-default-background);
 }
 
+.horizontal-scroll-gallery::-webkit-scrollbar {
+  display: none;
+}
+
 .horizontal-scroll-gallery {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  cursor: grab;
   height: 100%;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -191,6 +267,16 @@ onUnmounted(() => {
   box-sizing: border-box;
   padding: 0 45px;
   padding-bottom: calc-rem(20);
+  scroll-behavior: smooth;
+}
+
+.horizontal-scroll-gallery.no-snap {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+
+.horizontal-scroll-gallery:active {
+  cursor: grabbing;
 }
 
 .gallery-track {
@@ -209,8 +295,13 @@ onUnmounted(() => {
 .gallery-item img {
   height: 100%;
   object-fit: cover;
-  border-radius: 12px;
+  // border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  user-drag: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  pointer-events: none;
 }
 label {
   display: block;
