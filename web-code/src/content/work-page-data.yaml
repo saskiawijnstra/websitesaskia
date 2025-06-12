@@ -43,7 +43,9 @@ discover:
 
     - id: "long-covid-survival"
       thumbnail:
-        path: "/images/projects/thumbnails/survivalgids-frozen.jpg"
+        path: "/images/projects/thumbnails/survivalgids.mp4"
+        poster: "/images/projects/thumbnails/survivalgids-frozen.jpg"
+        is-video: true
         alt:
           en: >
             Instagram post from @longcovid.survival.gids shown on a phone screen, 
@@ -67,7 +69,9 @@ discover:
 
     - id: "hbm"
       thumbnail:
-        path: "/images/projects/thumbnails/hansboodt.jpg"
+        path: "/images/projects/thumbnails/hbm.mp4"
+        poster: "/images/projects/thumbnails/hansboodt.jpg"
+        is-video: true
         alt:
           en: >
             On the left side of the image, a mannequin wearing an elegant, 
@@ -94,7 +98,9 @@ discover:
 
     - id: "sprong"
       thumbnail:
-        path: "/images/projects/thumbnails/sprong.jpg"
+        path: "/images/projects/thumbnails/sprong.mp4"
+        poster: "/images/projects/thumbnails/sprong.jpg"
+        is-video: true
         alt:
           en: >
             Two mobile screens from a wellness app. The left screen greets 
