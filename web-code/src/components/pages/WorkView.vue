@@ -104,7 +104,10 @@
                 :src="entry.thumbnail.path"
                 :alt="entry.thumbnail.alt[locale]"
               />
-              <p v-html="entry.title[locale]"></p>
+              <p>
+                <span v-html="entry.title[locale]"></span>
+                <ArrowRight v-if="!entry['no-link']" class="arrow-icon" />
+              </p>
             </component>
           </li>
         </ul>
@@ -178,6 +181,18 @@ onUnmounted(() => {
 .work-view {
   p {
     line-height: calc-rem(28px);
+  }
+
+  .arrow-icon {
+    display: inline-block;
+    transform: translateX(0);
+    transition: transform 0.2s ease-in-out;
+    width: 18px;
+    height: 16px;
+
+    &::v-deep(path) {
+      fill: var(--color-default-text);
+    }
   }
   .discover-work-list {
     .content {
@@ -301,6 +316,7 @@ onUnmounted(() => {
         width: 44.5px;
       }
     }
+
     .horizontal-scroll-gallery {
       overflow-x: auto;
       // padding: 2rem 0;
@@ -346,17 +362,6 @@ onUnmounted(() => {
             display: flex;
             gap: 0.5rem;
             align-items: center;
-            .arrow-icon {
-              display: inline-block;
-              transform: translateX(0);
-              transition: transform 0.2s ease-in-out;
-              width: 18px;
-              height: 16px;
-
-              &::v-deep(path) {
-                fill: var(--color-default-text);
-              }
-            }
           }
         }
 
@@ -403,10 +408,25 @@ onUnmounted(() => {
           text-decoration: none;
           color: var(--color-default-text);
 
+          p {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            span,
+            .arrow-icon {
+              display: block;
+            }
+          }
+
           &:hover {
             color: var(--color-text-hover);
+
+            .arrow-icon {
+              transform: translateX(12px) translateY(0);
+            }
           }
         }
+
         img {
           display: block;
           object-fit: contain;
