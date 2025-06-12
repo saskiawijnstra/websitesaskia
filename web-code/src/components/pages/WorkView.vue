@@ -165,15 +165,92 @@ function scrollNext(direction: -1 | 1) {
   });
 }
 
+// Drag-to-scroll variables
+let isDown = false;
+let startX: number;
+let scrollLeft: number;
+
+let hasMoved = false;
+
+function mouseDown(e: MouseEvent) {
+  const el = scrollContainerEl.value;
+  if (!el) return;
+  isDown = true;
+  hasMoved = false;
+  el.classList.add("active", "no-snap");
+  startX = e.pageX - el.offsetLeft;
+  scrollLeft = el.scrollLeft;
+}
+
+function mouseLeave(e: MouseEvent) {
+  const el = scrollContainerEl.value;
+  if (!el) return;
+  isDown = false;
+  el.classList.remove("active");
+}
+
+function preventClickOnce(e: MouseEvent) {
+  if (hasMoved) {
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    hasMoved = false;
+  }
+}
+
+function mouseUp(e: MouseEvent) {
+  const el = scrollContainerEl.value;
+  if (!el) return;
+  isDown = false;
+  el.classList.remove("active");
+  window.addEventListener("click", preventClickOnce, {
+    capture: true,
+    once: true,
+  });
+}
+
+function mouseMove(e: MouseEvent) {
+  const el = scrollContainerEl.value;
+  if (!el || !isDown) return;
+  e.preventDefault();
+  const x = e.pageX - el.offsetLeft;
+  hasMoved = true;
+  const walk = (x - startX) * 1.5;
+  el.scrollLeft = scrollLeft - walk;
+}
+
+function enableSnapAfterScroll() {
+  const el = scrollContainerEl.value;
+  if (!el) return;
+  if (!isDown) {
+    el.classList.remove("no-snap");
+  }
+}
+
 onMounted(() => {
   window.addEventListener("resize", updateScrollState);
   scrollContainerEl.value?.addEventListener("scroll", updateScrollState);
+  scrollContainerEl.value?.addEventListener("scroll", enableSnapAfterScroll);
+  const el = scrollContainerEl.value;
+  if (el) {
+    el.addEventListener("mousedown", mouseDown);
+    el.addEventListener("mouseleave", mouseLeave);
+    el.addEventListener("mouseup", mouseUp);
+    el.addEventListener("mousemove", mouseMove);
+  }
   nextTick(() => updateScrollState()); // initial check
 });
 
 onUnmounted(() => {
   window.removeEventListener("resize", updateScrollState);
   scrollContainerEl.value?.removeEventListener("scroll", updateScrollState);
+  scrollContainerEl.value?.removeEventListener("scroll", enableSnapAfterScroll);
+  const el = scrollContainerEl.value;
+  if (el) {
+    el.removeEventListener("mousedown", mouseDown);
+    el.removeEventListener("mouseleave", mouseLeave);
+    el.removeEventListener("mouseup", mouseUp);
+    el.removeEventListener("mousemove", mouseMove);
+  }
 });
 </script>
 
@@ -325,7 +402,10 @@ onUnmounted(() => {
       scroll-padding-left: 45px;
       box-sizing: border-box;
       padding: 0 45px;
-
+      &.no-snap {
+        scroll-snap-type: none;
+        scroll-behavior: auto;
+      }
       .gallery-track {
         display: flex;
         gap: 2rem;
@@ -349,6 +429,10 @@ onUnmounted(() => {
           text-decoration: none;
           color: var(--color-default-text);
           text-align: left;
+          user-drag: none;
+          user-select: none;
+          -webkit-user-drag: none;
+          -webkit-user-select: none;
 
           &:hover {
             p {
@@ -370,6 +454,10 @@ onUnmounted(() => {
           border-radius: 12px;
           // height: 100%;
           object-fit: cover;
+          user-drag: none;
+          user-select: none;
+          -webkit-user-drag: none;
+          -webkit-user-select: none;
           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
 
