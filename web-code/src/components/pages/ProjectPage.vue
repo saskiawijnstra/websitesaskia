@@ -136,6 +136,7 @@ const getComponentName = (type: string) => {
     }
     .back-link {
       margin-top: 50px;
+      margin-bottom: 50px;
       display: grid;
       text-align: center;
       color: var(--color-default-text);
