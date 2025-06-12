@@ -402,6 +402,10 @@ onUnmounted(() => {
       scroll-padding-left: 45px;
       box-sizing: border-box;
       padding: 0 45px;
+      scrollbar-width: none;
+      &::-webkit-scrollbar {
+        display: none;
+      }
       &.no-snap {
         scroll-snap-type: none;
         scroll-behavior: auto;
