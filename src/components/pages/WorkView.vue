@@ -292,16 +292,6 @@ onUnmounted(() => {
   }
 
 
-<!-- Saskia aangepast -->
-
-.discover-work-list {
-	padding-bottom: 8%;
-}
-
-
-<!-- Saskia aangepast -->
-
-
   .factor-e-box {
     background-color: var(--color-grijs-1);
     padding-top: 100px;
