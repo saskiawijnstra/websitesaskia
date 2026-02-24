@@ -13,7 +13,7 @@ discover:
     - id: "whatsuper" # Unique project ID
       thumbnail:
         path: "/images/projects/thumbnails/whatsuper.mp4"
-        poster: "/images/projects/thumbnail/Whatsuper-frozen.jpg" # this image will get shown before the video is loaded or when the device cant play the video
+        poster: "/images/projects/thumbnail/Whatsuper-frozen.png" # this image will get shown before the video is loaded or when the device cant play the video
         is-video: true
         alt:
           en: > # this > sign means, that we continue the text on the next line
