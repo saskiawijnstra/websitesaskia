@@ -5,7 +5,7 @@ navigation.link-labels.work: Work
 navigation.link-labels.about: About
 settings.toggle-dark-mode-accessibility-label: Toggle color scheme
 # Text before the |-Character is shown when darkmode is on. after is off.
-settings.toggle-dark-mode: Light on | Light off
+settings.toggle-dark-mode: Light off | Light on
 settings.select-language-accessibility-label: Select Language / Taal selecteren
 # attention saskia: the @-Character needs to be wrapped like this {'@'}
 footer.contact.mail: info{'@'}saskiawijnstra.nl
