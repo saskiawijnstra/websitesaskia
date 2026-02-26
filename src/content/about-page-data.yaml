@@ -128,24 +128,24 @@ experience:
       nl: ""
   experiences:
     - title:
-        en: Saskia Wijnstra
-        nl: Saskia Wijnstra
+        en: Studio SpinLink
+        nl: Studio SpinLink
       description:
-        en: My own design company
+        en: Digital Designer
         nl: ""
       time:
-        en: 2009 - now
-        nl: ""
+        en: 2025 - now
+        nl: 2025 - nu
       icon-path: "/images/about/experience-icons/spinlink.png"
     - title:
-        en: Saskia Wijnstra
-        nl: Saskia Wijnstra
+        en: Waterlelie wellnessresort
+        nl: Waterlelie wellnessresort
       description:
-        en: My own design company
-        nl: ""
+        en: Saunameester
+        nl: Saunamaster
       time:
-        en: 2009 - now
-        nl: ""
+        en: 2025 - now
+        nl: 2025 - nu
       icon-path: "/images/about/experience-icons/waterlelie.png"
     - title:
         en: Saskia Wijnstra
