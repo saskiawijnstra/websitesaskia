@@ -189,7 +189,7 @@ factor-e:
         nl: "excap"
     - id: "dutchlease" # Unique project ID
       thumbnail:
-        path: "/images/projects/thumbnails/dutchlease.jpg"
+        path: "/images/projects/thumbnails/dutchlease.png"
         alt:
           en: "Website of DutchLease with clean design and car leasing options."
           nl: "Website van DutchLease met strak ontwerp en lease-opties."
