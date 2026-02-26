@@ -203,7 +203,7 @@ more-designs:
   projects:
     - id: vodafone-ziggo
       thumbnail:
-        path: "/images/projects/thumbnails/vodafone.jpg"
+        path: "/images/projects/thumbnails/vz.png"
         alt:
           en: "Cityscape animation with colored buildings and network signal lines for Vodafone Ziggo."
           nl: "Stadsanimatie met gekleurde gebouwen en netwerksignaallijnen voor Vodafone Ziggo."
@@ -212,7 +212,7 @@ more-designs:
         nl: "Masterproject <strong>Vodafone Ziggo</strong> Het Netwerk"
     - id: gforce
       thumbnail:
-        path: "/images/projects/thumbnails/g-force-workpage.jpg"
+        path: "/images/projects/thumbnails/g-force.png"
         alt:
           en: "Laptop and print layouts showcasing branding for G-Force Capital."
           nl: "Laptop en drukwerk met brandingvoorbeelden voor G-Force Capital."
@@ -222,7 +222,7 @@ more-designs:
     - id: mindbody
       no-link: true
       thumbnail:
-        path: "/images/projects/thumbnails/mind-body.jpg"
+        path: "/images/projects/thumbnails/mind-body.png"
         alt:
           en: "Logo design with butterfly and circle shape for Mind body met Moreen."
           nl: "Logo-ontwerp met vlinder en cirkel voor Mind body met Moreen."
@@ -232,7 +232,7 @@ more-designs:
 
     - id: magazine
       thumbnail:
-        path: "/images/projects/thumbnails/magazine.jpg"
+        path: "/images/projects/thumbnails/magazine.png"
         alt:
           en: "Hands holding a magazine titled Saskia on a wooden table."
           nl: "Handen houden een magazine met de titel Saskia boven een houten tafel vast."
@@ -241,7 +241,7 @@ more-designs:
         nl: "<strong>Magazine</strong> Saskia"
     - id: fysiovries
       thumbnail:
-        path: "/images/projects/thumbnails/fysio.jpg"
+        path: "/images/projects/thumbnails/fysio.png"
         alt:
           en: "Website homepage of FysioVries with colorful navigation blocks."
           nl: "Homepage van de website van FysioVries met kleurrijke navigatieblokken."
@@ -250,7 +250,7 @@ more-designs:
         nl: "<strong>Fysio</strong>Vries"
     - id: acro-academy
       thumbnail:
-        path: "/images/projects/thumbnails/acro.jpg"
+        path: "/images/projects/thumbnails/acro.png"
         alt:
           en: "Hands covered in chalk and bold A-logo for Acro Academy."
           nl: "Met krijt bedekte handen en een krachtig A-logo voor Acro Academy."
