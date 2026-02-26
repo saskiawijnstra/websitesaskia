@@ -1,5 +1,5 @@
 <template>
-  <div class="landing-page grid-container">
+  <div class="landing-page">
     <div class="lettering">
       <h1 class="main-text">
         <span>Digital</span>
@@ -31,7 +31,7 @@
       <img src="@/assets/images/windinmijnharen.jpg" alt="Saskia Wijnstra" />
     </div>
 
-    <div class="links">
+    <div class="links grid-container">
       <a href="#work" class="work">
         <LinkArrow class="arrow" />
         {{ t("landingpage.link-work") }}
