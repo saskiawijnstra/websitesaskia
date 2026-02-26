@@ -56,8 +56,8 @@ discover:
             samen met een carrousel met illustraties van hersenbanen en Nederlandse 
             tekst over het vormen van nieuwe neurale paden.
       title:
-        en: "@longcovid.<strong>survival</strong>.gids"
-        nl: "@longcovid.<strong>survival</strong>.gids"
+        en: "@longcovid.<em><strong>survival</strong></em>.gids"
+        nl: "@longcovid.<em><strong>survival</strong></em>.gids"
       description:
         en: >
           From surviving to feeling alive again. How I recovered from long
@@ -86,8 +86,8 @@ discover:
             3D-model. De compositie benadrukt de combinatie van fysiek productdesign 
             en digitale presentatie.
       title:
-        en: "<strong>Hans Boodt Mannequins</strong> Snakeware"
-        nl: "<strong>Hans Boodt Mannequins</strong> Snakeware"
+        en: "<em><strong>Hans Boodt Mannequins</strong></em> Snakeware"
+        nl: "<em><strong>Hans Boodt Mannequins</strong></em> Snakeware"
       description:
         en: >
           In what way can Augmented Reality contribute to a more efficient
@@ -112,8 +112,8 @@ discover:
             luiaard de gebruiker met een zachte activiteiten-tip. Rechts is een 
             weekoverzicht te zien met activiteit-, gevoel- en symptoomtracking.
       title:
-        en: "<strong>Sprong</strong> VuMC, Onconet"
-        nl: "<strong>Sprong</strong> VuMC, Onconet"
+        en: "<em><strong>Sprong</strong></em> VuMC, Onconet"
+        nl: "<em><strong>Sprong</strong></em> VuMC, Onconet"
       description:
         en: >
           How can we make people with breast cancer feel more in control
@@ -208,8 +208,8 @@ more-designs:
           en: "Cityscape animation with colored buildings and network signal lines for Vodafone Ziggo."
           nl: "Stadsanimatie met gekleurde gebouwen en netwerksignaallijnen voor Vodafone Ziggo."
       title:
-        en: "Master project <strong>Vodafone Ziggo</strong> The Network"
-        nl: "Masterproject <strong>Vodafone Ziggo</strong> Het Netwerk"
+        en: "Master project <em><strong>Vodafone Ziggo</strong></em> The Network"
+        nl: "Masterproject <em><strong>Vodafone Ziggo</strong></em> Het Netwerk"
     - id: gforce
       thumbnail:
         path: "/images/projects/thumbnails/g-force.png"
@@ -217,8 +217,8 @@ more-designs:
           en: "Laptop and print layouts showcasing branding for G-Force Capital."
           nl: "Laptop en drukwerk met brandingvoorbeelden voor G-Force Capital."
       title:
-        en: "<strong>G-Force</strong> Capital"
-        nl: "<strong>G-Force</strong> Capital"
+        en: "<em><strong>G-Force</strong></em> Capital"
+        nl: "<em><strong>G-Force</strong></em> Capital"
     - id: mindbody
       no-link: true
       thumbnail:
@@ -227,8 +227,8 @@ more-designs:
           en: "Logo design with butterfly and circle shape for Mind body met Moreen."
           nl: "Logo-ontwerp met vlinder en cirkel voor Mind body met Moreen."
       title:
-        en: "<strong>Mind body</strong> met Moreen"
-        nl: "<strong>Mind body</strong> met Moreen"
+        en: "<em><strong>Mind body</strong></em> met Moreen"
+        nl: "<em><strong>Mind body</strong></em> met Moreen"
 
     - id: magazine
       thumbnail:
@@ -237,8 +237,8 @@ more-designs:
           en: "Hands holding a magazine titled Saskia on a wooden table."
           nl: "Handen houden een magazine met de titel Saskia boven een houten tafel vast."
       title:
-        en: "<strong>Magazine</strong> Saskia"
-        nl: "<strong>Magazine</strong> Saskia"
+        en: "<em><strong>Magazine</strong></em> Saskia"
+        nl: "<em><strong>Magazine</strong></em> Saskia"
     - id: fysiovries
       thumbnail:
         path: "/images/projects/thumbnails/fysio.png"
@@ -246,8 +246,8 @@ more-designs:
           en: "Website homepage of FysioVries with colorful navigation blocks."
           nl: "Homepage van de website van FysioVries met kleurrijke navigatieblokken."
       title:
-        en: "<strong>Fysio</strong>Vries"
-        nl: "<strong>Fysio</strong>Vries"
+        en: "<em><strong>Fysio</strong></em>Vries"
+        nl: "<em><strong>Fysio</strong></em>Vries"
     - id: acro-academy
       thumbnail:
         path: "/images/projects/thumbnails/acro.png"
@@ -255,5 +255,5 @@ more-designs:
           en: "Hands covered in chalk and bold A-logo for Acro Academy."
           nl: "Met krijt bedekte handen en een krachtig A-logo voor Acro Academy."
       title:
-        en: "<strong>Acro</strong> Academy"
-        nl: "<strong>Acro</strong> Academy"
+        en: "<em><strong>Acro</strong></em> Academy"
+        nl: "<em><strong>Acro</strong></em> Academy"
