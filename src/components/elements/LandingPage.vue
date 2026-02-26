@@ -1,5 +1,5 @@
 <template>
-  <div class="landing-page">
+  <div class="landing-page grid-container">
     <div class="lettering">
       <h1 class="main-text">
         <span>Digital</span>
