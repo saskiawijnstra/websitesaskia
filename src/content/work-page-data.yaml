@@ -171,7 +171,7 @@ factor-e:
   showcase:
     - id: "sein" # Unique project ID
       thumbnail:
-        path: "/images/projects/thumbnails/SEIN.jpg"
+        path: "/images/projects/thumbnails/SEIN.png"
         alt:
           en: "Screenshot of the SEIN homepage, showing a search bar and modules for epilepsy and sleep."
           nl: "Screenshot van de SEIN-homepage met zoekfunctie en modules over epilepsie en slaap."
@@ -180,7 +180,7 @@ factor-e:
         nl: "SEIN"
     - id: "excap" # Unique project ID
       thumbnail:
-        path: "/images/projects/thumbnails/excap.jpg"
+        path: "/images/projects/thumbnails/excap.png"
         alt:
           en: "Homepage of excap with bold blue and pink design and three case studies."
           nl: "Homepage van excap met felblauw en roze ontwerp en drie case studies."
