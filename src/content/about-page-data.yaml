@@ -136,7 +136,7 @@ experience:
       time:
         en: 2025 - now
         nl: 2025 - nu
-      icon-path: "/images/about/experience-icons/spinlink.png"
+      icon-path: "/images/about/experience-icons/spinlink1.png"
     - title:
         en: Waterlelie wellnessresort
         nl: Waterlelie wellnessresort
@@ -146,7 +146,7 @@ experience:
       time:
         en: 2025 - now
         nl: 2025 - nu
-      icon-path: "/images/about/experience-icons/waterlelie.png"
+      icon-path: "/images/about/experience-icons/waterlelie1.png"
     - title:
         en: Saskia Wijnstra
         nl: Saskia Wijnstra
@@ -156,7 +156,7 @@ experience:
       time:
         en: 2009 - now
         nl: ""
-      icon-path: "/images/about/experience-icons/saskialogo.png"
+      icon-path: "/images/about/experience-icons/saskialogo1.png"
     - title:
         en: Kledingbank de Zeecontainer
         nl: Kledingbank de Zeecontainer
@@ -166,7 +166,7 @@ experience:
       time:
         en: 2024 - 2025
         nl: 2024 - 2025
-      icon-path: "/images/about/experience-icons/kledingbank.png"
+      icon-path: "/images/about/experience-icons/kledingbank1.png"
     - title:
         en: Van der Lei Luchtacrobatiek
         nl: Van der Lei Luchtacrobatiek
@@ -176,7 +176,7 @@ experience:
       time:
         en: 2020 - 2021
         nl: 2020 - 2021
-      icon-path: "/images/about/experience-icons/aerials.png"
+      icon-path: "/images/about/experience-icons/aerials1.png"
     - title:
         en: Snakeware
         nl: Snakeware
@@ -186,7 +186,7 @@ experience:
       time:
         en: 2017 - 2018
         nl: 2017 - 2018
-      icon-path: "/images/about/experience-icons/snakeware.png"
+      icon-path: "/images/about/experience-icons/snakeware1.png"
     - title:
         en: theFactor.e
         nl: theFactor.e
@@ -196,7 +196,7 @@ experience:
       time:
         en: 2017 (6 months)
         nl: 2017 (6 maanden)
-      icon-path: "/images/about/experience-icons/tfe.png"
+      icon-path: "/images/about/experience-icons/tfe1.png"
     - title:
         en: Adonis sportacrobatiek
         nl: Adonis sportacrobatiek
@@ -206,7 +206,7 @@ experience:
       time:
         en: 2015 - 2018
         nl: 2015 - 2018
-      icon-path: "/images/about/experience-icons/adonis.png"
+      icon-path: "/images/about/experience-icons/adonis1.png"
     - title:
         en: Movit Sport
         nl: Movit Sport
@@ -216,7 +216,7 @@ experience:
       time:
         en: 2017 (7 months)
         nl: 2017 (7 maanden)
-      icon-path: "/images/about/experience-icons/movit.png"
+      icon-path: "/images/about/experience-icons/movit1.png"
     - title:
         en: Rerocamp
         nl: Rerocamp
@@ -226,7 +226,7 @@ experience:
       time:
         en: 2014
         nl: 2014
-      icon-path: "/images/about/experience-icons/rerocamp.png"
+      icon-path: "/images/about/experience-icons/rerocamp1.png"
     - title:
         en: Tiga Leek
         nl: Tiga Leek
@@ -236,7 +236,7 @@ experience:
       time:
         en: 2011 - 2012
         nl: 2011 - 2012
-      icon-path: "/images/about/experience-icons/turnen.png"
+      icon-path: "/images/about/experience-icons/turnen1.png"
 
 education:
   heading:
