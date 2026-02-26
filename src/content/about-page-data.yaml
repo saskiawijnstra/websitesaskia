@@ -102,7 +102,7 @@ introduction:
         nl: "Bekijk mijn masterproject:"
       name:
         en: "***Sprong*** (Onconet, VUmc)"
-        nl: ""
+        nl: "***Sprong*** (Onconet, VUmc)"
     - type: link-list
       annotation:
         en: "Go to a project:"
