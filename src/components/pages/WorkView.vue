@@ -4,18 +4,20 @@
     <article class="">
       <!-- Discover my Work -->
 
+<!-- STUDIO SpinLink -->
+
       <div class="factor-e-box" :class="`color-scheme-${colorScheme}`">
         <div class="grid-container">
           <div class="introduction col-span-6">
             <!-- this h2 looks like the h1-style. there sould only be one h1 per page (WCAG) -->
-            <h2 class="h1">{{ yamlDataWork["factor-e"].title[locale] }}</h2>
-            <p v-html="yamlDataWork['factor-e'].description[locale]"></p>
+            <h2 class="h1">{{ yamlDataWork["spinlink"].title[locale] }}</h2>
+            <p v-html="yamlDataWork['spinlink'].description[locale]"></p>
           </div>
           <div class="twin-qels-teaser col-span-6">
             <router-link to="work/twin-qels">
               <div class="screenshots">
                 <img
-                  v-for="image in yamlDataWork['factor-e']['twin-qels-teaser']
+                  v-for="image in yamlDataWork['spinlink']['twin-qels-teaser']
                     .images"
                   :src="`/images/projects/twin-qels-teaser-screenshots/${image['image-name']}`"
                   :alt="image['alt-text'][locale]"
@@ -68,6 +70,8 @@
           </div>
         </div>
       </div>
+
+      <!-- einde SpinLink -->
 
       <div class="discover-work-list grid-container">
         <div class="introduction col-span-6" id="work">
