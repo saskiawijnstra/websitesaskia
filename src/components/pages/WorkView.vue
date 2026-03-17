@@ -6,70 +6,8 @@
 
 <!-- STUDIO SpinLink -->
 
-      <div class="factor-e-box" :class="`color-scheme-${colorScheme}`">
-        <div class="grid-container">
-          <div class="introduction col-span-6">
-            <!-- this h2 looks like the h1-style. there sould only be one h1 per page (WCAG) -->
-            <h2 class="h1">{{ yamlDataWork["spinlink"].title[locale] }}</h2>
-            <p v-html="yamlDataWork['spinlink'].description[locale]"></p>
-          </div>
-          <div class="twin-qels-teaser col-span-6">
-            <router-link to="work/twin-qels">
-              <div class="screenshots">
-                <img
-                  v-for="image in yamlDataWork['spinlink']['twin-qels-teaser']
-                    .images"
-                  :src="`/images/projects/twin-qels-teaser-screenshots/${image['image-name']}`"
-                  :alt="image['alt-text'][locale]"
-                />
-              </div>
-              <p>TwinQels</p>
-            </router-link>
-          </div>
-        </div>
-        <div class="scroll-wrapper">
-          <transition name="fade">
-            <button
-              v-if="canScrollLeft"
-              class="scroll-button left"
-              @click="scrollNext(-1)"
-            >
-              <arrow-right />
-            </button>
-          </transition>
-          <transition name="fade">
-            <button
-              v-if="canScrollRight"
-              class="scroll-button right"
-              @click="scrollNext(1)"
-            >
-              <arrow-right />
-            </button>
-          </transition>
+      
 
-          <div class="horizontal-scroll-gallery" ref="scrollContainerEl">
-            <div class="gallery-track">
-              <div
-                v-for="project in factorEShowcaseProjects"
-                :key="project.id"
-                class="gallery-item"
-              >
-                <router-link :to="`work/${project.id}`">
-                  <img
-                    :src="project.thumbnail.path"
-                    :alt="project.thumbnail.alt[locale]"
-                  />
-                  <p class="caption">
-                    {{ project.title[locale] }}
-
-                    <ArrowRight class="arrow-icon" />
-                  </p>
-                </router-link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <!-- einde SpinLink -->
 
