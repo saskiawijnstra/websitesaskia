@@ -8,10 +8,16 @@ discover:
   title:
     en: "Discover my work"
     nl: "Ontdek mijn werk"
-
+  spinlink:
+  title:
+    en: Work at studio SpinLink
+    nl: Werk bij studio SpinLink
+  description:
+    en: >
+      social impact
+    nl: >
+      maatschappelijke impact
   projects:
-    
-  
     - id: "whatsuper" # Unique project ID
       thumbnail:
         path: "/images/projects/thumbnails/whatsuper.mp4"
