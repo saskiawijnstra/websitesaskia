@@ -8,8 +8,8 @@ discover:
   title:
     en: "Discover my work"
     nl: "Ontdek mijn werk"
-    
-projects:
+
+  projects:
     - id: "whatsuper" # Unique project ID
       thumbnail:
         path: "/images/projects/thumbnails/whatsuper.mp4"
@@ -197,7 +197,6 @@ factor-e:
       title:
         en: "DutchLease"
         nl: "DutchLease"
-
 more-designs:
   title:
     en: More designs
