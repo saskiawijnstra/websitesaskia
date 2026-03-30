@@ -13,7 +13,7 @@
             <h2 class="h1">{{ yamlDataWork["factor-e"].title[locale] }}</h2>
             <p v-html="yamlDataWork['factor-e'].description[locale]"></p>
           </div>
-          <!-- <div class="twin-qels-teaser col-span-6">
+          <div class="twin-qels-teaser col-span-6">
             <router-link to="work/twin-qels">
               <div class="screenshots">
                 <img
@@ -26,8 +26,8 @@
               <p>TwinQels</p>
             </router-link>
           </div>
-        </div> -->
-        <!-- <div class="scroll-wrapper">
+        </div>
+        <div class="scroll-wrapper">
           <transition name="fade">
             <button
               v-if="canScrollLeft"
