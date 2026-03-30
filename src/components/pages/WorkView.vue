@@ -6,7 +6,7 @@
 
       <div class="more-designs grid-container">
         <h2 class="h1 col-span-6">
-          {{ yamlDataWork["more-designs"].title[locale] }}
+          {{ yamlDataWork["spinlink"].title[locale] }}
         </h2>
         <ul class="design-list col-span-12-start-1">
           <li class="col-span-4" v-for="entry in moreDesignsData">
