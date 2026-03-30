@@ -10,8 +10,8 @@
         <div class="grid-container">
           <div class="introduction col-span-6">
             <!-- this h2 looks like the h1-style. there sould only be one h1 per page (WCAG) -->
-            <h2 class="h1">{{ yamlDataWork["spinlink"].title[locale] }}</h2>
-            <p v-html="yamlDataWork['spinlink'].description[locale]"></p>
+            <h2 class="h1">{{ yamlDataWork["factor-e"].title[locale] }}</h2>
+            <p v-html="yamlDataWork['factor-e'].description[locale]"></p>
           </div>
           <!-- <div class="twin-qels-teaser col-span-6">
             <router-link to="work/twin-qels">
