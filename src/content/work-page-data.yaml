@@ -8,7 +8,7 @@ discover:
   title:
     en: "Discover my work"
     nl: "Ontdek mijn werk"
-  spinlink:
+spinlink:
   title:
     en: Work at studio SpinLink
     nl: Werk bij studio SpinLink
@@ -131,6 +131,7 @@ discover:
           Hoe kunnen we mensen met borstkanker meer controle geven over hun
           trainingsprogramma en de communicatie van data met hun fysiotherapeut verbeteren
           middels een aantrekkelijke service?
+
 factor-e:
   title:
     en: Work at theFactor.e
