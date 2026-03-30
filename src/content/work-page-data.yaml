@@ -8,8 +8,7 @@ discover:
   title:
     en: "Discover my work"
     nl: "Ontdek mijn werk"
-
-
+    
 projects:
     - id: "whatsuper" # Unique project ID
       thumbnail:
