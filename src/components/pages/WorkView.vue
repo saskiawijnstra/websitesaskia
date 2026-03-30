@@ -73,7 +73,7 @@
 
 
 
-      <!-- einde SpinLink -->
+<!-- einde SpinLink -->
 
       <div class="discover-work-list grid-container">
         <div class="introduction col-span-6" id="work">
