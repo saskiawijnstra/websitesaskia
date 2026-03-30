@@ -9,7 +9,7 @@ discover:
     en: "Discover my work"
     nl: "Ontdek mijn werk"
 
-  projects:
+projects:
     - id: "whatsuper" # Unique project ID
       thumbnail:
         path: "/images/projects/thumbnails/whatsuper.mp4"
