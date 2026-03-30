@@ -10,47 +10,6 @@ discover:
     nl: "Ontdek mijn werk"
 
 
-spinlink:
-  title:
-    en: Work at Studio SpinLink
-    nl: Werk bij Studio SpinLink
-  description:
-    en: >
-      Social impact
-    nl: >
-      Maatschappelijke impact
-  twin-qels-teaser:
-    images:
-      - image-name: TwinQels1.png
-        alt-text:
-          en: "Dashboard with modules and tasks to support personal growth at work"
-          nl: "Dashboard met modules en opdrachten voor groei op het werk"
-      - image-name: TwinQels2.png
-        alt-text:
-          en: "Overview of your results and strengths visualized with colorful icons"
-          nl: "Overzicht van je resultaten en sterke punten met kleurrijke iconen"
-      - image-name: TwinQels3.png
-        alt-text:
-          en: "Define goals and track progress towards certifications"
-          nl: "Formuleer doelen en volg je voortgang richting certificaten"
-      - image-name: TwinQels4.png
-        alt-text:
-          en: "Various screens showing insights and exercises for career control"
-          nl: "Verschillende schermen met inzichten en oefeningen voor loopbaanregie"
-  showcase:
-    - id: "tgroenehart" # Unique project ID
-      thumbnail:
-        path: "/images/projects/thumbnails/tgroenehart.png"
-        alt:
-          en: "Menu design for t groene hart."
-          nl: "Menukaart design van t groene hart."
-      title:
-        en: "t Groene Hart"
-        nl: "t Groene Hart"
-    
-
-
-
 projects:
     - id: "whatsuper" # Unique project ID
       thumbnail:
