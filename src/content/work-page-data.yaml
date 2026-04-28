@@ -261,7 +261,7 @@ more-designs:
       title:
         en: "<em><strong>Acro</strong></em> Academy"
         nl: "<em><strong>Acro</strong></em> Academy"
-    - id: a
+    - id: tgroenehart
       no-link: true
       thumbnail:
         path: "/images/projects/thumbnails/tgroenehart.png"
@@ -271,7 +271,7 @@ more-designs:
       title:
         en: "<em><A"
         nl: "<em>A"
-    - id: a
+    - id: biebeno
       no-link: true
       thumbnail:
         path: "/images/projects/thumbnails/Bie_Beno2.mp4"
@@ -283,7 +283,7 @@ more-designs:
       title:
         en: "<em><A"
         nl: "<em>A"
-    - id: a
+    - id: opewsum
       no-link: true
       thumbnail:
         path: "/images/projects/thumbnails/opewsum.png"
@@ -293,7 +293,7 @@ more-designs:
       title:
         en: "<em><A"
         nl: "<em>A"
-    - id: a
+    - id: magma
       no-link: true
       thumbnail:
         path: "/images/projects/thumbnails/Magma.png"
@@ -303,7 +303,7 @@ more-designs:
       title:
         en: "<em><A"
         nl: "<em>A"
-    - id: a
+    - id: deriepe
       no-link: true
       thumbnail:
         path: "/images/projects/thumbnails/deRiepe.png"
@@ -313,7 +313,7 @@ more-designs:
       title:
         en: "<em><A"
         nl: "<em>A"
-    - id: a
+    - id: buurtbemiddeling
       no-link: true
       thumbnail:
         path: "/images/projects/thumbnails/BuurtBemiddelingGroningen.png"
