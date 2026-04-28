@@ -261,3 +261,12 @@ more-designs:
       title:
         en: "<em><strong>Acro</strong></em> Academy"
         nl: "<em><strong>Acro</strong></em> Academy"
+    - id: acro-academy
+      thumbnail:
+        path: "/images/projects/thumbnails/acro.png"
+        alt:
+          en: "Hands covered in chalk and bold A-logo for Acro Academy."
+          nl: "Met krijt bedekte handen en een krachtig A-logo voor Acro Academy."
+      title:
+        en: "<em><strong>Acro</strong></em> Academy"
+        nl: "<em><strong>Acro</strong></em> Academy"
