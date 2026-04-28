@@ -262,6 +262,7 @@ more-designs:
         en: "<em><strong>Acro</strong></em> Academy"
         nl: "<em><strong>Acro</strong></em> Academy"
     - id: a
+      no-link: true
       thumbnail:
         path: "/images/projects/thumbnails/tgroenehart.png"
         alt:
@@ -271,6 +272,7 @@ more-designs:
         en: "<em><A"
         nl: "<em>A"
     - id: a
+      no-link: true
       thumbnail:
         path: "/images/projects/thumbnails/survivalgids.mp4"
         poster: "/images/projects/thumbnails/survivalgids-frozen.jpg"
