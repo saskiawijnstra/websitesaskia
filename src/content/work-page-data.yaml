@@ -274,7 +274,7 @@ more-designs:
     - id: a
       no-link: true
       thumbnail:
-        path: "/images/projects/thumbnails/BieBeno.jpg"
+        path: "/images/projects/thumbnails/BieBeno.png"
         alt:
           en: ""
           nl: ""
