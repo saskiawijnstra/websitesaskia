@@ -269,8 +269,8 @@ more-designs:
           en: ""
           nl: ""
       title:
-        en: "<em><A"
-        nl: "<em>A"
+        en: "'t groene hart"
+        nl: "'t groene hart"
     - id: biebeno
       no-link: true
       thumbnail:
