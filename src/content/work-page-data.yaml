@@ -262,11 +262,7 @@ more-designs:
         en: "<em><strong>Acro</strong></em> Academy"
         nl: "<em><strong>Acro</strong></em> Academy"
 
-more-designs:
-  title:
-    en: Studio SpinLink
-    nl: Studio SpinLink
-  projects:
+
     - id: tgroenehart
       no-link: true
       thumbnail:
