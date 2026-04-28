@@ -274,8 +274,7 @@ more-designs:
     - id: biebeno
       no-link: true
       thumbnail:
-        path: "/images/projects/thumbnails/Bie_Beno2.mp4"
-        poster: "/images/projects/thumbnails/BieBeno.png"
+        path: "/images/projects/thumbnails/BieBeno.png"
         is-video: true
         alt:
           en: "Website design from Bie Beno"
