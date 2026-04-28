@@ -5,7 +5,6 @@
       <!-- Discover my Work -->
 
 
-
       <div class="discover-work-list grid-container">
         <div class="introduction col-span-6" id="work">
           <h1 v-html="yamlDataWork.discover.title[locale]"></h1>

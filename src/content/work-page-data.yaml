@@ -11,11 +11,6 @@ discover:
 
 
 
-
-
-
-
-
   projects:
     - id: "whatsuper" # Unique project ID
       thumbnail:
@@ -42,10 +37,10 @@ discover:
         nl: "Freelance project <em><strong>Whatsuper</strong></em>"
       description:
         en: >
-          TEST All supermarket offers in one overview. A light and clear design
+          All supermarket offers in one overview. A light and clear design
           to make you find the best sales on daily products.
         nl: >
-          TEST Alle supermarktaanbiedingen in één overzicht. Met een licht en overzichtelijk design
+          Alle supermarktaanbiedingen in één overzicht. Met een licht en overzichtelijk design
           helpt de app je de beste aanbiedingen voor dagelijkse producten te vinden.
 
     - id: "long-covid-survival"
