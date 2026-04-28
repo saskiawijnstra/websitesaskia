@@ -4,7 +4,7 @@
     <article class="">
       <!-- Discover my Work -->
 
-      <div class="more-designs grid-container">
+      <div class="spinlink grid-container">
         <h2 class="h1 col-span-6">
           {{ yamlDataWork["spinlink"].title[locale] }}
         </h2>
