@@ -9,20 +9,7 @@ discover:
     en: "Discover my work"
     nl: "Ontdek mijn werk"
 
-spinlink:
-  title:
-    en: Studio SpinLink
-    nl: Studio SpinLink
-  projects:
-    - id: vodafone-ziggo
-      thumbnail:
-        path: "/images/projects/thumbnails/vz.png"
-        alt:
-          en: "Cityscape animation with colored buildings and network signal lines for Vodafone Ziggo."
-          nl: "Stadsanimatie met gekleurde gebouwen en netwerksignaallijnen voor Vodafone Ziggo."
-      title:
-        en: "Master project <em><strong>Vodafone Ziggo</strong></em> The Network"
-        nl: "Masterproject <em><strong>Vodafone Ziggo</strong></em> Het Netwerk" 
+
 
 
 

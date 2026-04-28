@@ -4,28 +4,7 @@
     <article class="">
       <!-- Discover my Work -->
 
-      <div class="spinlink grid-container">
-        <h2 class="h1 col-span-6">
-          {{ yamlDataWork["spinlink"].title[locale] }}
-        </h2>
-        <ul class="design-list col-span-12-start-1">
-          <li class="col-span-4" v-for="entry in moreDesignsData">
-            <component
-              :is="entry['no-link'] === true ? 'div' : 'router-link'"
-              :to="`/work/${entry.id}`"
-            >
-              <img
-                :src="entry.thumbnail.path"
-                :alt="entry.thumbnail.alt[locale]"
-              />
-              <p>
-                <span v-html="entry.title[locale]"></span>
-                <ArrowRight v-if="!entry['no-link']" class="arrow-icon" />
-              </p>
-            </component>
-          </li>
-        </ul>
-      </div>
+
 
       <div class="discover-work-list grid-container">
         <div class="introduction col-span-6" id="work">
