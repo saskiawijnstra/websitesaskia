@@ -282,6 +282,16 @@ more-designs:
       title:
         en: "<em><A"
         nl: "<em>A"
+    - id: a
+      no-link: true
+      thumbnail:
+        path: "/images/projects/thumbnails/opewsum.png"
+        alt:
+          en: ""
+          nl: ""
+      title:
+        en: "<em><A"
+        nl: "<em>A"
 
 
 
