@@ -291,6 +291,36 @@ more-designs:
       title:
         en: "<em><A"
         nl: "<em>A"
+    - id: a
+      no-link: true
+      thumbnail:
+        path: "/images/projects/thumbnails/Magma.png"
+        alt:
+          en: ""
+          nl: ""
+      title:
+        en: "<em><A"
+        nl: "<em>A"
+    - id: a
+      no-link: true
+      thumbnail:
+        path: "/images/projects/thumbnails/deRiepe.png"
+        alt:
+          en: ""
+          nl: ""
+      title:
+        en: "<em><A"
+        nl: "<em>A"
+    - id: a
+      no-link: true
+      thumbnail:
+        path: "/images/projects/thumbnails/BuurtBemiddelingGroningen.png"
+        alt:
+          en: ""
+          nl: ""
+      title:
+        en: "<em><A"
+        nl: "<em>A"
 
 
 
