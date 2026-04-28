@@ -274,8 +274,8 @@ more-designs:
     - id: a
       no-link: true
       thumbnail:
-        path: "/images/projects/thumbnails/survivalgids.mp4"
-        poster: "/images/projects/thumbnails/survivalgids-frozen.jpg"
+        path: "/images/projects/thumbnails/Bie_Beno2.mp4"
+        poster: "/images/projects/thumbnails/BieBeno.jpg"
         is-video: true
         alt:
           en: ""
