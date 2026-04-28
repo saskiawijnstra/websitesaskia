@@ -274,8 +274,8 @@ more-designs:
     - id: a
       no-link: true
       thumbnail:
-        path: "/images/projects/thumbnails/BieBeno.png"
-        poster: "/images/projects/thumbnails/sprong.jpg"
+        path: "/images/projects/thumbnails/Bie_Beno2.mp4"
+        poster: "/images/projects/thumbnails/BieBeno.png"
         is-video: true
         alt:
           en: ""
