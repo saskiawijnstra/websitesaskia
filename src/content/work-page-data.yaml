@@ -281,8 +281,8 @@ more-designs:
           en: ""
           nl: ""
       title:
-        en: "<em><A"
-        nl: "<em>A"
+        en: "Bie Beno"
+        nl: "Bie Beno"
     - id: opewsum
       no-link: true
       thumbnail:
@@ -291,8 +291,8 @@ more-designs:
           en: ""
           nl: ""
       title:
-        en: "<em><A"
-        nl: "<em>A"
+        en: "Op Ewsum"
+        nl: "Op Ewsum"
     - id: magma
       no-link: true
       thumbnail:
@@ -301,15 +301,15 @@ more-designs:
           en: ""
           nl: ""
       title:
-        en: "<em><A"
-        nl: "<em>A"
+        en: "Magma"
+        nl: "Magma"
     - id: deriepe
       no-link: true
       thumbnail:
         path: "/images/projects/thumbnails/deRiepe.png"
         alt:
-          en: ""
-          nl: ""
+          en: "de Riepe"
+          nl: "de Riepe"
       title:
         en: "<em><A"
         nl: "<em>A"
@@ -321,8 +321,8 @@ more-designs:
           en: ""
           nl: ""
       title:
-        en: "<em><A"
-        nl: "<em>A"
+        en: "Buurt Bemiddeling Groningen"
+        nl: "Buurt Bemiddeling Groningen"
 
 
 
