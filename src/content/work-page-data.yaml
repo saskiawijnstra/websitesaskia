@@ -266,8 +266,8 @@ more-designs:
       thumbnail:
         path: "/images/projects/thumbnails/tgroenehart.png"
         alt:
-          en: ""
-          nl: ""
+          en: "Menu card design from 't Groene Hart"
+          nl: "Menukaart ontwerp van 't Groene Hart"
       title:
         en: "'t Groene Hart"
         nl: "'t Groene Hart"
@@ -278,8 +278,8 @@ more-designs:
         poster: "/images/projects/thumbnails/BieBeno.png"
         is-video: true
         alt:
-          en: ""
-          nl: ""
+          en: "Website design from Bie Beno"
+          nl: "Website ontwerp voor Bie Beno"
       title:
         en: "Bie Beno"
         nl: "Bie Beno"
@@ -288,8 +288,8 @@ more-designs:
       thumbnail:
         path: "/images/projects/thumbnails/opewsum.png"
         alt:
-          en: ""
-          nl: ""
+          en: "Flyer design for Op Ewsum"
+          nl: "Flyer design drieluik voor Op Ewsum"
       title:
         en: "Op Ewsum"
         nl: "Op Ewsum"
@@ -298,8 +298,8 @@ more-designs:
       thumbnail:
         path: "/images/projects/thumbnails/Magma.png"
         alt:
-          en: ""
-          nl: ""
+          en: "Website design for Magma"
+          nl: "Website ontwerp voor Magma"
       title:
         en: "Magma"
         nl: "Magma"
@@ -308,18 +308,18 @@ more-designs:
       thumbnail:
         path: "/images/projects/thumbnails/deRiepe.png"
         alt:
-          en: "de Riepe"
-          nl: "de Riepe"
+          en: "de Riepe spread design"
+          nl: "de Riepe spread ontwerp"
       title:
-        en: "<em><A"
-        nl: "<em>A"
+        en: "de Riepe"
+        nl: "de Riepe"
     - id: buurtbemiddeling
       no-link: true
       thumbnail:
         path: "/images/projects/thumbnails/BuurtBemiddelingGroningen.png"
         alt:
-          en: ""
-          nl: ""
+          en: "Webdesign for Buurt Bemiddeling Groningen"
+          nl: "Webdesign voor Buurt Bemiddeling Groningen"
       title:
         en: "Buurt Bemiddeling Groningen"
         nl: "Buurt Bemiddeling Groningen"
