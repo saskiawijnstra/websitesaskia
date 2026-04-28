@@ -270,3 +270,14 @@ more-designs:
       title:
         en: "<em><A"
         nl: "<em>A"
+    - id: a
+      thumbnail:
+        path: "/images/projects/thumbnails/survivalgids.mp4"
+        poster: "/images/projects/thumbnails/survivalgids-frozen.jpg"
+        is-video: true
+        alt:
+          en: ""
+          nl: ""
+      title:
+        en: "<em><A"
+        nl: "<em>A"
