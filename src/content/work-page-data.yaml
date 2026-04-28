@@ -274,12 +274,14 @@ more-designs:
     - id: a
       no-link: true
       thumbnail:
-        path: "/images/projects/thumbnails/Bie_Beno2.mp4"
+        path: "/images/projects/thumbnails/BieBeno.jpg"
         poster: "/images/projects/thumbnails/BieBeno.jpg"
-        is-video: true
         alt:
           en: ""
           nl: ""
       title:
         en: "<em><A"
         nl: "<em>A"
+
+
+
