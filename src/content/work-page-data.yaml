@@ -11,8 +11,8 @@ discover:
 
 spinlink:
   title:
-    en: Work at Studio SpinLink
-    nl: Werk bij Studio SpinLink
+    en: Studio SpinLink
+    nl: Studio SpinLink
   projects:
     - id: vodafone-ziggo
       thumbnail:
@@ -22,7 +22,12 @@ spinlink:
           nl: "Stadsanimatie met gekleurde gebouwen en netwerksignaallijnen voor Vodafone Ziggo."
       title:
         en: "Master project <em><strong>Vodafone Ziggo</strong></em> The Network"
-        nl: "Masterproject <em><strong>Vodafone Ziggo</strong></em> Het Netwerk"
+        nl: "Masterproject <em><strong>Vodafone Ziggo</strong></em> Het Netwerk" 
+
+
+
+
+
 
   projects:
     - id: "whatsuper" # Unique project ID
