@@ -22,7 +22,7 @@
               />
         <p>
           <span v-html="entry.title[locale]"></span>
-          <PijlW v-if="!entry['no-link']" class="arrow-icon" />
+          <ArrowRight v-if="!entry['no-link']" class="arrow-icon" />
         </p>
         </component>
         </li>
@@ -109,7 +109,7 @@
                   <p class="caption">
                     {{ project.title[locale] }}
 
-                    <PijlW class="arrow-icon" />
+                    <ArrowRight class="arrow-icon" />
                   </p>
                 </router-link>
               </div>
@@ -136,7 +136,7 @@
               />
               <p>
                 <span v-html="entry.title[locale]"></span>
-                <PijlW v-if="!entry['no-link']" class="arrow-icon" />
+                <ArrowRight v-if="!entry['no-link']" class="arrow-icon" />
               </p>
             </component>
           </li>
@@ -156,7 +156,6 @@ import { computed, nextTick, onMounted, onUnmounted, ref } from "vue";
 import { useUiStore } from "../../stores/uiStore";
 import { storeToRefs } from "pinia";
 import ArrowRight from "@/assets/images/arrow-right.svg?component";
-import PijlW from "@/assets/images/pijl-w.svg?component";
 import LandingPage from "../elements/LandingPage.vue";
 import projectThumbnail from "../elements/work/project-thumbnail.vue";
 
