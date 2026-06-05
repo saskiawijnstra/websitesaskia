@@ -298,8 +298,8 @@ more-designs:
     - id: magma
       no-link: true
       thumbnail:
-        path: "/images/projects/thumbnails/Magma.png"
-        poster: "/images/projects/thumbnails/Magma3.mp4"
+        path: "/images/projects/thumbnails/Magma3.mp4"
+        poster: "/images/projects/thumbnails/Magma.png"
         is-video: true
         alt:
           en: "Website design for Magma"
