@@ -76,9 +76,11 @@
                 class="gallery-item"
               >
                 <router-link :to="`work/${project.id}`">
-                  <img
-                    :src="project.thumbnail.path"
-                    :alt="project.thumbnail.alt[locale]"
+                  <project-thumbnail
+                    :thumbnail-path="project.thumbnail.path"
+                    :poster-path="project.thumbnail.poster"
+                    :is-video="project.thumbnail['is-video']"
+                    :alt-text="project.thumbnail.alt[locale]"
                   />
                   <p class="caption">
                     {{ project.title[locale] }}
@@ -102,9 +104,11 @@
               :is="entry['no-link'] === true ? 'div' : 'router-link'"
               :to="`/work/${entry.id}`"
             >
-              <img
-                :src="entry.thumbnail.path"
-                :alt="entry.thumbnail.alt[locale]"
+              <project-thumbnail
+                :thumbnail-path="entry.thumbnail.path"
+                :poster-path="entry.thumbnail.poster"
+                :is-video="entry.thumbnail['is-video']"
+                :alt-text="entry.thumbnail.alt[locale]"
               />
               <p>
                 <span v-html="entry.title[locale]"></span>
@@ -129,6 +133,7 @@ import { useUiStore } from "../../stores/uiStore";
 import { storeToRefs } from "pinia";
 import ArrowRight from "@/assets/images/arrow-right.svg?component";
 import LandingPage from "../elements/LandingPage.vue";
+import projectThumbnail from "../elements/work/project-thumbnail.vue";
 
 const { locale } = useI18n();
 
