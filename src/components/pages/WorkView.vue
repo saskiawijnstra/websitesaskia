@@ -155,7 +155,7 @@ import { useI18n } from "vue-i18n";
 import { computed, nextTick, onMounted, onUnmounted, ref } from "vue";
 import { useUiStore } from "../../stores/uiStore";
 import { storeToRefs } from "pinia";
-import ArrowRight from "@/assets/images/arrow-right.svg?component";
+import ArrowRight from "@/assets/images/pijl-w.svg?component";
 import LandingPage from "../elements/LandingPage.vue";
 import projectThumbnail from "../elements/work/project-thumbnail.vue";
 
