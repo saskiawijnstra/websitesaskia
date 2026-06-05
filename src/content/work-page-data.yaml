@@ -7,8 +7,8 @@
 
 spinlink:
   title:
-    en: "SpinLink"
-    nl: "SpinLink"
+    en: "Discover my work"
+    nl: "Ontdek mijn werk"
   
   projects:
     - id: tgroenehart
@@ -79,8 +79,8 @@ spinlink:
 
 discover:
   title:
-    en: "Discover my work"
-    nl: "Ontdek mijn werk"
+    en: ""
+    nl: ""
 
 
 
