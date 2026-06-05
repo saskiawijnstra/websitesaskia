@@ -4,6 +4,79 @@
 # Be careful while editing: In YAML files the indentation of the content is important and can break the file if not done correctly.
 # You can use a online yaml Validator or ask me if you're having troubles :)
 # Texts are organized by language for each section
+
+spinlink:
+  title:
+    en: "SpinLink"
+    nl: "SpinLink"
+  
+  projects:
+    - id: tgroenehart
+      no-link: true
+      thumbnail:
+        path: "/images/projects/thumbnails/tgroenehart.png"
+        alt:
+          en: "Menu card design from 't Groene Hart"
+          nl: "Menukaart ontwerp van 't Groene Hart"
+      title:
+        en: "'t Groene Hart"
+        nl: "'t Groene Hart"
+    - id: biebeno
+      no-link: true
+      thumbnail:
+        path: "/images/projects/thumbnails/Bie_Beno2.mp4"
+        poster: "/images/projects/thumbnails/BieBeno.png"
+        is-video: true
+        alt:
+          en: "Website design from Bie Beno"
+          nl: "Website ontwerp voor Bie Beno"
+      title:
+        en: "Bie Beno"
+        nl: "Bie Beno"
+    - id: opewsum
+      no-link: true
+      thumbnail:
+        path: "/images/projects/thumbnails/opewsum.png"
+        alt:
+          en: "Flyer design for Op Ewsum"
+          nl: "Flyer design drieluik voor Op Ewsum"
+      title:
+        en: "Op Ewsum"
+        nl: "Op Ewsum"
+    - id: magma
+      no-link: true
+      thumbnail:
+        path: "/images/projects/thumbnails/Magma3.mp4"
+        poster: "/images/projects/thumbnails/Magma.png"
+        is-video: true
+        alt:
+          en: "Website design for Magma"
+          nl: "Website ontwerp voor Magma"
+      title:
+        en: "Magma"
+        nl: "Magma"
+    - id: deriepe
+      no-link: true
+      thumbnail:
+        path: "/images/projects/thumbnails/deRiepe.png"
+        alt:
+          en: "de Riepe spread design"
+          nl: "de Riepe spread ontwerp"
+      title:
+        en: "de Riepe"
+        nl: "de Riepe"
+    - id: buurtbemiddeling
+      no-link: true
+      thumbnail:
+        path: "/images/projects/thumbnails/BuurtBemiddelingGroningen.png"
+        alt:
+          en: "Webdesign for Buurt Bemiddeling Groningen"
+          nl: "Webdesign voor Buurt Bemiddeling Groningen"
+      title:
+        en: "Buurt Bemiddeling Groningen"
+        nl: "Buurt Bemiddeling Groningen"
+
+
 discover:
   title:
     en: "Discover my work"
@@ -262,71 +335,6 @@ more-designs:
         en: "<em><strong>Acro</strong></em> Academy"
         nl: "<em><strong>Acro</strong></em> Academy"
 
-
-    - id: tgroenehart
-      no-link: true
-      thumbnail:
-        path: "/images/projects/thumbnails/tgroenehart.png"
-        alt:
-          en: "Menu card design from 't Groene Hart"
-          nl: "Menukaart ontwerp van 't Groene Hart"
-      title:
-        en: "'t Groene Hart"
-        nl: "'t Groene Hart"
-    - id: biebeno
-      no-link: true
-      thumbnail:
-        path: "/images/projects/thumbnails/Bie_Beno2.mp4"
-        poster: "/images/projects/thumbnails/BieBeno.png"
-        is-video: true
-        alt:
-          en: "Website design from Bie Beno"
-          nl: "Website ontwerp voor Bie Beno"
-      title:
-        en: "Bie Beno"
-        nl: "Bie Beno"
-    - id: opewsum
-      no-link: true
-      thumbnail:
-        path: "/images/projects/thumbnails/opewsum.png"
-        alt:
-          en: "Flyer design for Op Ewsum"
-          nl: "Flyer design drieluik voor Op Ewsum"
-      title:
-        en: "Op Ewsum"
-        nl: "Op Ewsum"
-    - id: magma
-      no-link: true
-      thumbnail:
-        path: "/images/projects/thumbnails/Magma3.mp4"
-        poster: "/images/projects/thumbnails/Magma.png"
-        is-video: true
-        alt:
-          en: "Website design for Magma"
-          nl: "Website ontwerp voor Magma"
-      title:
-        en: "Magma"
-        nl: "Magma"
-    - id: deriepe
-      no-link: true
-      thumbnail:
-        path: "/images/projects/thumbnails/deRiepe.png"
-        alt:
-          en: "de Riepe spread design"
-          nl: "de Riepe spread ontwerp"
-      title:
-        en: "de Riepe"
-        nl: "de Riepe"
-    - id: buurtbemiddeling
-      no-link: true
-      thumbnail:
-        path: "/images/projects/thumbnails/BuurtBemiddelingGroningen.png"
-        alt:
-          en: "Webdesign for Buurt Bemiddeling Groningen"
-          nl: "Webdesign voor Buurt Bemiddeling Groningen"
-      title:
-        en: "Buurt Bemiddeling Groningen"
-        nl: "Buurt Bemiddeling Groningen"
 
 
 

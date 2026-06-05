@@ -4,6 +4,25 @@
     <article class="">
       <!-- Discover my Work -->
 
+      <div class="more-designs grid-container">
+  <ul class="design-list col-span-12-start-1">
+    <li class="col-span-4" v-for="entry in spinlinkData">
+      <component
+        :is="entry['no-link'] === true ? 'div' : 'router-link'"
+        :to="`/work/${entry.id}`"
+      >
+        <img
+          :src="entry.thumbnail.path"
+          :alt="entry.thumbnail.alt[locale]"
+        />
+        <p>
+          <span v-html="entry.title[locale]"></span>
+          <ArrowRight v-if="!entry['no-link']" class="arrow-icon" />
+        </p>
+      </component>
+    </li>
+  </ul>
+</div>
 
       <div class="discover-work-list grid-container">
         <div class="introduction col-span-6" id="work">
@@ -136,6 +155,10 @@ import LandingPage from "../elements/LandingPage.vue";
 import projectThumbnail from "../elements/work/project-thumbnail.vue";
 
 const { locale } = useI18n();
+
+const spinlinkData = computed(() => {
+  return yamlDataWork["spinlink"].projects;
+});
 
 const projects = computed(() => {
   return yamlDataWork.discover.projects;
