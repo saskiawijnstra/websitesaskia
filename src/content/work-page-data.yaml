@@ -299,6 +299,8 @@ more-designs:
       no-link: true
       thumbnail:
         path: "/images/projects/thumbnails/Magma.png"
+        poster: "/images/projects/thumbnails/Magma3.mp4"
+        is-video: true
         alt:
           en: "Website design for Magma"
           nl: "Website ontwerp voor Magma"
