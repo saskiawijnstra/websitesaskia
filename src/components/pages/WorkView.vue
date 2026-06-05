@@ -11,10 +11,12 @@
         :is="entry['no-link'] === true ? 'div' : 'router-link'"
         :to="`/work/${entry.id}`"
       >
-        <img
-          :src="entry.thumbnail.path"
-          :alt="entry.thumbnail.alt[locale]"
-        />
+        <project-thumbnail
+                :thumbnail-path="entry.thumbnail.path"
+                :poster-path="entry.thumbnail.poster"
+                :is-video="entry.thumbnail['is-video']"
+                :alt-text="entry.thumbnail.alt[locale]"
+              />
         <p>
           <span v-html="entry.title[locale]"></span>
           <ArrowRight v-if="!entry['no-link']" class="arrow-icon" />
