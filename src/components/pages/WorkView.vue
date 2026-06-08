@@ -109,7 +109,7 @@
                   <p class="caption">
                     {{ project.title[locale] }}
 
-                    <ArrowRight class="arrow-icon" />
+                    <PijlW class="arrow-icon" />
                   </p>
                 </router-link>
               </div>
