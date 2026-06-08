@@ -12,7 +12,7 @@
       </h2>
       <p>
         <slot name="description"></slot>
-        <ArrowRight class="link-arrow" />
+        <PijlW class="link-arrow" />
       </p>
     </router-link>
   </div>
@@ -22,6 +22,7 @@
 import { useI18n } from "vue-i18n";
 import projectThumbnail from "./project-thumbnail.vue";
 import ArrowRight from "@/assets/images/arrow-right.svg?component";
+import PijlW from "@/assets/images/pijl-w2.svg?component";
 
 const { locale } = useI18n();
 
