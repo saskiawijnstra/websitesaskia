@@ -22,7 +22,7 @@
               />
         <p>
           <span v-html="entry.title[locale]"></span>
-          <ArrowRight v-if="!entry['no-link']" class="arrow-icon" />
+          <PijlW v-if="!entry['no-link']" class="arrow-icon" />
         </p>
         </component>
         </li>
