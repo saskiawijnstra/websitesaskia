@@ -79,7 +79,7 @@
               class="scroll-button left"
               @click="scrollNext(-1)"
             >
-              <PijlW />
+              <arrow-right />
             </button>
           </transition>
           <transition name="fade">
@@ -88,7 +88,7 @@
               class="scroll-button right"
               @click="scrollNext(1)"
             >
-              <PijlW />
+              <arrow-right />
             </button>
           </transition>
 
@@ -109,7 +109,7 @@
                   <p class="caption">
                     {{ project.title[locale] }}
 
-                    <PijlW class="arrow-icon" />
+                    <ArrowRight class="arrow-icon" />
                   </p>
                 </router-link>
               </div>
