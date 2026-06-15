@@ -48,16 +48,16 @@
 <script lang="ts" setup>
 import { useI18n } from "vue-i18n";
 
-import Creative from "@/assets/images/header-drawings/Creative3.png";
-import EmpathyPassion from "@/assets/images/header-drawings/EmpathyPassion3.png";
-import Interactive from "@/assets/images/header-drawings/Interactive3.png";
-import Interfaces from "@/assets/images/header-drawings/Interfaces3.png";
-import ListMaker from "@/assets/images/header-drawings/List-maker3.png";
-import Problemsolver from "@/assets/images/header-drawings/Problemsolver3.png";
-import Prototypebuilder from "@/assets/images/header-drawings/Prototypebuilder3.png";
-import User from "@/assets/images/header-drawings/User3.png";
-import Vision from "@/assets/images/header-drawings/Vision3.png";
-import Visualthinker from "@/assets/images/header-drawings/Visualthinker3.png";
+import Creative from "@/assets/images/header-drawings/Creative2.png";
+import EmpathyPassion from "@/assets/images/header-drawings/EmpathyPassion2.png";
+import Interactive from "@/assets/images/header-drawings/Interactive2.png";
+import Interfaces from "@/assets/images/header-drawings/Interfaces2.png";
+import ListMaker from "@/assets/images/header-drawings/List-maker2.png";
+import Problemsolver from "@/assets/images/header-drawings/Problemsolver2.png";
+import Prototypebuilder from "@/assets/images/header-drawings/Prototypebuilder2.png";
+import User from "@/assets/images/header-drawings/User2.png";
+import Vision from "@/assets/images/header-drawings/Vision2.png";
+import Visualthinker from "@/assets/images/header-drawings/Visualthinker2.png";
 import LinkArrow from "./LinkArrow.vue";
 
 const { t } = useI18n();
