@@ -45,7 +45,7 @@
 import { useI18n } from "vue-i18n";
 import colorSchemeSwitch from "./color-scheme-switch.vue";
 import localeSwitch from "./locale-switch.vue";
-import LogoSvg from "@/assets/images/logo.svg?component";
+import LogoSvg from "@/assets/images/logozand.svg?component";
 import { useUiStore } from "../../stores/uiStore";
 import { storeToRefs } from "pinia";
 import { useMediaQuery } from "@vueuse/core";

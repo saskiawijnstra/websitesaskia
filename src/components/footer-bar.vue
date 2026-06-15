@@ -25,7 +25,7 @@
 
 <script setup lang="ts">
 import { useI18n } from "vue-i18n";
-import LogoSvg from "@/assets/images/logo.svg?component";
+import LogoSvg from "@/assets/images/logozand.svg?component";
 import { useRoute } from "vue-router";
 import { computed } from "vue";
 import { useUiStore } from "../stores/uiStore";
