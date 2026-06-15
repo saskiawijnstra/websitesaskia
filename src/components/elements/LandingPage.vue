@@ -302,7 +302,7 @@ const SCRIBBLES = [
       display: flex;
       align-items: center;
       gap: calc-rem(17px);
-      color: var(--color-default-text);
+      color: var(--color-middle-grijs);
       grid-column: 2;
 
       &.work {
