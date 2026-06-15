@@ -61,7 +61,7 @@ const backgroundStyle = computed(() => {
   display: block;
 
   &.color-scheme-light {
-    background-color: var(--color-grijs-6);
+    background-color: var(--color-saskiawarmte);
 
     figure {
       &::v-deep(path) {
