@@ -40,7 +40,7 @@
 
   color-scheme: light dark;
   color: var(--color-grijs-1);
-  background-color: var(--color-niet-wit);
+  background-color: var(--color-achtergrondcreme);
   transition:
     color 0.3s linear,
     background-color 0.3s linear;
@@ -50,25 +50,31 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --color-niet-zwart: #292A25;  //veranderd Saskia Donkere achtergrond
-  --color-niet-wit: #F3E9E0;  //veranderd Saskia Lichte achtergrond
-  --color-grijs-1: #494E30;  //veranderd Saskia Footer
-  --color-grijs-2: #222222;
-  --color-grijs-3: #2d2d2d;
-  --color-grijs-4: #373737;
-  --color-middle-grijs: #D1C0A6; // veranderd icoontjes home tekst
-  --color-grijs-5: #414141;
-  --color-grijs-6: #D1C0A6; // veranderd
-  --color-grijs-7: #dddddd;
-  --color-grijs-8: #d2d2d2;
-  --color-grijs-9: #c7c7c7;
-  --color-grijs-10: #bdbdbd;
-  --color-area-background-lightmode: #D1C0A6;  // veranderd
+  --color-niet-zwart: #FFE500;
+  --color-niet-wit: #FFE500;
+  --color-grijs-1: #FFE500;
+  --color-grijs-2: #FFE500;
+  --color-grijs-3: #FFE500;
+  --color-grijs-4: #FFE500;
+  --color-middle-grijs: #FFE500;
+  --color-grijs-5: #FFE500;
+  --color-grijs-6: #FFE500;
+  --color-grijs-7: #FFE500;
+  --color-grijs-8: #FFE500;
+  --color-grijs-9: #FFE500;
+  --color-grijs-10: #FFE500;
+  --color-area-background-lightmode: #FFE500;
 
   --color-text-hover: var(--color-middle-grijs);
   --color-default-text: var(--color-grijs1);
   --color-default-background: var(--color-niet-wit);
   --color-default-focus-border: var(--color-middle-grijs);
+
+  --color-achtergrondcreme: #F3E9E0;
+  --color-achtergrondgroen: #292A25;
+  --color-saskiagroen: #494E30;
+  --color-saskiazand: #D1C0A6;
+  --color-saskiawarmte: #854627;
 }
 
 html,
