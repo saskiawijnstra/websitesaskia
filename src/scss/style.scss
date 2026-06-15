@@ -26,6 +26,15 @@
     url("@/assets/fonts/ReenieBeanie.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Caveat Regular"),
+    url("@/assets/fonts/Caveat-Regular.ttf") format("ttf");
+}
+
 :root {
   font-family: Inter, Helvetica, Arial, sans-serif;
 
