@@ -240,7 +240,7 @@ const SCRIBBLES = [
       }
 
       label {
-        font-family: "Caveat","Reenie Beanie Regular", "Brush Script MT", cursive;
+        font-family: "Caveat", "Reenie Beanie Regular", "Brush Script MT", cursive;
         font-size: calc-rem(28);
         color: var(--color-middle-grijs);
         width: max-content;
