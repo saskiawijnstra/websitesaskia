@@ -527,6 +527,10 @@ h3 {
   }
 
   .interest-category {
+    .icon {
+      color: var(--color-saskiawarm);
+    }
+
     @media (max-width: 800px) {
       grid-column: span 6;
       margin-bottom: 30px;
@@ -538,7 +542,6 @@ h3 {
     .icon {
       width: 64px;
       margin-bottom: 20px;
-      color: var(--color-saskiawarm);
     }
 
     h4 {
