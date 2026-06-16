@@ -66,8 +66,8 @@ const SCRIBBLES = [
     labelKey: "visual-thinker",
     image: Visualthinker,
     position: {
-      x: 19,
-      y: 14,
+      x: 24, //dit was 19. veranderd
+      y: 20, //dit was 14. veranderd
     },
   },
   {
