@@ -329,7 +329,7 @@ onUnmounted(() => {
 
 
   .factor-e-box {
-    background-color: var(--color-grijs-1);
+    background-color: var(--color-saskiagroen);
     padding-top: 100px;
     padding-bottom: 118px;
     width: 100%;
