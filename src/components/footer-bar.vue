@@ -62,11 +62,11 @@ const backgroundStyle = computed(() => {
 
   &.color-scheme-light {
     background-color: var(--color-saskiawarmte);
-    color: var(--color-saskiazand);
+    color: var(--color-achtergrondcreme);
 
     figure {
       &::v-deep(path) {
-        fill: var(--color-default-text);
+        fill: var(--color-achtergrondcreme);
       }
     }
   }
