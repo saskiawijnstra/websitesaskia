@@ -538,6 +538,7 @@ h3 {
     .icon {
       width: 64px;
       margin-bottom: 20px;
+      color: var(--color-saskiawarm);
     }
 
     h4 {
