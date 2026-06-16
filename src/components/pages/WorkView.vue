@@ -348,7 +348,7 @@ onUnmounted(() => {
     }
 
     &.color-scheme-light {
-      background-color: var(--color-area-background-lightmode);
+      background-color: var(--color-saskiazand);
       .scroll-wrapper {
         &::after {
           background: linear-gradient(
