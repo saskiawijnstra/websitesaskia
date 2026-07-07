@@ -66,8 +66,8 @@ const SCRIBBLES = [
     labelKey: "visual-thinker",
     image: Visualthinker,
     position: {
-      x: 24, //dit was 19. veranderd
-      y: 20, //dit was 14. veranderd
+      x: 28, //dit was 19. veranderd
+      y: 24, //dit was 14. veranderd
     },
   },
   {
@@ -75,40 +75,40 @@ const SCRIBBLES = [
     image: Interfaces,
     secondImage: User,
     position: {
-      x: 50,
-      y: 16,
+      x: 48,
+      y: 20,
     },
   },
   {
     labelKey: "creative",
     image: Creative,
     position: {
-      x: 79,
-      y: 22,
+      x: 72,
+      y: 28,
     },
   },
   {
     labelKey: "list-maker",
     image: ListMaker,
     position: {
-      x: 80,
-      y: 46,
+      x: 75,
+      y: 48,
     },
   },
   {
     labelKey: "prototype-builder",
     image: Prototypebuilder,
     position: {
-      x: 68,
-      y: 76,
+      x: 66,
+      y: 75,
     },
   },
   {
     labelKey: "empathy-passion",
     image: EmpathyPassion,
     position: {
-      x: 40,
-      y: 86,
+      x: 43,
+      y: 72,
     },
   },
 
@@ -116,8 +116,8 @@ const SCRIBBLES = [
     labelKey: "vision",
     image: Vision,
     position: {
-      x: 22,
-      y: 86,
+      x: 30,
+      y: 76,
     },
   },
 
@@ -126,8 +126,8 @@ const SCRIBBLES = [
     image: Interactive,
     imageCss: "transform: translate(112px, -33px)",
     position: {
-      x: 1,
-      y: 83,
+      x: 12,
+      y: 70,
     },
   },
 
@@ -148,8 +148,10 @@ const SCRIBBLES = [
 
 .landing-page {
   display: grid;
-  width: 100vw;
-  height: calc(100vh - 141px); // subtract header height
+  width: 100%;
+  max-width: 1550px;   // same as $container-max-width in _grid.scss
+  margin: 0 auto 170px; // center it, keep your existing 170px bottom margin
+  height: calc(100vh - 230px); // subtract header height 100 141
   overflow: hidden;
   grid-template-columns: minmax(750px, 2fr) 1fr;
   grid-template-rows: 1fr 4rem;
