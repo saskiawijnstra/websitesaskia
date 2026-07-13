@@ -244,9 +244,15 @@ const SCRIBBLES = [
       label {
         font-family: "Caveat", "Reenie Beanie Regular", "Brush Script MT", cursive;
         font-size: calc-rem(28);
-        color: var(--color-middle-grijs);
         width: max-content;
+        color: var(--color-creme2);
+        
+        &.color-scheme-light {
+          color: var(--color-roest);
+        }
+
       }
+
     }
   }
 
@@ -304,7 +310,7 @@ const SCRIBBLES = [
       display: flex;
       align-items: center;
       gap: calc-rem(17px);
-      color: var(--color-middle-grijs);
+      color: var(--color-creme2);
       grid-column: 2;
 
       &.work {

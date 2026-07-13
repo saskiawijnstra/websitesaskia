@@ -22,13 +22,13 @@ const { colorScheme } = storeToRefs(uiStore);
   flex-shrink: 0;
   place-items: center;
   border-radius: 50%;
-  background-color: #1a1a1a;
+  background-color: var(--color-groen2);
 
   &.color-scheme-light {
-    background-color: var(--color-grijs-6);
+    background-color: var(--color-creme2);
 
     &::v-deep(path) {
-      fill: var(--color-niet-zwart);
+      fill: var(--color-roest);
     }
   }
 }

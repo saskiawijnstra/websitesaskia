@@ -76,7 +76,7 @@ const { t } = useI18n();
         }
 
         &.router-link-active {
-          color: var(--color-middle-grijs);
+          color: var(--color-creme);
           cursor: default;
           &:hover {
             text-decoration: none;

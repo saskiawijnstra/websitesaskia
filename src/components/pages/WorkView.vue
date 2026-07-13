@@ -329,7 +329,7 @@ onUnmounted(() => {
 
 
   .factor-e-box {
-    background-color: var(--color-saskiagroen);
+    background-color: var(--color-groen2);
     padding-top: 100px;
     padding-bottom: 118px;
     width: 100%;
@@ -348,7 +348,8 @@ onUnmounted(() => {
     }
 
     &.color-scheme-light {
-      background-color: var(--color-saskiazand);
+      background-color: var(--color-roest);
+      color: var(--color-creme);
       .scroll-wrapper {
         &::after {
           background: linear-gradient(

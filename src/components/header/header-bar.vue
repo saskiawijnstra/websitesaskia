@@ -93,13 +93,13 @@ function toggleMenu() {
       h1 {
         .logo-graphic {
           &::v-deep(path) {
-            fill: var(--color-niet-wit);
+            fill: var(--color-creme);
           }
         }
       }
       nav {
         a {
-          color: var(--color-niet-wit);
+          color: var(--color-creme);
         }
       }
     }
@@ -183,7 +183,7 @@ function toggleMenu() {
         margin: 0;
         &::v-deep(path) {
           transition: fill 0.3s linear;
-          fill: var(--color-niet-zwart);
+          fill: var(--color-bruin);
         }
       }
     }
@@ -195,18 +195,18 @@ function toggleMenu() {
       gap: 40px;
 
       a {
-        color: var(--color-niet-zwart);
+        color: var(--color-creme);
         text-decoration: none;
 
         &:hover {
-          color: var(--color-text-hover);
+          color: var(--color-creme2);
         }
 
         &.router-link-active {
-          color: var(--color-middle-grijs);
+          color: var(--color-creme2);
           cursor: default;
           &:hover {
-            color: var(--color-text-hover);
+            color: var(--color-cremes);
           }
         }
       }

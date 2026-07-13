@@ -139,11 +139,11 @@ const getComponentName = (type: string) => {
       margin-bottom: 50px;
       display: grid;
       text-align: center;
-      color: var(--color-default-text);
+      color: var(--color-creme);
       text-decoration: none;
 
       &:hover {
-        color: var(--color-text-hover);
+        color: var(--color-creme2);
       }
     }
   }

@@ -52,7 +52,7 @@ const backgroundStyle = computed(() => {
   $padding: 104px;
   padding-top: $padding;
   padding-bottom: $padding;
-  background-color: var(--color-saskiagroen);
+  background-color: var(--color-groen2);
   margin: 0;
   width: 100%;
   max-width: none;
@@ -61,12 +61,12 @@ const backgroundStyle = computed(() => {
   display: block;
 
   &.color-scheme-light {
-    background-color: var(--color-saskiawarmte);
-    color: var(--color-achtergrondcreme);
+    background-color: var(--color-roest);
+    color: var(--color-creme);
 
     figure {
       &::v-deep(path) {
-        fill: var(--color-achtergrondcreme);
+        fill: var(--color-creme);
       }
     }
   }

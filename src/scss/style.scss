@@ -39,8 +39,8 @@
   font-family: Inter, Helvetica, Arial, sans-serif;
 
   color-scheme: light dark;
-  color: var(--color-achtergrondgroen);
-  background-color: var(--color-achtergrondcreme);
+  color: var(--color-bruin);
+  background-color: var(--color-creme);
   transition:
     color 0.3s linear,
     background-color 0.3s linear;
@@ -50,31 +50,23 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --color-niet-zwart: #494E30;
-  --color-niet-wit: #F3E9E0;
-  --color-grijs-1: #494E30;
-  --color-grijs-2: #494E30;
-  --color-grijs-3: #494E30;
-  --color-grijs-4: #494E30;
-  --color-middle-grijs: #D1C0A6;
-  --color-grijs-5: #D1C0A6;
-  --color-grijs-6: #D1C0A6;
-  --color-grijs-7: #D1C0A6;
-  --color-grijs-8: #D1C0A6;
-  --color-grijs-9: #D1C0A6;
-  --color-grijs-10: #D1C0A6;
-  --color-area-background-lightmode: #F3E9E0;
 
-  --color-text-hover: var(--color-middle-grijs);
-  --color-default-text: var(--color-grijs1);
-  --color-default-background: var(--color-achtergrondcreme);
-  --color-default-focus-border: var(--color-middle-grijs);
+  // Definitieve kleuren
 
-  --color-achtergrondcreme: #F3E9E0;
-  --color-achtergrondgroen: #494E30;
-  --color-saskiagroen: #494E30;
-  --color-saskiazand: #D1C0A6;
-  --color-saskiawarmte: #854627;
+  --color-groen: #494E30;
+  --color-groen2: #697043;
+
+  --color-creme: #ECE2D2;
+  --color-creme2: #D1C0A6;
+
+  --color-bruin: #5B3626;
+  --color-roest: #854627;
+
+  --color-text-hover: var(--color-roest);
+  --color-default-text: var(--color-bruin);
+  --color-default-background: var(--color-creme);
+  --color-default-focus-border: var(--color-creme);
+
 }
 
 html,
@@ -86,22 +78,22 @@ body {
   scroll-behavior: smooth;
 
   @include mixins.set-selection-colors(
-    var(--color-default-background),
-    var(--color-middle-grijs)
+    var(--color-groen),
+    var(--color-groen)
   );
 
   &.background-style-project-page {
-    background-color: var(--color-grijs-6);
+    background-color: var(--color-creme);
   }
 
   &.color-scheme-dark {
-    color: var(--color-niet-wit);
-    background-color: var(--color-niet-zwart);
-    --color-default-background: var(--color-niet-zwart);
-    --color-default-text: var(--color-niet-wit);
+    color: var(--color-creme);
+    background-color: var(--color-groen);
+    --color-default-background: var(--color-groen);
+    --color-default-text: var(--color-creme);
 
     &.background-style-project-page {
-      background-color: var(--color-grijs-1);
+      background-color: var(--color-groen2);
     }
   }
 }

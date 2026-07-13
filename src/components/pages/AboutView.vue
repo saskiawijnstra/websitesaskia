@@ -528,7 +528,7 @@ h3 {
 
   .interest-category {
     .icon {
-      color: var(--color-saskiawarm);
+      color: var(--color-roest);
     }
 
     @media (max-width: 800px) {
