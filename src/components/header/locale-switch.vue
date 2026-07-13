@@ -41,18 +41,19 @@ const selected = computed({
 
 .locale-option {
   cursor: pointer;
-  color: #666;
+  color: var(--color-creme);
   transition: color 0.2s;
   text-transform: uppercase;
   position: relative;
 
   &.active {
     color: var(--color-default-text);
+    opacity: 60%;
   }
 
   &:not(:last-child)::after {
     content: " / ";
-    color: var(--color-grijs-10);
+    color: var(--color-creme);
     margin-left: 0.25rem;
     margin-right: 0.25rem;
   }

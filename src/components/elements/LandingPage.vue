@@ -248,7 +248,7 @@ const SCRIBBLES = [
         color: var(--color-creme2);
         
         &.color-scheme-light {
-          color: var(--color-roest);
+          color: var(--color-roest); //werkt volgensmij niet
         }
 
       }

@@ -62,7 +62,7 @@ const backgroundStyle = computed(() => {
 
   &.color-scheme-light {
     background-color: var(--color-roest);
-    color: var(--color-creme);
+    color: var(--color-creme) !important;
 
     figure {
       &::v-deep(path) {
@@ -98,9 +98,11 @@ const backgroundStyle = computed(() => {
       }
       a {
         display: block;
-        color: var(--color-default-text);
+        color: var(--color-creme);
         line-height: calc-rem(28px);
       }
+
+      
     }
   }
 }

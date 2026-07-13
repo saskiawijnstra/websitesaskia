@@ -156,7 +156,7 @@ function toggleMenu() {
           transition:
             transform 0.2s ease-in-out,
             opacity 0.2s linear;
-          background-color: var(--color-default-text);
+          background-color: var(--color-bruin);
           transform: translateY(-50%);
 
           &:first-child {
@@ -195,20 +195,35 @@ function toggleMenu() {
       gap: 40px;
 
       a {
-        color: var(--color-creme);
+        color: var(--color-creme2);
         text-decoration: none;
 
         &:hover {
-          color: var(--color-creme2);
+          color: var(--color-creme);
         }
 
         &.router-link-active {
           color: var(--color-creme2);
           cursor: default;
           &:hover {
-            color: var(--color-cremes);
+            color: var(--color-creme2);
           }
         }
+
+        &.color-scheme-light {
+          &:hover {
+          color: var(--color-roest);
+        }
+
+        &.router-link-active {
+          color: var(--color-roest);
+          cursor: default;
+          &:hover {
+            color: var(--color-roest);
+          }
+        } //volgens mij werkt dit niet
+        }
+
       }
     }
 
