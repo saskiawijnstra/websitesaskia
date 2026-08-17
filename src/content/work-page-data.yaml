@@ -124,12 +124,10 @@ discover:
         alt:
           en: >
             Instagram post from @longcovid.survival.gids shown on a phone screen, 
-            alongside a carousel post illustrating brain pathways with Dutch text 
-            about forming new neural paths.
+            alongside a carousel post illustrations.
           nl: >
             Instagram-post van @longcovid.survival.gids op een telefoonscherm, 
-            samen met een carrousel met illustraties van hersenbanen en Nederlandse 
-            tekst over het vormen van nieuwe neurale paden.
+            samen met een carrousel met illustraties.
       title:
         en: "@longcovid.<em><strong>survival</strong></em>.gids"
         nl: "@longcovid.<em><strong>survival</strong></em>.gids"
@@ -149,15 +147,15 @@ discover:
         is-video: true
         alt:
           en: >
-            On the left side of the image, a mannequin wearing an elegant, 
-            flowing pink dress is suspended in the air by rings in a dramatic, 
+            On the left side of the image, a mannequin hanging in gymnastics rings wearing an elegant, 
+            flowing pink dress in a dramatic, 
             softly lit scene. On the right, a smartphone displays the Hans Boodt Mannequins 
-            website, showing a rotatable 3D model of a mannequin. The composition 
+            Augmented Reality app Saskia designed for her graduation project, showing a rotatable 3D model of a mannequin. The composition 
             highlights the blend of physical product design with digital representation.
           nl: >
-            Links in beeld hangt een mannequin met een elegante, vloeiende roze jurk 
-            in de lucht, vastgehouden door ringen in een zacht belichte, dramatische scène. 
-            Rechts toont een smartphone de website van Hans Boodt Mannequins met een roteerbaar 
+            Links in beeld hangt een mannequin in gymnastiek ringen met een elegante, vloeiende roze jurk 
+            in de lucht, in een zacht belichte, dramatische scène. 
+            Rechts toont een smartphone de Augmented Reality app van Hans Boodt Mannequins die Saskia heeft ontworpen voor haar afstudeerproject met een roteerbaar 
             3D-model. De compositie benadrukt de combinatie van fysiek productdesign 
             en digitale presentatie.
       title:
@@ -250,7 +248,7 @@ factor-e:
         path: "/images/projects/thumbnails/SEIN.png"
         alt:
           en: "Screenshot of the SEIN homepage, showing a search bar and modules for epilepsy and sleep."
-          nl: "Screenshot van de SEIN-homepage met zoekfunctie en modules over epilepsie en slaap."
+          nl: "Screenshot van de SEIN-homepagina met zoekfunctie en modules over epilepsie en slaap."
       title:
         en: "SEIN"
         nl: "SEIN"
@@ -259,7 +257,7 @@ factor-e:
         path: "/images/projects/thumbnails/excap.png"
         alt:
           en: "Homepage of excap with bold blue and pink design and three case studies."
-          nl: "Homepage van excap met felblauw en roze ontwerp en drie case studies."
+          nl: "Homepagina van excap met felblauw en roze ontwerp en drie case studies."
       title:
         en: "excap"
         nl: "excap"
@@ -321,7 +319,7 @@ more-designs:
         path: "/images/projects/thumbnails/fysio.png"
         alt:
           en: "Website homepage of FysioVries with colorful navigation blocks."
-          nl: "Homepage van de website van FysioVries met kleurrijke navigatieblokken."
+          nl: "Homepagina van de website van FysioVries met kleurrijke navigatieblokken."
       title:
         en: "<em><strong>Fysio</strong></em>Vries"
         nl: "<em><strong>Fysio</strong></em>Vries"
@@ -330,7 +328,7 @@ more-designs:
         path: "/images/projects/thumbnails/acro.png"
         alt:
           en: "Hands covered in chalk and bold A-logo for Acro Academy."
-          nl: "Met krijt bedekte handen en een krachtig A-logo voor Acro Academy."
+          nl: "Met gymnastiek magnesium bedekte handen en een krachtig A-logo voor Acro Academy."
       title:
         en: "<em><strong>Acro</strong></em> Academy"
         nl: "<em><strong>Acro</strong></em> Academy"

@@ -2,7 +2,7 @@
 page-logo-alt: Saskia
 navigation.link-labels.work: Werk
 navigation.link-labels.about: Over
-settings.toggle-dark-mode-accessibility-label: Toggle color scheme
+settings.toggle-dark-mode-accessibility-label: Switch kleur schema
 # Text before the |-Character is shown when darkmode is on. after is off.
 settings.toggle-dark-mode: Licht uit | Licht aan
 settings.select-language-accessibility-label: Select Language / Taal selecteren

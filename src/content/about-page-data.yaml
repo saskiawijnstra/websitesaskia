@@ -6,7 +6,7 @@
 introduction:
   quote:
     en: "Design is my passion. I can make a **clear creative solution** from a messy idea. Designing creative solutions for customers and deliver a product where I'm **proud** of. That's what I love to do."
-    nl: "Design is mijn passie. Ik kan van een rommelig idee een **duidelijke creatieve oplossing** maken. Creatieve oplossingen ontwerpen voor klanten en een product opleveren waar ik **trots** op ben. Dat is wat ik graag doe."
+    nl: "Design is mijn passie. Ik kan van een rommelig idee een **duidelijke creatieve oplossing** maken. Ontwerpen voor klanten en een product afleveren waar ik **trots** op ben, dat is wat ik het liefste doe."
   image:
     url: "/images/about/windinmijnharen.png"
     alt:
@@ -26,7 +26,7 @@ introduction:
         <br>
         I studied Multimedia, Concepting and Design at the Hanzehogeschool in Groningen. 
         In my third year I went to Denmark to follow a specialisation in UI design. 
-        This was a great experience where I learned a lot. My graduation project for my 
+        This was a great experience where I learned a lot. The graduation project for my 
         bachelor was designing an app with Augmented Reality. 
         <br/>
         <br/>
@@ -44,25 +44,24 @@ introduction:
         <br>
         <br>
         Currently I am working at Studio SpinLink. I design posters, flyers, website and more.
-        Next to that I'm a sauna master in my free time.
+        Most of the projects at Studio SpinLink make a social impact for non profit organisations, which I really like.
+        Next to that I'm a sauna master in my free time. Where I combine relaxation, sport and creativity.
         <br>
         <br>
-        When I'm not doing creative things, 
-        changing my interiur, I love to do sports. Be in my body and move.
-        I'm also interested in (mental) health and sustainability.
+        In my free time I like to do yoga. Be in my body and move.
+        And I'm also interested in (mental) health and sustainability.
         <br>
         <br>
-        Now I am searching for a new job! I would like to work for a company where 
-        I can show my creative ideas and design User Interfaces. 
+        Do you like my work or want to get to know me better?
         Please feel free to <a href="mailto:info@saskiawijnstra.nl" target="_blank">contact</a> 
-        me if you want to get to know me better.
+        me.
       nl: >
-        Hoi! Welkom op mijn website. Al van jongs af aan ben ik creatief bezig of doe ik aan sport.
+        Hoi! Welkom op mijn website. Al van jongs af aan ben ik creatief bezig of aan het sporten.
         Mijn kamer veranderde elke week van inrichting en ik keek graag naar televisieprogramma's over interieurontwerp.
         Op de middelbare school begon ik met het maken van mijn eigen website en maakte ik posters voor evenementen.
         <br>
         <br>
-        Ik studeerde Multimedia, Concepting en Design aan de Hanzehogeschool in Groningen. In mijn derde jaar ging ik naar
+        Ik heb Multimedia, Concepting en Design gestudeerd aan de Hanzehogeschool in Groningen. In mijn derde jaar ging ik naar
         Denemarken om een ​​specialisatie in UI-design te volgen. Dit was een geweldige ervaring waar ik veel heb geleerd.
         Mijn afstudeerproject voor mijn bachelor was het ontwerpen van een app met Augmented Reality.
         <br/>
@@ -78,14 +77,16 @@ introduction:
         <br>
         <br>
         Op dit moment werk ik bij Studio SpinLink. Ik ontwerp posters, flyers, websites en meer.
+        De meeste projecten bij Studion SpinLink maken een sociale impact voor non profit organisaties, wat ik erg leuk vindt.
         Daarnaast werk ik in mijn vrije tijd als sauna meester bij de Waterlelie.
         <br>
         <br>
-        Als ik niet creatief bezig ben of mijn interieur aan het veranderen ben, sport ik graag. In mijn lichaam zijn en bewegen. Ik ben ook geïnteresseerd in (mentale) gezondheid en duurzaamheid. 
+        In mijn vrije tijd hou ik ervan om yoga te doen. Bewegen en in mijn lichaam zijn.
+        Daarnaast ben ik geïnteresseerd  in (mentale) gezondheid en duurzaamheid.
+         <br>
         <br>
-        <br>
-        Nu ben ik op zoek naar een baan! Ik wil graag werken bij een bedrijf waar ik mijn creatieve ideeën kan laten zien en user-interfaces kan ontwerpen.
-        Neem gerust <a href="mailto:info@saskiawijnstra.nl" target="_blank">contact</a> met me op als je me beter wilt leren kennen.
+        Vind je mijn werk leuk of wil je mij beter leren kennen?
+        Neem gerust <a href="mailto:info@saskiawijnstra.nl" target="_blank">contact</a> met me op.
   jump-links:
     - type: annotated-link
       target: hbm
@@ -124,12 +125,12 @@ experience:
     url: "/images/about/master.png"
     alt:
       en: "Saskia planning something on a white canvas with post-its"
-      nl: ""
+      nl: "Saskia schrijft iets op een bord met post-its"
   image-2:
     url: "/images/about/saskia.png"
     alt:
       en: "Saskia is standing outside in a field with a long coat"
-      nl: ""
+      nl: "Saskia staat buiten in de natuur"
   experiences:
     - title:
         en: Studio SpinLink
@@ -140,7 +141,7 @@ experience:
       time:
         en: 2025 - now
         nl: 2025 - nu
-      icon-path: "/images/about/experience-icons/spinlink1.png"
+      icon-path: "spinlinklogo"
     - title:
         en: Waterlelie wellnessresort
         nl: Waterlelie wellnessresort
@@ -250,7 +251,7 @@ education:
     url: /images/about/saskiawijnstra.png
     alt:
       en: Portrait of Saskia with a smile
-      nl: ""
+      nl: Portret van Saskia
   educations:
     - title:
         en: Master Digital Design
@@ -267,7 +268,7 @@ education:
         nl: Bachelor Multimedia, Concepting & Design
       description:
         en: Hanzehogeschool Groningen<br/>University of Applied Sciences
-        nl: Hanzehogeschool Groningen<br/>Hogeschool
+        nl: Hanzehogeschool Groningen<br/>University of Applied Sciences
       time:
         en: 2014 - 2018
         nl: 2014 - 2018
@@ -333,12 +334,12 @@ skills:
           subitems:
             - en: Illustrator
               nl: Illustrator
+            - en: InDesign
+              nl: InDesign
             - en: Photoshop
               nl: Photoshop
             - en: After Effects
               nl: After Effects
-            - en: InDesign
-              nl: InDesign
             - en: Premiere
               nl: Premiere
             - en: XD

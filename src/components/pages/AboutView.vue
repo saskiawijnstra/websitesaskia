@@ -75,7 +75,8 @@
           v-for="(experience, index) in data.experience.experiences"
           :key="index"
         >
-          <img :src="experience['icon-path']" />
+          <!--<img :src="experience['icon-path']" />-->
+          <component :is="getIcon(experience['icon-path'])" class="experience-icon" />
           <div class="text">
             <dt>{{ experience.title[locale] }}</dt>
             <dd>
@@ -196,6 +197,18 @@ const { formatText } = useMarkdownParser();
 function parseContent(content: string): string {
   return formatText(content);
 }
+
+const icons = import.meta.glob("@/assets/images/experience-icons/spinlink.svg", {
+  eager: true,
+  import: "default",
+}) as Record<string, any>;
+
+function getIcon(name: string) {
+  const match = Object.entries(icons).find(([path]) => path.endsWith(`/${name}.svg`));
+  return match?.[1];
+}
+
+
 </script>
 
 <style lang="scss" scoped>
@@ -354,6 +367,16 @@ h3 {
       }
     }
   }
+
+  .experience-icon {
+  color: var(--color-creme2);
+
+  &::v-deep(path) {
+    stroke: currentColor;
+  }
+  }
+
+
 }
 
 .tilted-images {
