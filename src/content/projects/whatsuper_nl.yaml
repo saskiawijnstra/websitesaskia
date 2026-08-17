@@ -8,11 +8,11 @@ page:
           url: "/images/projects/whatsuper/hero.jpg"
     - type: "meta-info-row"
       content:
-        - label: "Date"
+        - label: "Datum"
           value: "September 2021"
-        - label: "Client"
+        - label: "Opdrachtgever"
           value: "Whatsuper"
-        - label: "Role"
+        - label: "Rol"
           value: "UI/UX/App/Prototype<br>Brand Identity Design"
 
     - type: "text-block"

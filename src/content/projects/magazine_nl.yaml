@@ -8,11 +8,11 @@ page:
           url: "/images/projects/magazine/hero.jpg"
     - type: "meta-info-row"
       content:
-        - label: "Date"
+        - label: "Datum"
           value: "November 2015"
-        - label: "Client"
+        - label: "Opdrachtgever"
           value: "Hanze hogeschool<br>2nd year CMD Assignment"
-        - label: "Role"
+        - label: "Rol"
           value: "Design / Photography"
 
     - type: "full-image"

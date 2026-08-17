@@ -12,11 +12,11 @@ page:
           url: "/images/projects/sein/SEINmotion-1-cropped.mp4"
     - type: "meta-info-row"
       content:
-        - label: "Date"
+        - label: "Datum"
           value: "Januari 2020"
-        - label: "Client"
+        - label: "Opdrachtgever"
           value: "TwinQels"
-        - label: "Role"
+        - label: "Rol"
           value: "Design"
     - type: full-image
       content:

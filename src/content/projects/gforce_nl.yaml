@@ -8,12 +8,12 @@ page:
           url: "/images/projects/g-force/g-force-fullpage1.png"
     - type: "meta-info-row"
       content:
-        - label: "Date"
-          value: "June 2017"
-        - label: "Client"
+        - label: "Datum"
+          value: "Juni 2017"
+        - label: "Opcrachtgever"
           value: "G-Force Capital"
-        - label: "Role"
-          value: "Brand Identity / Website"
+        - label: "Rol"
+          value: "Huisstijl / Website"
         - label: Website
           value: g-force.nl
           link: https://g-force.nl # @saskia site seems to be offline?

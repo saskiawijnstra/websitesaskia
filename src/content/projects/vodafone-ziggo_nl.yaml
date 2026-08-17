@@ -25,12 +25,12 @@ page:
             alt: Game upgrade screen
     - type: "meta-info-row"
       content:
-        - label: "Date"
+        - label: "Datum"
           value: "December 2018"
         - label: "Instagram"
           value: "Vodafone Ziggo"
           link: https://example.org # @saskia: insert correct url here if you want to link the channel
-        - label: "Role"
+        - label: "Rol"
           value: "Design"
     - type: text-block
       content:

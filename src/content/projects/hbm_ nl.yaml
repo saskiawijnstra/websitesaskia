@@ -8,11 +8,11 @@ page:
           url: "/images/projects/hbm/hero.jpg"
     - type: "meta-info-row"
       content:
-        - label: "Date"
-          value: "May 2018"
-        - label: "Client"
+        - label: "Datum"
+          value: "Mei 2018"
+        - label: "Opdrachtgever"
           value: "Hans Boodt Mannequins & Snakeware"
-        - label: "Role"
+        - label: "Rol"
           value: "AR App"
 
     - type: "text-block"

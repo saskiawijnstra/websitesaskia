@@ -8,12 +8,12 @@ page:
           url: "/images/projects/sprong/hero.jpg"
     - type: "meta-info-row"
       content:
-        - label: "Date"
-          value: "July 2019"
-        - label: "Client"
+        - label: "Datum"
+          value: "Juli 2019"
+        - label: "Opdrachtgever"
           value: "Onconet, VUmc"
-        - label: "Role"
-          value: "UI/UX/App/Prototype<br>Brand Identity Design"
+        - label: "Rol"
+          value: "UI/UX/App/Prototype<br>Huisstijl"
 
     - type: "text-block"
       content:
