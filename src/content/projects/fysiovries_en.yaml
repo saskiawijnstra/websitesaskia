@@ -25,10 +25,9 @@ page:
     - type: "text-block"
       content:
         text: >
-          FysioVries is a physiotherapy practice located in Vries. 
+          FysioVries is a physiotherapy practice located in Vries, the Netherlands. 
           FysioVries strives for the best result for its customers. 
-          Quality, small scale, good service and personal attention 
-          to their customers are important for FysioVries. 
+          Quality, small scale, good service and personal attention. 
           They offer this within a confidential and committed atmosphere.
     - type: "full-image"
       content:

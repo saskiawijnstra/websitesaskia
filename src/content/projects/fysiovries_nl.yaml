@@ -8,12 +8,12 @@ page:
           url: "/images/projects/fysio/fysiovries-fullpage1.png"
     - type: "meta-info-row"
       content:
-        - label: "Date"
-          value: "July 2016"
-        - label: "Client"
+        - label: "Datum"
+          value: "Juli 2016"
+        - label: "Opdrachtgever"
           value: "FysioVries"
-        - label: "Role"
-          value: "Brand Identity / Website"
+        - label: "Rol"
+          value: "Huisstijl / Website"
         - label: Website
           value: fysiovries.nl
           link: https://fysiovries.nl
@@ -25,11 +25,7 @@ page:
     - type: "text-block"
       content:
         text: >
-          FysioVries is a physiotherapy practice located in Vries. 
-          FysioVries strives for the best result for its customers. 
-          Quality, small scale, good service and personal attention 
-          to their customers are important for FysioVries. 
-          They offer this within a confidential and committed atmosphere.
+          FysioVries is een fysiotherapiepraktijk gevestigd in Vries. FysioVries streeft naar het beste resultaat voor haar cliënten. Kwaliteit, kleinschaligheid, goede service en persoonlijke aandacht staan ​​bij FysioVries hoog in het vaandel. Dit doen zij in een vertrouwelijke en betrokken sfeer.
     - type: "full-image"
       content:
         url: "/images/projects/fysio/fysiovries-fullpage3.png"
@@ -47,12 +43,7 @@ page:
     - type: text-block
       content:
         text: >
-          I designed the logo and the website for FysioVries. 
-          I made all the photos on the website myself. The website had to 
-          be clear for young and old users. The most important information 
-          is on the home-page in the four boxes and on the other pages is 
-          in-depth text. I have built it as clear and clean as possible 
-          with fresh colors and photography.
+          Ik heb het logo en de website voor FysioVries ontworpen. Alle foto's op de website heb ik zelf gemaakt. De website moest overzichtelijk zijn voor jong en oud. De belangrijkste informatie staat op de homepage in de vier blokken en op de overige pagina's staat verdiepende tekst. Ik heb de website zo helder en overzichtelijk mogelijk gemaakt met frisse kleuren en fotografie.
     - type: "full-image"
       content:
         url: "/images/projects/fysio/fysiovriessite1.png"

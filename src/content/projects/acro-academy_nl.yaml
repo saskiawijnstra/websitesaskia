@@ -9,9 +9,9 @@ page:
         width: grid-10
     - type: "meta-info-row"
       content:
-        - label: "Date"
-          value: "July 2016"
-        - label: "Client"
+        - label: "Datum"
+          value: "Juli 2016"
+        - label: "Opdrachtgever"
           value: "Acro Academy Noord Nederland"
-        - label: "Role"
+        - label: "Rol"
           value: "Logo Design"
