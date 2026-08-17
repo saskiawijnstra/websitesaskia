@@ -46,5 +46,3 @@ export const useUiStore = defineStore("ui", () => {
     isMenuVisible,
   };
 });
-
-//werkt dit?
