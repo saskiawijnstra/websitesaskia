@@ -62,7 +62,7 @@
 
 <script lang="ts" setup>
 import { useI18n } from "vue-i18n";
-import { useUiStore } from "@/stores/uiStore.ts";
+import { useUiStore } from "@/stores/uistore.ts";
 import { storeToRefs } from "pinia";
 
 import Creative from "@/assets/images/header-drawings/Creative2.svg";
