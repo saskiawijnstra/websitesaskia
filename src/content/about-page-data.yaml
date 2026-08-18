@@ -8,7 +8,7 @@ introduction:
     en: "Design is my passion. I can make a **clear creative solution** from a messy idea. Designing creative solutions for customers and deliver a product where I'm **proud** of. That's what I love to do."
     nl: "Design is mijn passie. Ik kan van een rommelig idee een **duidelijke creatieve oplossing** maken. Ontwerpen voor klanten en een product afleveren waar ik **trots** op ben, dat is wat ik het liefste doe."
   image:
-    url: "/images/about/windinmijnharen.png"
+    url: "/images/about/AchterLaptop0.75x.png"
     alt:
       en: Photo of Saskia in a green field, wind in her hair.
       nl: "Foto van Saskia in een groen veld, wind in haar haar."
@@ -122,15 +122,15 @@ experience:
     en: Experience
     nl: Ervaring
   image-1:
-    url: "/images/about/master.png"
+    url: "/images/about/Buiten0.5x.png"
     alt:
-      en: "Saskia planning something on a white canvas with post-its"
-      nl: "Saskia schrijft iets op een bord met post-its"
+      en: ""
+      nl: ""
   image-2:
-    url: "/images/about/saskia.png"
+    url: ""
     alt:
-      en: "Saskia is standing outside in a field with a long coat"
-      nl: "Saskia staat buiten in de natuur"
+      en: ""
+      nl: ""
   experiences:
     - title:
         en: Studio SpinLink
@@ -141,7 +141,7 @@ experience:
       time:
         en: 2025 - now
         nl: 2025 - nu
-      icon-path: "spinlinklogo"
+      icon-path: "/images/about/experience-icons/spinlink1.png"
     - title:
         en: Waterlelie wellnessresort
         nl: Waterlelie wellnessresort

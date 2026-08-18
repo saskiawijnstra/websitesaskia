@@ -28,7 +28,7 @@
     </div>
 
     <div class="image">
-      <img src="@/assets/images/windinmijnharen.jpg" alt="Saskia Wijnstra" />
+      <img src="@/assets/images/AchterLaptop0.75x.png" alt="Saskia Wijnstra" />
     </div>
 
     <div class="links grid-container">
