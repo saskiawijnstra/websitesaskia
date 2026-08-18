@@ -18,20 +18,11 @@ page:
     - type: "text-block"
       content:
         text: >
-          People with breast cancer who follow a supervised exercise program 
-          during chemotherapy can preserve their physical fitness, limit fatigue 
-          and other symptoms, and increase the chance of chemotherapy completion.
-          At the Onconet in the VUmc they give these supervised exercise programs, 
-          also oncofysio called. Right now the physiotherapists and patient have 
-          papers where they fill in data. How they feel, what symptoms they have, 
-          the activity they did and more. For this project we wanted to combine all 
-          the data in an easy app so you have a nice overview of your progress in time.
+          Mensen met borstkanker die tijdens de chemotherapie een begeleid oefenprogramma volgen, kunnen hun fysieke conditie behouden, vermoeidheid en andere klachten beperken en de kans op afronding van de chemotherapie vergroten. Bij Onconet in het VUmc geven ze deze begeleide oefenprogramma's, ook wel oncofysio genoemd. Op dit moment hebben de fysiotherapeuten en de patiënt papieren waarop ze gegevens invullen. Hoe ze zich voelen, welke klachten ze hebben, welke activiteit ze hebben gedaan en meer. Voor dit project wilden we alle gegevens combineren in een eenvoudige app, zodat je een mooi overzicht hebt van je voortgang.
     - type: "quote-block"
       content:
         text: >
-          “How can we make **people with breast cancer** feel more **in control** 
-          over their **exercise program** and improve the **communication of data** 
-          with their **physiotherapist** through an **engaging service**?”
+          “Hoe kunnen we **mensen met borstkanker** meer controle geven over hun **trainingsprogramma** en de communicatie van **data** met hun **fysiotherapeut** verbeteren middels een aantrekkelijke service?”
     - type: "full-image"
       content:
         url: "/images/projects/sprong/sprong-fullpage-moodboard.jpg"
@@ -41,11 +32,7 @@ page:
     - type: "text-block"
       content:
         text: >
-          For this project we did a lot of research before making the final product. 
-          We went to physiotherapy sessions with our end users 
-          (people with breast cancer). We made a lot of mind-maps, collected data 
-          and wrote ux-flows. After that we tested our design with end users and 
-          improved it in multiple iterations.
+          Voor dit project hebben we veel onderzoek gedaan voordat we het eindproduct maakten. We hebben fysiotherapiesessies bezocht met onze eindgebruikers (mensen met borstkanker). We hebben veel mindmaps gemaakt, data verzameld en UX-flows geschreven. Daarna hebben we ons ontwerp getest met eindgebruikers en in meerdere iteraties verbeterd.
     - type: image-mosaic
       content:
         columns:
@@ -67,13 +54,11 @@ page:
                 alt: Concepts on whiteboard
               - url: /images/projects/sprong/mrt7contextmap2.jpg
                 alt: A big, multicolored contextmap. "Where?, When?, How?, Why?, What?, Who?"
-        label: "The process; Mind maps, field research, user flows and more"
+        label: "Het proces; Mind maps, field research, user flows en meer"
     - type: "text-block"
       content:
         text: >
-          Imagine having a coach that listens to you, gives you a personalised goal that you 
-          can achieve and motivates you through your journey. 
-          You can find this all in the app.
+          Stel je voor dat je een coach hebt die naar je luistert, je een persoonlijk doel stelt dat je kunt bereiken en je motiveert tijdens je reis. Je vindt dit allemaal in de app.
     - type: "full-image"
       content:
         url: "/images/projects/sprong/prototype.jpg"

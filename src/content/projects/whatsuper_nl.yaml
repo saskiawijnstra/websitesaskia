@@ -13,22 +13,14 @@ page:
         - label: "Opdrachtgever"
           value: "Whatsuper"
         - label: "Rol"
-          value: "UI/UX/App/Prototype<br>Brand Identity Design"
+          value: "UI/UX/App/Prototype<br>Huisstijl"
 
     - type: "text-block"
       content:
         text: >
-          I got asked by a developer to design an app 
-          where he could find all the discounts from all the supermarkets 
-          in the Netherlands. He would do the coding and for the app he needed 
-          a designer to make his idea visual, understandable and logic. 
+          Een develeper vroeg me om een app te ontwerpen waarin hij alle kortingen van alle supermarkten in Nederland kon vinden. Hij zou de code schrijven en had voor de app een ontwerper nodig om zijn idee visueel, begrijpelijk en logisch te maken.
           <br><br>
-          For the design I chose light colours and an open, easy to read font. 
-          The price and important information in red to get your attention. 
-          The background is slightly blue to make it calm and get your 
-          attention to the products. What I really liked about designing 
-          this app was how can I make it as clean and clear as possible, 
-          with all the sale variations and texts that needed to be in there.
+          Voor het ontwerp koos ik voor lichte kleuren en een open, gemakkelijk leesbaar lettertype. De prijs en belangrijke informatie zijn opvallend rood. De achtergrond is lichtblauw voor een rustige sfeer en om de aandacht op de producten te vestigen. Wat ik erg leuk vond aan het ontwerpen van deze app, was uitzoeken hoe ik hem zo strak en duidelijk mogelijk kon maken, met alle aanbiedingen en teksten die erin moesten.
     - type: "color-swatch-row"
       content:
         - color: "#F84C3E"
@@ -37,23 +29,20 @@ page:
     - type: "quote-block"
       content:
         text: >
-          “All **supermarket offers** in **one overview**. A **light** and **clear design** to make you find the best sales on daily products.”
+          “Alle **supermarktaanbiedingen** in **één overzicht**. Met een licht en overzichtelijk design helpt de app je de **beste aanbiedingen** voor **dagelijkse producten** te vinden.”
     - type: "full-image"
       content:
         url: "/images/projects/whatsuper/whatsuper_flow.png"
         alt: "Prototype Userflow in Figma (not all lines are visible). The whole prototype was clickable"
-        label: "Prototype Userflow in Figma (not all lines are visible)<br>The whole prototype was clickable"
+        label: "Prototype Userflow in Figma (niet alle lijnen zijn zichtbaar)<br>Het hele prototype is klikbaar"
         width: grid-6
     - type: "text-block"
       content:
         text: >
-          For the design I thought about nice features to have in the app. 
-          For example to select the different supermarkets you go to or get 
-          a notification if something is for sale that you really want. 
-          I also prototyped the scrolling in the pages and how the 
-          transitions between the pages worked. To make it logic for 
-          the user where you are in the app. The app is in the play store. 
-          You can download it yourself. Under here you can find the final designs I made.
+          Voor het ontwerp heb ik nagedacht over leuke functies voor de app.
+          Bijvoorbeeld om de verschillende supermarkten te selecteren waar je naartoe gaat of een melding te krijgen als er iets te koop is wat je vaker gebruikt.
+          Ik heb ook een prototype gemaakt van het scrollen in de pagina's en hoe de overgangen tussen de pagina's werken. Om het logisch te maken voor de gebruiker waar je je in de app bevindt.
+          De app staat in de Play Store. Je kunt hem zelf downloaden. Hieronder vind je mijn definitieve ontwerpen.
 
     # maybe this should be a "app screens grid" block instead of one image, for better responsiveness.
     # but its okay for now

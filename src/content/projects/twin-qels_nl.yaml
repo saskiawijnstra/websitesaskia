@@ -2,6 +2,26 @@ projectId: "twin-qels"
 page:
   title: "TwinQels"
   sections:
+    - type: "hero-media"
+      content:
+        image:
+          url: "/images/projects/twin-qels/TwinQels-mockup.png"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "Januari 2020"
+        - label: "Client"
+          value: "TwinQels"
+        - label: "Role"
+          value: "Design"
+    - type: full-image
+      content:
+        url: /images/projects/twin-qels/TwinQels-appstore.png
+        alt: Appstore screenshots of Twin qels App"
+    - type: text-block
+      content:
+        text: >
+          Human Software - TwinQels maakt gesprekken in organisaties gemakkelijker en beter. Medewerkers werken met een app die ondersteunt bij reflectie, ontwikkeling en werkgeluk. TwinQels biedt de basis voor eigen regie. Werkgevers kunnen op deze manier gesprekken voeren met goed voorbereide medewerkers die weten wat ze willen. Bovendien is er voor HR een (anoniem) dashboard met relevante HR-analytics. Organisaties weten wat er leeft en kunnen hierop actie ondernemen.
     - type: "app-screens-grid"
       max-column-count: 3
       min-column-count: 2

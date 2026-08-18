@@ -28,7 +28,7 @@ page:
         - label: "Date"
           value: "December 2018"
         - label: "Instagram"
-          value: "Vodafone Ziggo"
+          value: "VodafoneZiggo"
           link: https://example.org # @saskia: insert correct url here if you want to link the channel
         - label: "Role"
           value: "Design"

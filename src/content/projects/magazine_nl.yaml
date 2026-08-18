@@ -11,9 +11,9 @@ page:
         - label: "Datum"
           value: "November 2015"
         - label: "Opdrachtgever"
-          value: "Hanze hogeschool<br>2nd year CMD Assignment"
+          value: "Hanze hogeschool<br>2e jaar CMD"
         - label: "Rol"
-          value: "Design / Photography"
+          value: "Design / Fotografie"
 
     - type: "full-image"
       content:
@@ -23,11 +23,7 @@ page:
     - type: "text-block"
       content:
         text: >
-          In the second year of the Multimedia, Concepting and Design program, 
-          we had to make a magazine about ourselves. On this page you can see the result 
-          of this project. The magazine had to have a mean subject that has something 
-          to do with yourself. For this I chose list-maker. I make lists of many things 
-          to keep the overview. I have implemented this in my magazine.
+          In het tweede jaar van de opleiding Multimedia, Concepting en Design moesten we een magazine over onszelf maken. Op deze pagina zie je het resultaat van dit project. Het magazine moest een relevant onderwerp hebben dat iets met jezelf te maken heeft. List-maker heb ik hiervoor gekozen. Ik maak lijstjes van allerlei dingen om het overzicht te behouden. Dit heb ik in mijn magazine geïmplementeerd.
     - type: "image-row"
       column-count: 2
       content:
@@ -41,7 +37,7 @@ page:
     - type: "text-block"
       content:
         text: >
-          Therefore I made a list about how to make your own cruesli and a list with exercises for your abs. Everything with photo’s, graphics and texts from myself.
+          Daarom heb ik een lijst gemaakt met hoe je zelf cruesli maakt en een lijst met oefeningen voor je buikspieren. Alles met foto's, afbeeldingen en teksten van mijzelf.
     - type: "full-image"
       content:
         url: "/images/projects/magazine/magazine-fullpage5.png"

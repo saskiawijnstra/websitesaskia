@@ -13,9 +13,9 @@ page:
     - type: "meta-info-row"
       content:
         - label: "Datum"
-          value: "Januari 2020"
+          value: "Augustus 2020"
         - label: "Opdrachtgever"
-          value: "TwinQels"
+          value: "SEIN"
         - label: "Rol"
           value: "Design"
     - type: full-image
@@ -26,11 +26,7 @@ page:
     - type: text-block
       content:
         text: >
-          SEIN is the centre of expertise for epilepsy and sleep healthcare. 
-          Together with a UX Designer I was allowed to completely recreate the website. 
-          For this target audience we really needed to make clear that it was readable, 
-          clean and peaceful. This website was completely made during the pandemic. 
-          So we did all the presentations online with the client and unfortunately I have never visited SEIN myself.
+          SEIN is hét expertisecentrum voor epilepsie- en slaapgeneeskunde. Samen met een UX-designer mocht ik de website volledig herbouwen. Voor deze doelgroep moesten we vooral een website maken die leesbaar, overzichtelijk en rustig was. Deze website is volledig tijdens de pandemie gemaakt. We hebben dus alle presentaties online met de klant gedaan en helaas bij SEIN langs geweest.
     - type: "app-screens-grid"
       max-column-count: 2
       min-column-count: 2

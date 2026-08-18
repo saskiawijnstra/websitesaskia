@@ -5,8 +5,7 @@ page:
     - type: "quote-block"
       content:
         text: >
-          “How might we make **VodafoneZiggo**'s senior managers understand the society's **exponentially** growing 
-          appetite for data will outpace the **network's capacity** if they do not act with **urgency**?”
+          “Hoe kunnen we het senior management van **VodafoneZiggo** duidelijk maken dat de **exponentieel groeiende vraag naar data** de **capaciteit** van het netwerk zal overtreffen als ze niet met **spoed** handelen?”
     - type: swipe-gallery
       height: 551
       content:
@@ -28,24 +27,16 @@ page:
         - label: "Datum"
           value: "December 2018"
         - label: "Instagram"
-          value: "Vodafone Ziggo"
+          value: "VodafoneZiggo"
           link: https://example.org # @saskia: insert correct url here if you want to link the channel
         - label: "Rol"
           value: "Design"
     - type: text-block
       content:
         text: >
-          During my Master Digital Design the first project in a group was for VodafoneZiggo. 
-          Now a days we use a lot of data. There are even unlimited subscriptions. 
-          But the network is not unlimited, there is a certain capacity we are reaching. 
-          At one point, if we don’t act, the capacity will be full. Our client at VodafoneZiggo 
-          wanted to make this clear to the senior managers. When he gave a presentation it didn’t 
-          came trough. We made it visual with two different games, to feel the urgency. 
+          Tijdens de Master Digital Design was mijn eerste groepsproject voor VodafoneZiggo. Tegenwoordig gebruiken we enorm veel data. Er zijn zelfs onbeperkte abonnementen. Maar het netwerk is niet onbeperkt, we bereiken een bepaalde capaciteit. Op een gegeven moment, als we niets doen, is de capaciteit vol. Onze klant bij VodafoneZiggo wilde dit duidelijk maken aan het senior management. Tijdens zijn presentatie kwam het niet over. We maakten het visueel met twee verschillende spellen, zodat je de urgentie voelt.
           <br><br>
-          Above here you can see the first game. You make lines on an interactive board 
-          from the data center to the houses. Than the houses ask for more data. 
-          You need to draw more and more lines. Quicker and quicker. Obstacles come 
-          in your way and some houses are not getting the data they ask for. See how far you can get.
+          Hierboven zie je het eerste spel. Je tekent lijnen op een interactief bord van het datacenter naar de huizen. Vervolgens vragen de huizen om meer data. Je moet steeds meer lijnen tekenen. Steeds sneller. Er komen obstakels op je pad en sommige huizen krijgen niet de data die ze vragen. Kijk hoe ver je komt.
     - type: swipe-gallery
       height: 465
       content:
@@ -63,10 +54,7 @@ page:
     - type: text-block
       content:
         text: >
-          The second game is an interactive city. 
-          You have a certain amount of data and money you can spend on this city. 
-          While answering questions you make decisions. After a decision you get feedback. 
-          It gives you insights on how a data network works.
+          De tweede game is een interactieve stad. Je hebt een bepaalde hoeveelheid data en geld om aan deze stad te besteden. Terwijl je vragen beantwoordt, neem je beslissingen. Na een beslissing krijg je feedback. Het geeft je inzicht in hoe een datanetwerk werkt.
     - type: full-image
       content:
         url: /images/projects/vodafone-ziggo/Video_Prototype_The Network_VodafoneZiggo_Project.mp4
@@ -75,6 +63,6 @@ page:
         show-controls: true
         try-autoplay: true # only works if video has no sound
         width: grid-10
-        alt: Clickable prototype
-        label: Clickable prototype - Click here to test the prototype yourself.
+        alt: Klikbaar prototype
+        label: Klikbaar prototype - Klik hier om het prototype zelf te testen.
         label-link: http://example.com # @saskia insert link to prototype here

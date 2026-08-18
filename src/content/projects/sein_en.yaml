@@ -13,9 +13,9 @@ page:
     - type: "meta-info-row"
       content:
         - label: "Date"
-          value: "Januari 2020"
+          value: "August 2020"
         - label: "Client"
-          value: "TwinQels"
+          value: "SEIN"
         - label: "Role"
           value: "Design"
     - type: full-image
