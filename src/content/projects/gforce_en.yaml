@@ -54,7 +54,7 @@ page:
       content:
         text: >
           “G-Force doesn't invest in dreams, but in **promising plans** by promising entrepreneurs.”
-        quotee: "-Marco de Jong, G-Force"
+        quotee: "- Marco de Jong, G-Force"
     - type: full-image
       content:
         url: /images/projects/g-force/g-force-website.png

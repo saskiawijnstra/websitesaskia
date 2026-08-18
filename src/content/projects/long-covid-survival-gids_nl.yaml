@@ -9,34 +9,24 @@ page:
           alt: "Screenshots and social media posts of the instagram profile 'Long covid survival gids'"
     - type: "meta-info-row"
       content:
-        - label: "Date"
+        - label: "Datum"
           value: "2022 - 2023"
         - label: "Instagram"
           value: "@longcovid.survival.gids"
           link: "https://www.instagram.com/longcovid.survival.gids/" # link is optional value
-        - label: "Role"
+        - label: "Rol"
           value: "Content creator, Designer"
 
     - type: "text-block"
       content:
         text: >
-          In October 2020 I got covid. As others recovered after approximately two weeks I didn’t. 
-          I was completely cold. You could put a heating lamp on me and all blankets around me, but 
-          I couldn’t get warm. I had no energy. Exhaustion is an understatement. For three months 
-          I didn’t had smell or taste, they luckily came back. But other symptoms became worse. 
-          I couldn’t handle any stimuli, sound, light etc. 
-          The first year I still tried to work for 50%, but that became too much. I tried all kinds of treatments, 
-          physio, ergo, multiple rehabilitations, hyperbaric oxygen therapy, H.E.L.P. 
-          Apheresis, too much to write down. But my symptoms (a list of two pages long) became worse. 
-          I went from bed to couch. Showering, making food, 5 meters walking was too much. My body was empty.
+          In oktober 2020 kreeg ik covid. Terwijl anderen na ongeveer twee weken herstelden, herstelde ik niet. Ik had het helemaal koud. Je kon een warmtelamp op me zetten en me inwikkelen met dekens, maar ik werd niet warm. Ik had geen energie. Uitputting is een understatement. Drie maanden lang had ik geen reuk of smaak, die kwamen gelukkig terug. Maar andere klachten werden erger. Ik kon geen prikkels, geluid, licht, enzovoort verdragen. Het eerste jaar probeerde ik nog 50% te werken, maar dat werd te veel. Ik heb allerlei behandelingen geprobeerd: fysiotherapie, ergotherapie, meerdere revalidaties, hyperbare zuurstoftherapie, H.E.L.P.-aferese, te veel om op te noemen. Maar mijn klachten (een lijst van twee pagina's lang) werden erger. Ik ging van bed naar bank. Douchen, eten maken, 5 meter lopen was te veel. Mijn lichaam was op.
           <br><br>
-          To still make some designs I started an instagram page. Low key for fellow sufferers. 
-          To help each other and get compassion about long covid. I got a lot of comments, 
-          felt the connection with others in my isolation and it gave me a little bit of meaning.
+          Om toch nog wat te ontwerpen, ben ik een Instagrampagina begonnen. Voor lotgenoten. Om elkaar te helpen en uitleg te geven over long covid. Ik kreeg veel reacties, voelde de verbinding met anderen in mijn isolement en het gaf me een beetje betekenis.
     - type: "image-row-4-tilted"
       content:
         - image: "/images/projects/long-covid-survival/wegvandepijn.png"
-          alt: "Weg van de Pijn book cover"
+          alt: "Weg van de Pijn book omslag"
           rotation: -5
         - image: "/images/projects/long-covid-survival/masterclass.png"
           alt: "Audience in talk"
@@ -50,21 +40,16 @@ page:
     - type: "text-block"
       content:
         text: >
-          In 2023 I found the book; Weg van de Pijn - Saskia de Bruin. 
-          Other people with long covid or with chronic symptoms had recovered using the tms/mind body method. 
-          When I read it a lot fell into place. I felt resistance, but more curiosity for this method. 
-          I felt symptoms go away when I applied it. It went with learning, ups and downs, 
-          but I finally had found something that worked for me. I went to a retreat from 
-          Nina Bosselaar (Lief Klein Leven) and followed a masterclass from Howard Schubiner (Neuroscientists). 
-          I read the book; The way out - Alan Gordon. I fully immersed myself in the mind body method. 
-          Did and still do yin yoga for relaxation. And step by step made my world bigger again by building new neural pathways.
+          In 2023 vond ik het boek; Weg van de Pijn - Saskia de Bruin. Andere mensen met long covid of chronische klachten waren hersteld met behulp van de tms/mindbody-visie. Toen ik het las, viel er veel op zijn plaats. Ik voelde weerstand, maar meer nieuwsgierigheid naar deze methode. Ik voelde symptomen verdwijnen wanneer ik het toepaste. Het ging met vallen en opstaan, maar ik had eindelijk iets gevonden wat voor mij werkte.
+          <br><br>
+          Ik ging naar een retraite van Nina Bosselaar (Lief Klein Leven) en volgde een masterclass van Howard Schubiner (Neurowetenschappers). Ik las het boek; The way out - Alan Gordon. Ik verdiepte me volledig in de mind body-visie. Ik deed en doe nog steeds yin yoga om te ontspannen. En stap voor stap maakte ik mijn wereld weer groter door nieuwe neurale paden aan te leggen.
     - type: "image-row"
       column-count: 3
       content:
         images:
           - image:
               url: "/images/projects/long-covid-survival/neuralepaden.jpg"
-              alt: "Social Media Post Brain"
+              alt: "Social Media Post Hersenen"
           - image:
               url: "/images/projects/long-covid-survival/7Fs.jpg"
               alt: "Social Media Post 'The 7 F's'"
@@ -74,20 +59,13 @@ page:
     - type: "quote-block"
       content:
         text: >
-          “From **surviving** to **feeling alive** again. 
-          How I recovered from long covid with the **mind body approach**.
-           Building **new neural pathways** with **trust, self-compassion, courage and perseverance**.”
+          “Van **overleven** naar **leven**. Hoe ik herstelde van long covid met de **mindbody-visie**. **Nieuwe neurale paden** maken met **vertrouwen, zelfcompassie, moed en doorzettingsvermogen**.”
     - type: "text-block"
       content:
         text: >
-          Right now I am recovered from long covid. Healthy and full of energy. 
-          But still building up work and sports. Applying the mind body method as I go. 
-          I am super thank-full for finding this method. And proud of the courage and 
-          perseverance I have to find the trust in my body and myself back. 
-          On my instagram page you can find this journey and the insights 
-          I had along the way. Design way’s it is clean, simple, open and soft. 
-          Easy to read. Insightful with the illustrations. 
-          If you have any questions, feel free to contact me.
+          Ik ben hersteld van long covid. Gezond en vol energie. Maar ik blijf mijn werk en sport opbouwen. Ik pas de mindbody-visie toe. Ik ben super dankbaar dat ik deze methode heb gevonden. En trots op de moed en het doorzettingsvermogen die ik heb om het vertrouwen in mijn lichaam en mezelf terug te vinden.
+          <br><br>
+          Op mijn Instagrampagina vind je deze reis en de inzichten die ik onderweg heb opgedaan. Het ontwerp is strak, eenvoudig, open en zacht. Makkelijk te lezen. Inzichtelijk met de illustraties. Neem gerust contact met me op als je vragen hebt.
     # lazy solution: image grid is just one image. not good for responsiveness, but quick :)
     - type: "full-image"
       content:
