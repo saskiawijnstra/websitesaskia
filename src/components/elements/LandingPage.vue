@@ -6,8 +6,13 @@
         <span>Designer</span>
       </h1>
 
+
+
+<!-- dit heb ik toegevoegd colorScheme en component label-->
+
       <div
         class="scribble"
+        :class="`color-scheme-${colorScheme}`" 
         v-for="(scribble, index) in SCRIBBLES"
         :key="index"
         :style="`
@@ -15,15 +20,25 @@
             top:${scribble.position.y}%;
             animation-delay: ${1.2 + 0.1 * index}s`"
       >
-        <img
+      <component
+    :is="scribble.image"
+    :style="scribble.imageCss || ''"
+    :id="`landing-page-scribble-${index}}`"
+  />
+  <label :for="`landing-page-scribble-${index}}`">
+    {{ t(`landingpage-scribbles.${scribble.labelKey}`) }}
+  </label>
+
+        <!--<img
           :style="scribble.imageCss || ''"
           :src="scribble.image"
           :id="`landing-page-scribble-${index}}`"
         />
         <label :for="`landing-page-scribble-${index}}`">
           {{ t(`landingpage-scribbles.${scribble.labelKey}`) }}
-        </label>
-        <img v-if="scribble.secondImage" :src="scribble.secondImage" />
+        </label> -->
+        <component v-if="scribble.secondImage" :src="scribble.secondImage" />
+        <!--<img v-if="scribble.secondImage" :src="scribble.secondImage" />-->
       </div>
     </div>
 
@@ -47,27 +62,31 @@
 
 <script lang="ts" setup>
 import { useI18n } from "vue-i18n";
+import { useUiStore } from "@/stores/uiStore.ts";
+import { storeToRefs } from "pinia";
 
-import Creative from "@/assets/images/header-drawings/Creative2.png";
-import EmpathyPassion from "@/assets/images/header-drawings/EmpathyPassion.png";
-import Interactive from "@/assets/images/header-drawings/Interactive.png";
-import Interfaces from "@/assets/images/header-drawings/Interfaces.png";
-import ListMaker from "@/assets/images/header-drawings/List-maker.png";
-import Problemsolver from "@/assets/images/header-drawings/Problemsolver.png";
-import Prototypebuilder from "@/assets/images/header-drawings/Prototypebuilder.png";
-import User from "@/assets/images/header-drawings/User.png";
-import Vision from "@/assets/images/header-drawings/Vision.png";
-import Visualthinker from "@/assets/images/header-drawings/Visualthinker.png";
+import Creative from "@/assets/images/header-drawings/Creative2.svg";
+import EmpathyPassion from "@/assets/images/header-drawings/EmpathyPassion2.svg";
+import Interactive from "@/assets/images/header-drawings/Interactive2.svg";
+import Interfaces from "@/assets/images/header-drawings/Interfaces2.svg";
+import ListMaker from "@/assets/images/header-drawings/List-maker2.svg";
+import Problemsolver from "@/assets/images/header-drawings/Problemsolver2.svg";
+import Prototypebuilder from "@/assets/images/header-drawings/Prototypebuilder2.svg";
+import User from "@/assets/images/header-drawings/User2.svg";
+import Vision from "@/assets/images/header-drawings/Vision2.svg";
+import Visualthinker from "@/assets/images/header-drawings/Visualthinker2.svg";
 import LinkArrow from "./LinkArrow.vue";
 
+const uiStore = useUiStore();
+const { colorScheme } = storeToRefs(uiStore);
 const { t } = useI18n();
 const SCRIBBLES = [
   {
     labelKey: "visual-thinker",
     image: Visualthinker,
     position: {
-      x: 19,
-      y: 14,
+      x: 28, //dit was 19. veranderd
+      y: 24, //dit was 14. veranderd
     },
   },
   {
@@ -75,40 +94,40 @@ const SCRIBBLES = [
     image: Interfaces,
     secondImage: User,
     position: {
-      x: 50,
-      y: 16,
+      x: 48,
+      y: 20,
     },
   },
   {
     labelKey: "creative",
     image: Creative,
     position: {
-      x: 79,
-      y: 22,
+      x: 72,
+      y: 28,
     },
   },
   {
     labelKey: "list-maker",
     image: ListMaker,
     position: {
-      x: 80,
-      y: 46,
+      x: 75,
+      y: 48,
     },
   },
   {
     labelKey: "prototype-builder",
     image: Prototypebuilder,
     position: {
-      x: 68,
-      y: 76,
+      x: 66,
+      y: 75,
     },
   },
   {
     labelKey: "empathy-passion",
     image: EmpathyPassion,
     position: {
-      x: 40,
-      y: 86,
+      x: 43,
+      y: 72,
     },
   },
 
@@ -116,8 +135,8 @@ const SCRIBBLES = [
     labelKey: "vision",
     image: Vision,
     position: {
-      x: 22,
-      y: 86,
+      x: 30,
+      y: 76,
     },
   },
 
@@ -126,8 +145,8 @@ const SCRIBBLES = [
     image: Interactive,
     imageCss: "transform: translate(112px, -33px)",
     position: {
-      x: 1,
-      y: 83,
+      x: 12,
+      y: 70,
     },
   },
 
@@ -148,8 +167,10 @@ const SCRIBBLES = [
 
 .landing-page {
   display: grid;
-  width: 100vw;
-  height: calc(100vh - 141px); // subtract header height
+  width: 100%;
+  max-width: none;   // same as $container-max-width in _grid.scss 1550px
+  margin: 0 50 0 150px; // center it, keep your existing 170px bottom margin
+  height: calc(100vh - 230px); // subtract header height 100 141
   overflow: hidden;
   grid-template-columns: minmax(750px, 2fr) 1fr;
   grid-template-rows: 1fr 4rem;
@@ -228,25 +249,39 @@ const SCRIBBLES = [
     }
 
     .scribble {
-      position: absolute;
-      display: flex;
-      align-items: center;
-      opacity: 0;
-      animation: fade-in 0.3s linear 0s forwards;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  animation: fade-in 0.3s linear 0s forwards;
+  color: var(--color-creme2); // controls both label text AND svg fill below
 
-      img {
-        width: 50px;
-        object-fit: contain;
-      }
+  &.color-scheme-light {
+    color: var(--color-roest);
+  }
 
-      label {
-        font-family: "Reenie Beanie Regular", "Brush Script MT", cursive;
-        font-size: calc-rem(28);
-        color: var(--color-middle-grijs);
-        width: max-content;
-      }
+  svg {
+    width: 50px;
+    object-fit: contain;
+
+    &::v-deep(path) {
+      fill: currentColor; 
     }
   }
+
+  label {
+    font-family: "Caveat", "Reenie Beanie Regular", "Brush Script MT", cursive;
+    font-size: calc-rem(28);
+    width: max-content;
+    color: inherit; // now just follows .scribble's color
+  }
+}
+
+  }
+
+
+
+
 
   .image {
     @media (max-width: 1080px), (max-height: 580px) {
@@ -302,7 +337,7 @@ const SCRIBBLES = [
       display: flex;
       align-items: center;
       gap: calc-rem(17px);
-      color: var(--color-default-text);
+      color: var(--color-creme2);
       grid-column: 2;
 
       &.work {
