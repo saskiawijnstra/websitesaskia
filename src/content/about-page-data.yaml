@@ -173,6 +173,16 @@ experience:
         nl: 2024 - 2025
       icon-path: "/images/about/experience-icons/kledingbank1.png"
     - title:
+        en: theFactor.e
+        nl: theFactor.e
+      description:
+        en: Digital Designer
+        nl: Digital Designer
+      time:
+        en: 2019 - 2022
+        nl: 2019 - 2022
+      icon-path: "/images/about/experience-icons/tfe1.png"      
+    - title:
         en: Van der Lei Luchtacrobatiek
         nl: Van der Lei Luchtacrobatiek
       description:
