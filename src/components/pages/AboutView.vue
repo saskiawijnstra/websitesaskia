@@ -75,7 +75,7 @@
           v-for="(experience, index) in data.experience.experiences"
           :key="index"
         >
-          <!--<img :src="experience['icon-path']" />-->
+          <img :src="experience['icon-path']" />
           <component :is="getIcon(experience['icon-path'])" class="experience-icon" />
           <div class="text">
             <dt>{{ experience.title[locale] }}</dt>
