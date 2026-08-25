@@ -75,8 +75,13 @@
           v-for="(experience, index) in data.experience.experiences"
           :key="index"
         >
-          <img :src="experience['icon-path']" />
-          <component :is="getIcon(experience['icon-path'])" class="experience-icon" />
+          <component
+            v-if="isSpinlinkIcon(experience['icon-path'])"
+            :is="SpinlinkIcon"
+            class="experience-icon"
+            :class="`color-scheme-${colorScheme}`"
+          />
+          <img v-else :src="experience['icon-path']" />
           <div class="text">
             <dt>{{ experience.title[locale] }}</dt>
             <dd>
@@ -188,6 +193,10 @@ import FullImage from "../elements/project-page-blocks/FullImage.vue";
 import { useMarkdownParser } from "../elements/useMarkdownParser";
 import LinkArrow from "../elements/LinkArrow.vue";
 import GridTest from "../grid-test.vue";
+import { useUiStore } from "../../stores/uiStore";
+import { storeToRefs } from "pinia";
+import SpinlinkIcon from "@/assets/images/experience-icons/spinlink.svg";
+
 const data = computed(() => yamlDataAbout);
 
 const { locale } = useI18n();
@@ -198,14 +207,13 @@ function parseContent(content: string): string {
   return formatText(content);
 }
 
-const icons = import.meta.glob("@/assets/images/experience-icons/spinlink.svg", {
-  eager: true,
-  import: "default",
-}) as Record<string, any>;
+const uiStore = useUiStore();
+const { colorScheme } = storeToRefs(uiStore);
 
-function getIcon(name: string) {
-  const match = Object.entries(icons).find(([path]) => path.endsWith(`/${name}.svg`));
-  return match?.[1];
+// While icons are still PNGs, only spinlink.svg can be recolored this way.
+// Once you've made SVGs for the rest, swap this for a glob + lookup by id.
+function isSpinlinkIcon(iconPath: string) {
+  return iconPath.endsWith("spinlink.svg");
 }
 
 
@@ -369,10 +377,32 @@ h3 {
   }
 
   .experience-icon {
+  width: 84px !important;
+  height: 84px !important;
+  flex-shrink: 0;
   color: var(--color-creme2);
 
+  svg {
+  width: 84px !important;
+  height: 84px !important;
+  }
+
+  path {
+  width: 84px !important;
+  height: 84px !important;
+  }
+
+  &.color-scheme-light {
+    color: var(--color-roest);
+  }
+
   &::v-deep(path) {
-    stroke: currentColor;
+    fill: currentColor;
+  }
+
+  @media (max-width: 420px) {
+    width: 64px;
+    height: 64px;
   }
   }
 
@@ -593,4 +623,7 @@ dl {
   margin: 0;
   padding: 0;
 }
+
+
 </style>
+

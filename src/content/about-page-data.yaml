@@ -141,7 +141,7 @@ experience:
       time:
         en: 2025 - now
         nl: 2025 - nu
-      icon-path: "/images/about/experience-icons/spinlink1.png"
+      icon-path: "/images/about/experience-icons/spinlink.svg" 
     - title:
         en: Waterlelie wellnessresort
         nl: Waterlelie wellnessresort
