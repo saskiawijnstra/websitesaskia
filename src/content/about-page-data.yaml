@@ -151,7 +151,7 @@ experience:
       time:
         en: 2025 - now
         nl: 2025 - nu
-      icon-path: "/images/about/experience-icons/waterlelie1.png"
+      icon-path: "/images/about/experience-icons/waterlelie.svg"
     - title:
         en: Saskia Wijnstra
         nl: Saskia Wijnstra
@@ -161,7 +161,7 @@ experience:
       time:
         en: 2009 - now
         nl: 2009 - nu
-      icon-path: "/images/about/experience-icons/saskialogo1.png"
+      icon-path: "/images/about/experience-icons/saskia.svg"
     - title:
         en: Kledingbank de Zeecontainer
         nl: Kledingbank de Zeecontainer
@@ -171,7 +171,7 @@ experience:
       time:
         en: 2024 - 2025
         nl: 2024 - 2025
-      icon-path: "/images/about/experience-icons/kledingbank1.png"
+      icon-path: "/images/about/experience-icons/zeecontainer.svg"
     - title:
         en: theFactor.e
         nl: theFactor.e
@@ -181,7 +181,7 @@ experience:
       time:
         en: 2019 - 2022
         nl: 2019 - 2022
-      icon-path: "/images/about/experience-icons/tfe1.png"      
+      icon-path: "/images/about/experience-icons/tfe.svg"      
     - title:
         en: Van der Lei Luchtacrobatiek
         nl: Van der Lei Luchtacrobatiek
@@ -191,7 +191,7 @@ experience:
       time:
         en: 2020 - 2021
         nl: 2020 - 2021
-      icon-path: "/images/about/experience-icons/aerials1.png"
+      icon-path: "/images/about/experience-icons/luchtacro.svg"
     - title:
         en: Snakeware
         nl: Snakeware
@@ -201,7 +201,7 @@ experience:
       time:
         en: 2017 - 2018
         nl: 2017 - 2018
-      icon-path: "/images/about/experience-icons/snakeware1.png"
+      icon-path: "/images/about/experience-icons/snakeware.svg"
     - title:
         en: theFactor.e
         nl: theFactor.e
@@ -211,7 +211,7 @@ experience:
       time:
         en: 2017 (6 months)
         nl: 2017 (6 maanden)
-      icon-path: "/images/about/experience-icons/tfe1.png"
+      icon-path: "/images/about/experience-icons/tfe.svg"
     - title:
         en: Adonis sportacrobatiek
         nl: Adonis sportacrobatiek
@@ -221,7 +221,7 @@ experience:
       time:
         en: 2015 - 2018
         nl: 2015 - 2018
-      icon-path: "/images/about/experience-icons/adonis1.png"
+      icon-path: "/images/about/experience-icons/adonis.svg"
     - title:
         en: Movit Sport
         nl: Movit Sport
@@ -231,7 +231,7 @@ experience:
       time:
         en: 2017 (7 months)
         nl: 2017 (7 maanden)
-      icon-path: "/images/about/experience-icons/movit1.png"
+      icon-path: "/images/about/experience-icons/movit.svg"
     - title:
         en: Rerocamp
         nl: Rerocamp
@@ -241,7 +241,7 @@ experience:
       time:
         en: 2014
         nl: 2014
-      icon-path: "/images/about/experience-icons/rerocamp1.png"
+      icon-path: "/images/about/experience-icons/rerocamp.svg"
     - title:
         en: Tiga Leek
         nl: Tiga Leek
@@ -251,7 +251,7 @@ experience:
       time:
         en: 2011 - 2012
         nl: 2011 - 2012
-      icon-path: "/images/about/experience-icons/turnen1.png"
+      icon-path: "/images/about/experience-icons/tigaleek.svg"
 
 education:
   heading:
@@ -272,7 +272,7 @@ education:
       time:
         en: 2018 - 2019
         nl: 2018 - 2019
-      icon-path: "/images/about/experience-icons/hva.png"
+      icon-path: "/images/about/experience-icons/hva.svg"
     - title:
         en: Bachelor Multimedia, Concepting & Design
         nl: Bachelor Multimedia, Concepting & Design
@@ -282,7 +282,7 @@ education:
       time:
         en: 2014 - 2018
         nl: 2014 - 2018
-      icon-path: "/images/about/experience-icons/hanze.png"
+      icon-path: "/images/about/experience-icons/Hanze.svg"
     - title:
         en: Specialisation UX/UI Design
         nl: Specialisatie UX/UI Design
@@ -292,7 +292,7 @@ education:
       time:
         en: 2016 - 2017
         nl: 2016 - 2017
-      icon-path: "/images/about/experience-icons/iba.png"
+      icon-path: "/images/about/experience-icons/IBA.svg"
       indent: true
     - title:
         en: HAVO Nature & Techniek
@@ -303,7 +303,7 @@ education:
       time:
         en: 2009 - 2014
         nl: 2009 - 2014
-      icon-path: "/images/about/experience-icons/lindenborg.png"
+      icon-path: "/images/about/experience-icons/Lindenborg.svg"
 
 skills:
   lists:
