@@ -169,12 +169,22 @@
     <div class="interests block grid-container">
       <h3 class="col-span-12">{{ data.interests.heading[locale] }}</h3>
 
+       <!--<img
+        class="interests-image col-span-3"
+        :src="data.interests.image.url"
+        :alt="data.interests.image.alt[locale]"
+      />-->
+      
       <div
         class="interest-category col-span-3"
         v-for="(category, index) in data.interests.categories"
         :key="index"
       >
-        <img :src="category.icon" :alt="category.title[locale]" class="icon" />
+        <component
+          :is="getIcon(category.icon)"
+          class="icon"
+          :class="`color-scheme-${colorScheme}`"
+        />
         <h4>{{ category.title[locale] }}</h4>
         <ul>
           <li v-for="(item, idx) in category.items" :key="idx">
@@ -592,10 +602,6 @@ h3 {
   }
 
   .interest-category {
-    .icon {
-      color: var(--color-roest);
-    }
-
     @media (max-width: 800px) {
       grid-column: span 6;
       margin-bottom: 30px;
@@ -606,7 +612,17 @@ h3 {
     }
     .icon {
       width: 64px;
+      height: 64px;
       margin-bottom: 20px;
+      color: var(--color-creme2);
+
+      &.color-scheme-light {
+        color: var(--color-roest);
+      }
+
+      &::v-deep(path) {
+        fill: currentColor;
+      }
     }
 
     h4 {

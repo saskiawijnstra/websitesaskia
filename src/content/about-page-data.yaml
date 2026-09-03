@@ -384,8 +384,14 @@ interests:
   heading:
     en: Interests & hobbies
     nl: Interesses & hobby's
+  image:
+    url: "/images/about/Kernwaarden.png"
+    alt:
+      en: "Description of the photo"
+      nl: "Beschrijving van de foto"
+
   categories:
-    - icon: /images/about/interests/design.png
+    - icon: /images/about/experience-icons/creative.svg
       title:
         en: Being creative
         nl: Creatief bezig zijn
@@ -396,7 +402,7 @@ interests:
           nl: Interieur
         - en: Photography
           nl: Fotografie
-    - icon: /images/about/interests/food.png
+    - icon: /images/about/experience-icons/food.svg
       title:
         en: (Mental) Health
         nl: (Mentale) Gezondheid
@@ -409,7 +415,7 @@ interests:
           nl: Onderbewuste patronen
         - en: Sauna
           nl: Sauna
-    - icon: /images/about/interests/bike.png
+    - icon: /images/about/experience-icons/bike.svg
       title:
         en: Sports
         nl: Sport
@@ -422,7 +428,7 @@ interests:
           nl: Zeilen
         - en: Snowboarding
           nl: Snowboarden
-    - icon: /images/about/interests/svg/natuur.svg
+    - icon: /images/about/experience-icons/Leaf.svg
       title:
         en: Sustainability
         nl: Duurzaamheid
