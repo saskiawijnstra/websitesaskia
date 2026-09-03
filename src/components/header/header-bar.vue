@@ -105,6 +105,29 @@ function toggleMenu() {
     }
   }
 
+  &.header-style-light {
+    .content {
+      nav {
+        a {
+          color: var(--color-bruin);
+
+          &:hover {
+            color: var(--color-roest);
+          }
+
+          &.router-link-active {
+            color: var(--color-roest);
+            cursor: default;
+
+            &:hover {
+              color: var(--color-roest);
+            }
+          }
+        }
+      }
+    }
+  }
+
   .content {
     display: flex;
     justify-content: space-between;
@@ -197,6 +220,8 @@ function toggleMenu() {
       a {
         color: var(--color-creme2);
         text-decoration: none;
+        padding-bottom: 4px;
+        border-bottom: 2px solid transparent;
 
         &:hover {
           color: var(--color-creme);
@@ -205,25 +230,11 @@ function toggleMenu() {
         &.router-link-active {
           color: var(--color-creme2);
           cursor: default;
+          border-bottom-color: currentColor;
           &:hover {
             color: var(--color-creme2);
           }
         }
-
-        &.color-scheme-light {
-          &:hover {
-          color: var(--color-roest);
-        }
-
-        &.router-link-active {
-          color: var(--color-roest);
-          cursor: default;
-          &:hover {
-            color: var(--color-roest);
-          }
-        } //volgens mij werkt dit niet
-        }
-
       }
     }
 

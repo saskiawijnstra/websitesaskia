@@ -45,10 +45,13 @@ const selected = computed({
   transition: color 0.2s;
   text-transform: uppercase;
   position: relative;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
 
   &.active {
     color: var(--color-default-text);
     opacity: 60%;
+    border-bottom-color: currentColor;
   }
 
   &:not(:last-child)::after {
