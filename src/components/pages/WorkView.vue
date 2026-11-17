@@ -4,30 +4,6 @@
     <article class="">
       <!-- Discover my Work -->
 
-      <div class="more-designs grid-container">
-        <h2 class="h1 col-span-6">
-          {{ yamlDataWork["spinlink"].title[locale] }}
-        </h2>
-        <ul class="design-list col-span-12-start-1">
-        <li class="col-span-4" v-for="entry in spinlinkData">
-        <component
-        :is="entry['no-link'] === true ? 'div' : 'router-link'"
-        :to="`/work/${entry.id}`"
-        >
-        <project-thumbnail
-                :thumbnail-path="entry.thumbnail.path"
-                :poster-path="entry.thumbnail.poster"
-                :is-video="entry.thumbnail['is-video']"
-                :alt-text="entry.thumbnail.alt[locale]"
-              />
-        <p>
-          <span v-html="entry.title[locale]"></span>
-          <PijlW v-if="!entry['no-link']" class="arrow-icon" />
-        </p>
-        </component>
-        </li>
-        </ul>
-      </div>
 
       <div class="discover-work-list grid-container">
         <div class="introduction col-span-6" id="work">
@@ -35,19 +11,36 @@
         </div>
         <br />
         <div class="content col-span-12">
-          <project-teaser
-            v-for="project in projects"
-            :key="project.id"
-            :project-id="project.id"
-            :thumbnailData="project.thumbnail"
-          >
-            <template #title>
-              <span v-html="project.title[locale]" />
-            </template>
-            <template #description>
-              <span v-html="project.description[locale]" />
-            </template>
-          </project-teaser>
+          <template v-for="project in projects" :key="project.id">
+            <!-- Projects with an `images` list in the YAML get a slider.
+                 :interval = time between slides in milliseconds (3000 = 3 seconds) -->
+            <project-slider
+              v-if="hasImages(project)"
+              :images="project.images"
+              :label="stripHtml(project.title[locale])"
+              :interval="project.interval ?? 3000"
+            >
+              <template #title>
+                <span v-html="project.title[locale]" />
+              </template>
+              <template #description>
+                <span v-html="project.description[locale]" />
+              </template>
+            </project-slider>
+
+            <project-teaser
+              v-else
+              :project-id="project.id"
+              :thumbnailData="project.thumbnail"
+            >
+              <template #title>
+                <span v-html="project.title[locale]" />
+              </template>
+              <template #description>
+                <span v-html="project.description[locale]" />
+              </template>
+            </project-teaser>
+          </template>
         </div>
       </div>
 
@@ -150,6 +143,7 @@
 <script setup lang="ts">
 import gridTest from "../grid-test.vue";
 import ProjectTeaser from "../elements/work/project-teaser.vue";
+import ProjectSlider from "../elements/work/ProjectSlider.vue";
 import yamlDataWork from "@/content/work-page-data.yaml";
 import { useI18n } from "vue-i18n";
 import { computed, nextTick, onMounted, onUnmounted, ref } from "vue";
@@ -169,6 +163,16 @@ const spinlinkData = computed(() => {
 const projects = computed(() => {
   return yamlDataWork.discover.projects;
 });
+
+// true when a project in the YAML has an `images:` list with at least one entry
+function hasImages(project: any): boolean {
+  return Array.isArray(project.images) && project.images.length > 0;
+}
+
+// the YAML titles contain <em>/<strong>; the slider's aria-label needs plain text
+function stripHtml(html: string): string {
+  return html.replace(/<[^>]*>/g, "");
+}
 
 const factorEShowcaseProjects = computed(() => {
   return yamlDataWork["factor-e"]["showcase"];

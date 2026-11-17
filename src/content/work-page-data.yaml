@@ -5,24 +5,58 @@
 # You can use a online yaml Validator or ask me if you're having troubles :)
 # Texts are organized by language for each section
 
-spinlink:
+
+
+
+discover:
   title:
     en: "Discover my work"
     nl: "Ontdek mijn werk"
-  
+
+
+
   projects:
-    - id: tgroenehart
-      no-link: true
+    - id: "DrukwerkSpinLink" # Unique project ID
       thumbnail:
-        path: "/images/projects/thumbnails/tgroenehart.png"
+        path: "/images/projects/thumbnails/opewsum.png"
         alt:
-          en: "Menu card design from 't Groene Hart"
-          nl: "Menukaart ontwerp van 't Groene Hart"
+          en: >
+            "Flyer design for Op Ewsum"
+          nl: >
+            "Flyer design drieluik voor Op Ewsum"
+      images:
+
+        - path: "/images/projects/thumbnails/opewsum.png"
+          alt:
+            en: "Flyer design for Op Ewsum"
+            nl: "Flyer design drieluik voor Op Ewsum"
+        - path: "/images/projects/thumbnails/tgroenehart.png"
+          alt:
+            en: "Menu card design from 't Groene Hart"
+            nl: "Menukaart ontwerp van 't Groene Hart"
+        - path: "/images/projects/thumbnails/deRiepe.png"
+          alt:
+            en: "de Riepe spread design"
+            nl: "de Riepe spread ontwerp"
+        - path: "/images/projects/thumbnails/StichtingLeergeld.png"
+          alt:
+            en: "Infographic for Stichting Leergeld"
+            nl: "Infographic voor Stichting Leergeld"
+        - path: "/images/projects/thumbnails/BureauWoonkans.png"
+          alt:
+            en: "Flyer for Bureau Woonkans"
+            nl: "Flyer voor Bureau Woonkans"
       title:
-        en: "'t Groene Hart"
-        nl: "'t Groene Hart"
-    - id: biebeno
-      no-link: true
+        en: "SpinLink <em><strong>Drukwerk</strong></em>"
+        nl: "SpinLink <em><strong>Drukwerk</strong></em>"
+      description:
+        en: >
+          From poster, flyer, magazine to menu card. I made a lot of different press-work.
+        nl: >
+          Van poster, flyer, magazine naar menu kaart. Ik heb veel verschillende soorten drukwerk gemaakt.
+
+    
+    - id: "BieBeno" # Unique project ID
       thumbnail:
         path: "/images/projects/thumbnails/Bie_Beno2.mp4"
         poster: "/images/projects/thumbnails/BieBeno.png"
@@ -31,20 +65,15 @@ spinlink:
           en: "Website design from Bie Beno"
           nl: "Website ontwerp voor Bie Beno"
       title:
-        en: "Bie Beno"
-        nl: "Bie Beno"
-    - id: opewsum
-      no-link: true
-      thumbnail:
-        path: "/images/projects/thumbnails/opewsum.png"
-        alt:
-          en: "Flyer design for Op Ewsum"
-          nl: "Flyer design drieluik voor Op Ewsum"
-      title:
-        en: "Op Ewsum"
-        nl: "Op Ewsum"
-    - id: magma
-      no-link: true
+        en: "Historisch overnachten <em><strong>Bie Beno</strong></em>"
+        nl: "Historisch overnachten <em><strong>Bie Beno</strong></em>"
+      description:
+        en: >
+          Bie Beno
+        nl: >
+          Bie Beno
+
+    - id: "Magma" # Unique project ID
       thumbnail:
         path: "/images/projects/thumbnails/Magma3.mp4"
         poster: "/images/projects/thumbnails/Magma.png"
@@ -53,38 +82,41 @@ spinlink:
           en: "Website design for Magma"
           nl: "Website ontwerp voor Magma"
       title:
-        en: "Magma"
-        nl: "Magma"
-    - id: deriepe
-      no-link: true
-      thumbnail:
-        path: "/images/projects/thumbnails/deRiepe.png"
-        alt:
-          en: "de Riepe spread design"
-          nl: "de Riepe spread ontwerp"
-      title:
-        en: "de Riepe"
-        nl: "de Riepe"
-    - id: buurtbemiddeling
-      no-link: true
+        en: "Sociaal wijkcentrum <em><strong>Magma</strong></em>"
+        nl: "Sociaal wijkcentrum <em><strong>Magma</strong></em>"
+      description:
+        en: >
+          Magma
+        nl: >
+          Magma
+
+
+
+    - id: "WebsitesSpinLink" # Unique project ID
       thumbnail:
         path: "/images/projects/thumbnails/BuurtBemiddelingGroningen.png"
         alt:
-          en: "Webdesign for Buurt Bemiddeling Groningen"
-          nl: "Webdesign voor Buurt Bemiddeling Groningen"
+          en: >
+            "Webdesign for Buurt Bemiddeling Groningen"
+          nl: >
+            "Webdesign voor Buurt Bemiddeling Groningen"
+      interval: 7000 # milliseconds: 6000 = 6 seconds
+
+      images:
+        - path: "/images/projects/thumbnails/BuurtBemiddelingGroningen.png"
+          alt:
+            en: "Webdesign for Buurt Bemiddeling Groningen"
+            nl: "Webdesign voor Buurt Bemiddeling Groningen"
       title:
-        en: "Buurt Bemiddeling Groningen"
-        nl: "Buurt Bemiddeling Groningen"
+        en: "<em><strong>Buurtbemiddeling</strong> Groningen</em>"
+        nl: "<em><strong>Buurtbemiddeling</strong> Groningen</em>"
+      description:
+        en: >
+          Buurtbemiddeling Groningen
+        nl: >
+          Buurtbemiddeling Groningen
 
-
-discover:
-  title:
-    en: ""
-    nl: ""
-
-
-
-  projects:
+    
     - id: "whatsuper" # Unique project ID
       thumbnail:
         path: "/images/projects/thumbnails/whatsuper.mp4"
@@ -332,7 +364,3 @@ more-designs:
       title:
         en: "<em><strong>Acro</strong></em> Academy"
         nl: "<em><strong>Acro</strong></em> Academy"
-
-
-
-
