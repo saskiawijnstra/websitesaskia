@@ -2,12 +2,42 @@ projectId: "BieBeno"
 page:
   title: "BieBeno"
   sections:
-    - type: "app-screens-grid"
-      max-column-count: 2
-      min-column-count: 2
+    - type: "hero-media"
       content:
-        images:
-          - url: ""
-            alt: ""
-          - url: ""
-            alt: ""
+        image:
+          url: "/images/projects/thumbnails/BieBeno.png"
+          alt: "Website ontwerp voor Bie Beno"
+    - type: "meta-info-row"
+      content:
+        - label: "Datum"
+          value: "2026"
+        - label: "Website"
+          value: "biebeno.nl"
+          link: "https://biebeno.nl/" # link is optional value
+        - label: "Rol"
+          value: "Digital Designer"
+    - type: "full-image"
+      content:
+        url: "/images/projects/biebeno/BieBenoLogo.png"
+        alt: 'Bie Beno Logo Design'
+        width: grid-6
+    - type: "full-image"
+      content:
+        url: "/images/projects/biebeno/BieBenoVormen.png"
+        alt: 'Bie Beno Vormen'
+        width: grid-6
+    - type: "full-image"
+      content:
+        url: "/images/projects/biebeno/BieBenoKleurFotografie.png"
+        alt: 'Bie Beno Kleuren en lettertype'
+        width: grid-6
+    - type: "full-image"
+      content:
+        url: "/images/projects/biebeno/BieBenoDesignSprint.png"
+        alt: 'Bie Beno Design Sprint'
+        width: grid-6
+    - type: "full-image"
+      content:
+        url: "/images/projects/biebeno/BieBenoFlyer.png"
+        alt: 'Bie Beno Flyer'
+        width: grid-6
