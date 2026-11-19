@@ -47,13 +47,15 @@ discover:
             en: "Flyer for Bureau Woonkans"
             nl: "Flyer voor Bureau Woonkans"
       title:
-        en: "SpinLink <em><strong>Drukwerk</strong></em>"
-        nl: "SpinLink <em><strong>Drukwerk</strong></em>"
+        en: "SpinLink <em><strong>printed matter</strong></em>"
+        nl: "SpinLink <em><strong>drukwerk</strong></em>"
       description:
         en: >
-          From poster, flyer, magazine to menu card. I made a lot of different press-work.
+          From posters, flyers, magazines, and menu cards to infographics
+          I have created a wide variety of print materials at Studio SpinLink, primarily for non-profit organizations.
         nl: >
-          Van poster, flyer, magazine naar menu kaart. Ik heb veel verschillende soorten drukwerk gemaakt.
+          Van poster, flyer, magazine, menu kaart naar infographic. Ik heb veel verschillende soorten drukwerk gemaakt bij Studio SpinLink.
+          Voornamelijk voor non-profit organisaties.
 
     
     - id: "BieBeno" # Unique project ID
@@ -62,16 +64,18 @@ discover:
         poster: "/images/projects/thumbnails/BieBeno.png"
         is-video: true
         alt:
-          en: "Website design from Bie Beno"
+          en: "Website design for Bie Beno"
           nl: "Website ontwerp voor Bie Beno"
       title:
         en: "Historisch overnachten <em><strong>Bie Beno</strong></em>"
         nl: "Historisch overnachten <em><strong>Bie Beno</strong></em>"
       description:
         en: >
-          Bie Beno
+          The former home of Beno Hofman, a well-known local historian from Groningen, is available to book for an overnight stay.
+          Stepping into the apartment feels like traveling back in time, a narrative that has been woven into its design.
         nl: >
-          Bie Beno
+          De voormalige woning van Beno Hofman, een bekende stadshistoricus van Groningen, is te boeken om te overnachting.
+          In het appartement ga je terug in de tijd. Dit verhaal is meegenomen in het design.
 
     - id: "Magma" # Unique project ID
       thumbnail:
@@ -86,35 +90,72 @@ discover:
         nl: "Sociaal wijkcentrum <em><strong>Magma</strong></em>"
       description:
         en: >
-          Magma
+          Magma Vinkhuizen is the neighborhood’s social hub, where everyone is welcome.
+          The building reflects the spirit of the area: open, colorful, and welcoming.
+          It is a place where people come together, ideas take shape, and initiatives are developed.
         nl: >
-          Magma
+          Magma Vinkhuizen is het sociaal wijkcentrum van de buurt waar iedereen welkom is.
+          Het gebouw ademt de sfeer van de wijk: open, kleurrijk en gastvrij.
+          Hier komen mensen samen, ontstaan ideeën en ontwikkelen initiatieven.
 
 
 
-    - id: "WebsitesSpinLink" # Unique project ID
+    - id: "Wieksters" # Unique project ID
       thumbnail:
-        path: "/images/projects/thumbnails/BuurtBemiddelingGroningen.png"
+        path: "/images/projects/wieksters/Wieksters1.png"
         alt:
           en: >
-            "Webdesign for Buurt Bemiddeling Groningen"
+            "Wieksters book design"
           nl: >
-            "Webdesign voor Buurt Bemiddeling Groningen"
-      interval: 7000 # milliseconds: 6000 = 6 seconds
+            "Wieksters boek design"
+      interval: 5000 # milliseconds: 6000 = 6 seconds
 
       images:
-        - path: "/images/projects/thumbnails/BuurtBemiddelingGroningen.png"
+        - path: "/images/projects/wieksters/Wieksters1.png"
           alt:
-            en: "Webdesign for Buurt Bemiddeling Groningen"
-            nl: "Webdesign voor Buurt Bemiddeling Groningen"
+            en: "Wieksters book design"
+            nl: "Wieksters boek design"
+        - path: "/images/projects/wieksters/Wieksters2.png"
+          alt:
+            en: "Wieksters book design"
+            nl: "Wieksters boek design"
+        - path: "/images/projects/wieksters/Wieksters3.png"
+          alt:
+            en: "Wieksters book design"
+            nl: "Wieksters boek design"
       title:
-        en: "<em><strong>Buurtbemiddeling</strong> Groningen</em>"
-        nl: "<em><strong>Buurtbemiddeling</strong> Groningen</em>"
+        en: "<em><strong>Wieksters</strong> book design</em>"
+        nl: "<em><strong>Wieksters</strong> boek design</em>"
       description:
         en: >
-          Buurtbemiddeling Groningen
+          A book written about the past of the 'Wieksters'—a neighborhood near the Roderveld.
         nl: >
-          Buurtbemiddeling Groningen
+          Een boek geschreven over het verleden van de Wieksters. Een buurt bij het Roderveld.
+
+
+    # - id: "WebsitesSpinLink" # Unique project ID
+    #  thumbnail:
+    #    path: "/images/projects/thumbnails/BuurtBemiddelingGroningen.png"
+    #    alt:
+    #      en: >
+    #        "Webdesign for Buurt Bemiddeling Groningen"
+    #      nl: >
+    #        "Webdesign voor Buurt Bemiddeling Groningen"
+    #  interval: 7000 # milliseconds: 6000 = 6 seconds
+
+    #  images:
+    #    - path: "/images/projects/thumbnails/BuurtBemiddelingGroningen.png"
+    #      alt:
+    #        en: "Webdesign for Buurt Bemiddeling Groningen"
+    #        nl: "Webdesign voor Buurt Bemiddeling Groningen"
+    #  title:
+    #    en: "<em><strong>Buurtbemiddeling</strong> Groningen</em>"
+    #    nl: "<em><strong>Buurtbemiddeling</strong> Groningen</em>"
+    #  description:
+    #    en: >
+    #      Buurtbemiddeling Groningen
+    #    nl: >
+    #      Buurtbemiddeling Groningen
 
     
     - id: "whatsuper" # Unique project ID
