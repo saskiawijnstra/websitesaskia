@@ -1,0 +1,18 @@
+projectId: "Magma"
+page:
+  title: "Magma"
+  sections:
+    - type: "hero-media"
+      content:
+        image:
+          url: "/images/projects/thumbnails/Magma.png"
+          alt: "Website design for Magma"
+    - type: "meta-info-row"
+      content:
+        - label: "Date"
+          value: "2025"
+        - label: "Website"
+          value: "magmainvinkhuizen.nl"
+          link: "https://magmainvinkhuizen.nl/" # link is optional value
+        - label: "Role"
+          value: "Digital Designer"

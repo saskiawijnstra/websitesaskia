@@ -2,12 +2,8 @@ projectId: "BieBeno"
 page:
   title: "BieBeno"
   sections:
-    - type: "app-screens-grid"
-      max-column-count: 2
-      min-column-count: 2
+    - type: "hero-media"
       content:
-        images:
-          - url: ""
-            alt: ""
-          - url: ""
-            alt: ""
+        image:
+          url: "/images/projects/thumbnails/BieBeno.png"
+          alt: "Website design for Bie Beno"
